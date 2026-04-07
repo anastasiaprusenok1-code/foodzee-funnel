@@ -476,9 +476,7 @@ const TS_PROFILES = [
 
 let currentTsProfile = null;
 let capturedImageSrc = null;
-const DEMO_EMOJI_SRC = 'data:image/svg+xml,' + encodeURIComponent(
-  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#1a1a1a"/><text x="100" y="130" font-size="110" text-anchor="middle">👅</text></svg>'
-);
+const DEMO_EMOJI_SRC = 'assets/tongue.png';
 
 function handlePhoto(event) {
   const file = event.target.files[0];
