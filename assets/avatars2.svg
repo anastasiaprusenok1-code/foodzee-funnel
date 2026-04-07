@@ -1,0 +1,17 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 39.6 39.6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 427320822">
+<circle id="Ellipse 1511" cx="19.8" cy="19.8" r="18" fill="var(--fill-0, #E7E7E7)"/>
+<circle id="Ellipse 1512" cx="19.6063" cy="17.3837" r="6.67742" fill="var(--fill-0, #8D8D8D)"/>
+<g id="Mask group">
+<mask id="mask0_0_16" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="1" width="37" height="37">
+<circle id="Ellipse 1514" cx="19.8" cy="19.8" r="18" fill="var(--fill-0, #E7E7E7)"/>
+</mask>
+<g mask="url(#mask0_0_16)">
+<ellipse id="Ellipse 1513" cx="19.7038" cy="34.5616" rx="12.4839" ry="8.37097" fill="var(--fill-0, #8D8D8D)"/>
+</g>
+</g>
+<g id="Ellipse 1513_2">
+</g>
+<circle id="Ellipse 1514_2" cx="19.8" cy="19.8" r="18.9" stroke="var(--stroke-0, white)" stroke-width="1.8"/>
+</g>
+</svg>

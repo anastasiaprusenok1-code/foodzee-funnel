@@ -1,0 +1,5 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Controls/Left/Back">
+<path id="Arrow Narrow Left" fill-rule="evenodd" clip-rule="evenodd" d="M23.7071 13.2929C24.0976 13.6834 24.0976 14.3166 23.7071 14.7071L19.4142 19H33C33.5523 19 34 19.4477 34 20C34 20.5523 33.5523 21 33 21H19.4142L23.7071 25.2929C24.0976 25.6834 24.0976 26.3166 23.7071 26.7071C23.3166 27.0976 22.6834 27.0976 22.2929 26.7071L16.2929 20.7071C15.9024 20.3166 15.9024 19.6834 16.2929 19.2929L22.2929 13.2929C22.6834 12.9024 23.3166 12.9024 23.7071 13.2929Z" fill="var(--fill-0, #000002)"/>
+</g>
+</svg>

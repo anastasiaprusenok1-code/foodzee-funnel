@@ -1,0 +1,98 @@
+<svg width="280" height="560" viewBox="0 0 280 560" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+  <!-- Shadow -->
+  <ellipse cx="140" cy="528" rx="65" ry="14" fill="rgba(0,0,0,0.08)"/>
+
+  <!-- LEGS -->
+  <rect x="106" y="372" width="27" height="128" rx="13" fill="#1a1a1a"/>
+  <rect x="147" y="372" width="27" height="128" rx="13" fill="#1a1a1a"/>
+  <!-- Feet -->
+  <ellipse cx="119" cy="503" rx="20" ry="11" fill="#111"/>
+  <ellipse cx="161" cy="503" rx="20" ry="11" fill="#111"/>
+
+  <!-- BODY -->
+  <path d="M83 192 Q73 240 76 295 Q78 348 100 372 L180 372 Q202 348 204 295 Q207 240 197 192 Z" fill="#E8956D"/>
+
+  <!-- SHIRT -->
+  <path d="M80 218 Q78 268 79 308 Q81 355 100 372 L180 372 Q199 355 201 308 Q202 268 200 218 Z" fill="white"/>
+
+  <!-- GUT GLOW -->
+  <ellipse cx="140" cy="300" rx="45" ry="55" fill="rgba(165,243,165,0.45)"/>
+  <ellipse cx="140" cy="300" rx="34" ry="44" fill="rgba(165,243,165,0.65)"/>
+  <ellipse cx="140" cy="300" rx="24" ry="32" fill="rgba(165,243,165,0.5)"/>
+
+  <!-- INTESTINE LOOPS -->
+  <path d="M122 268 Q158 261 164 283 Q170 305 142 309 Q114 313 117 335 Q120 357 157 352"
+        stroke="rgba(0,160,0,0.55)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Good bacteria dots -->
+  <circle cx="114" cy="291" r="6" fill="rgba(0,206,0,0.75)"/>
+  <circle cx="167" cy="316" r="5" fill="rgba(0,206,0,0.75)"/>
+  <circle cx="132" cy="347" r="4" fill="rgba(0,206,0,0.7)"/>
+  <circle cx="88" cy="305" r="3" fill="rgba(0,206,0,0.5)"/>
+  <circle cx="192" cy="288" r="3" fill="rgba(0,206,0,0.5)"/>
+
+  <!-- LEFT ARM (holding broccoli) -->
+  <path d="M83 198 Q50 238 44 278 Q42 293 54 296 Q66 299 70 284 L90 228" fill="#E8956D"/>
+  <!-- Broccoli in left hand -->
+  <g transform="translate(36,310)">
+    <rect x="-4" y="0" width="8" height="22" rx="3" fill="#2a7a2a"/>
+    <circle cx="0" cy="-4" r="13" fill="#4cb84c"/>
+    <circle cx="-9" cy="-8" r="9" fill="#5ecf5e"/>
+    <circle cx="9" cy="-8" r="9" fill="#5ecf5e"/>
+    <circle cx="0" cy="-14" r="7" fill="#6be06b"/>
+  </g>
+
+  <!-- RIGHT ARM -->
+  <path d="M197 198 Q230 238 236 278 Q238 293 226 296 Q214 299 210 284 L190 228" fill="#E8956D"/>
+
+  <!-- NECK -->
+  <rect x="128" y="160" width="24" height="34" rx="8" fill="#E8956D"/>
+
+  <!-- HEAD -->
+  <circle cx="140" cy="132" r="52" fill="#E8956D"/>
+
+  <!-- HAIR -->
+  <ellipse cx="140" cy="95" r="40" fill="#1e0e04"/>
+  <circle cx="105" cy="110" r="24" fill="#1e0e04"/>
+  <circle cx="175" cy="110" r="24" fill="#1e0e04"/>
+  <ellipse cx="140" cy="83" r="30" fill="#2a1508"/>
+
+  <!-- FACE -->
+  <circle cx="125" cy="134" r="7" fill="#1a0a00"/>
+  <circle cx="155" cy="134" r="7" fill="#1a0a00"/>
+  <circle cx="127" cy="132" r="3" fill="white"/>
+  <circle cx="157" cy="132" r="3" fill="white"/>
+  <!-- Smile -->
+  <path d="M127 150 Q140 162 153 150" stroke="#1a0a00" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <circle cx="114" cy="144" r="8" fill="rgba(255,140,100,0.35)"/>
+  <circle cx="166" cy="144" r="8" fill="rgba(255,140,100,0.35)"/>
+
+  <!-- FLOATING FOOD — Carrot top right -->
+  <g transform="translate(226,85) rotate(25)">
+    <path d="M0 0 L-7 32 L7 32 Z" fill="#ff8c00"/>
+    <path d="M-1 0 L-6 -14 L0 -9 L6 -14 L1 0Z" fill="#3ea03e"/>
+  </g>
+
+  <!-- FLOATING FOOD — Apple top left -->
+  <g transform="translate(52,100)">
+    <path d="M0 6 Q-17 3 -17 19 Q-17 39 0 43 Q17 39 17 19 Q17 3 0 6Z" fill="#e53935"/>
+    <path d="M0 2 Q4 -9 9 -5" stroke="#3ea03e" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="-5" cy="16" rx="5" ry="3" fill="rgba(255,255,255,0.3)" transform="rotate(-20 -5 16)"/>
+  </g>
+
+  <!-- FLOATING FOOD — Grain/wheat right -->
+  <g transform="translate(240,210)">
+    <ellipse cx="0" cy="0" rx="7" ry="12" fill="#e6b94a"/>
+    <ellipse cx="0" cy="-10" rx="5" ry="8" fill="#f0cc6a"/>
+    <line x1="0" y1="12" x2="0" y2="26" stroke="#c8973a" stroke-width="2"/>
+  </g>
+
+  <!-- Diet → Gut connection dots (animated feel) -->
+  <circle cx="78" cy="254" r="3" fill="rgba(0,160,0,0.4)"/>
+  <circle cx="72" cy="270" r="2" fill="rgba(0,160,0,0.3)"/>
+  <circle cx="202" cy="260" r="3" fill="rgba(0,160,0,0.4)"/>
+  <circle cx="208" cy="278" r="2" fill="rgba(0,160,0,0.3)"/>
+
+</svg>

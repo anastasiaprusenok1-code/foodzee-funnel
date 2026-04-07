@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=375, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>FoodZee – Gut Health Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="screen">
+
+<!-- SHARED: back btn + progress (injected into every quiz-top) -->
+<template id="tpl-header">
+  <div class="quiz-header-row">
+    <button class="back-btn" aria-label="Back" onclick="goBack()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 18L9 12L15 6"/>
+      </svg>
+    </button>
+    <div class="progress-segs">
+      <div class="seg"></div>
+      <div class="seg"></div>
+      <div class="seg"></div>
+      <div class="seg"></div>
+      <div class="seg"></div>
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+  </div>
+</template>
+
+<!-- ═══════════════════════════════════════
+     S1 — Landing
+═══════════════════════════════════════ -->
+<div class="screen-inner" id="s1">
+  <div class="landing-hero">
+    <div class="landing-logo">
+      <img class="logo-icon" src="assets/logo.svg" alt="FoodZee">
+      <span class="logo-text">FoodZee</span>
+    </div>
+    <h1 class="landing-title">Find out how your diet affects your digestion</h1>
+    <p class="landing-sub">A free 2-minute quiz will reveal your personalized gut health plan</p>
+    <div class="social-proof-pill">
+      <span class="sp-dot"></span>
+      500,000+ people have already improved their gut health
+    </div>
+    <button class="primary-btn" id="s1-cta">Start Free Quiz →</button>
+    <p class="landing-fine">No registration required</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S2 — Main Concern
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s2" data-quiz="1">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">What bothers you the most?</h1>
+    <p class="subtitle">Choose the issue you'd most like to solve</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="concern" data-value="bloating"><span class="emoji">🫧</span> Bloating</button>
+    <button class="option" data-key="concern" data-value="irregularity"><span class="emoji">⏰</span> Irregularity</button>
+    <button class="option" data-key="concern" data-value="discomfort"><span class="emoji">😣</span> Discomfort after eating</button>
+    <button class="option" data-key="concern" data-value="general"><span class="emoji">🥗</span> Improve nutrition overall</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S3 — Gender
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s3" data-quiz="2">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">What is your gender?</h1>
+    <p class="subtitle">We'll customize your plan based on your body's unique needs</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="gender" data-value="male"><span class="emoji">👨</span> Male</button>
+    <button class="option" data-key="gender" data-value="female"><span class="emoji">👩</span> Female</button>
+    <button class="option" data-key="gender" data-value="other"><span class="emoji">⚧️</span> Non-binary / Other</button>
+    <button class="option" data-key="gender" data-value="skip"><span class="emoji">⏺️</span> Prefer not to say</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S4 — Age
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s4" data-quiz="3">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How old are you?</h1>
+    <p class="subtitle">Digestive patterns change at every life stage</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="age" data-value="18-25"><span class="emoji">🌱</span> 18–25</button>
+    <button class="option" data-key="age" data-value="26-35"><span class="emoji">💪</span> 26–35</button>
+    <button class="option" data-key="age" data-value="36-45"><span class="emoji">🎯</span> 36–45</button>
+    <button class="option" data-key="age" data-value="46-55"><span class="emoji">🌿</span> 46–55</button>
+    <button class="option" data-key="age" data-value="55+"><span class="emoji">✨</span> 55+</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S5 — Transition: Great start!
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden trans-screen" id="s5" data-auto="5000">
+  <div class="trans-back" onclick="goBack()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 18L9 12L15 6"/>
+    </svg>
+  </div>
+  <img class="trans-food-s5" src="assets/tuna-plate.png" alt="">
+  <div class="trans-text">
+    <h1 class="trans-title">Great start!</h1>
+    <p class="trans-body">You're among <strong>86% of people</strong> who experience digestive issues. Most don't realize how closely it's linked to their diet. We'll help you connect the dots.</p>
+  </div>
+  <div class="trans-blur"></div>
+  <button class="trans-btn" onclick="advanceStep()">Continue</button>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S6 — Frequency
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s6" data-quiz="4">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How often do you notice digestive issues?</h1>
+    <p class="subtitle">Be honest — your results depend on it</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="frequency" data-value="daily"><span class="emoji">📅</span> Every day</button>
+    <button class="option" data-key="frequency" data-value="weekly"><span class="emoji">📆</span> Several times a week</button>
+    <button class="option" data-key="frequency" data-value="once-week"><span class="emoji">🗓️</span> Once a week</button>
+    <button class="option" data-key="frequency" data-value="sometimes"><span class="emoji">🔄</span> Occasionally</button>
+    <button class="option" data-key="frequency" data-value="rarely"><span class="emoji">✅</span> Rarely</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S7 — Toilet Time (Segmented slider)
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s7" data-quiz="5">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How long do you spend in the bathroom per visit?</h1>
+    <p class="subtitle">Helps us understand your gut transit time</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="toilet_time" data-value="1-5"><span class="emoji">🚽</span> 1–5 min</button>
+    <button class="option" data-key="toilet_time" data-value="5-10"><span class="emoji">⏱️</span> 5–10 min</button>
+    <button class="option" data-key="toilet_time" data-value="10-20"><span class="emoji">📱</span> 10–20 min</button>
+    <button class="option" data-key="toilet_time" data-value="20+"><span class="emoji">📚</span> 20+ min</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S8 — Regularity
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s8" data-quiz="6">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How regular are your bowel movements?</h1>
+    <p class="subtitle">A key indicator of gut health</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="regularity" data-value="clockwork"><span class="emoji">⏱️</span> Like clockwork</button>
+    <button class="option" data-key="regularity" data-value="mostly"><span class="emoji">👍</span> Generally regular</button>
+    <button class="option" data-key="regularity" data-value="unpredictable"><span class="emoji">🎲</span> Unpredictable</button>
+    <button class="option" data-key="regularity" data-value="issues"><span class="emoji">⚠️</span> I have regularity issues</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S9 — Interstitial: Educational
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden trans-screen" id="s9" data-auto="5000">
+  <div class="trans-back" onclick="goBack()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 18L9 12L15 6"/>
+    </svg>
+  </div>
+  <div class="trans-text">
+    <h1 class="trans-title">Did you know?</h1>
+    <p class="trans-body"><strong>70% of your immune system</strong> lives in your gut. Digestive health directly affects your energy, mood, skin quality, and mental clarity.</p>
+  </div>
+  <div class="trans-blur"></div>
+  <button class="trans-btn" onclick="advanceStep()">Continue</button>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S10 — Diet Type
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s10" data-quiz="7">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">Which eating style fits you best?</h1>
+    <p class="subtitle">Different diets affect gut bacteria differently</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="diet" data-value="regular"><span class="emoji">🍽️</span> Regular / Mixed</button>
+    <button class="option" data-key="diet" data-value="vegetarian"><span class="emoji">🥦</span> Vegetarian / Vegan</button>
+    <button class="option" data-key="diet" data-value="keto"><span class="emoji">🥩</span> Keto / Low-carb</button>
+    <button class="option" data-key="diet" data-value="mediterranean"><span class="emoji">🫒</span> Mediterranean</button>
+    <button class="option" data-key="diet" data-value="none"><span class="emoji">🤷</span> No particular diet</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S11 — Trigger Foods (multi-select)
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s11" data-quiz="8">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">Have you noticed issues after certain foods?</h1>
+    <p class="subtitle">Select all that apply</p>
+  </div>
+  <div class="options" id="multi-11">
+    <button class="option multi" data-value="dairy"><span class="emoji">🥛</span> Dairy</button>
+    <button class="option multi" data-value="gluten"><span class="emoji">🌾</span> Gluten / Wheat</button>
+    <button class="option multi" data-value="spicy"><span class="emoji">🌶️</span> Spicy food</button>
+    <button class="option multi" data-value="fatty"><span class="emoji">🍟</span> Fatty / Fried food</button>
+    <button class="option multi" data-value="sugary"><span class="emoji">🍭</span> Sugary food</button>
+    <button class="option multi" data-value="none"><span class="emoji">✅</span> Haven't noticed any</button>
+  </div>
+  <div class="multi-confirm-wrap">
+    <button class="primary-btn multi-confirm hidden" id="confirm-11" onclick="confirmMulti()">Continue →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S12 — Water Intake
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s12" data-quiz="9">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How much water do you drink per day?</h1>
+    <p class="subtitle">Hydration has a huge impact on digestion</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="water" data-value="<1L"><span class="emoji">🥛</span> Less than 1L</button>
+    <button class="option" data-key="water" data-value="1-1.5L"><span class="emoji">🫙</span> 1–1.5L</button>
+    <button class="option" data-key="water" data-value="1.5-2L"><span class="emoji">🫖</span> 1.5–2L</button>
+    <button class="option" data-key="water" data-value="2L+"><span class="emoji">🌊</span> 2L+</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S13 — Physical Activity
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s13" data-quiz="10">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How often do you exercise?</h1>
+    <p class="subtitle">Physical activity directly affects gut motility</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="activity" data-value="daily"><span class="emoji">🏃</span> Every day</button>
+    <button class="option" data-key="activity" data-value="3-4"><span class="emoji">🚴</span> 3–4 times a week</button>
+    <button class="option" data-key="activity" data-value="1-2"><span class="emoji">🚶</span> 1–2 times a week</button>
+    <button class="option" data-key="activity" data-value="rarely"><span class="emoji">🛋️</span> Rarely or never</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S14 — Interstitial: Mini AHA
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden trans-screen" id="s14" data-auto="5000">
+  <div class="trans-back" onclick="goBack()">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15 18L9 12L15 6"/>
+    </svg>
+  </div>
+  <img class="trans-bowl-s9" src="assets/bowl.png" alt="">
+  <div class="trans-text">
+    <h1 class="trans-title">Interesting fact</h1>
+    <p class="trans-body"><strong>73% of FoodZee users</strong> discovered their food trigger within the first 10 days of tracking. Most were genuinely surprised by the result.</p>
+  </div>
+  <div class="trans-blur"></div>
+  <button class="trans-btn" onclick="advanceStep()">Continue</button>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S15 — Stress Level (Segmented slider)
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s15" data-quiz="11">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">How would you rate your stress level?</h1>
+    <p class="subtitle">Chronic stress disrupts your gut bacteria balance</p>
+  </div>
+  <div class="slider-section">
+    <div class="slider-opts" id="sopts-15">
+      <button class="slider-opt" data-key="stress" data-value="low" data-idx="0"><span class="emoji">😌</span> Minimal</button>
+      <button class="slider-opt" data-key="stress" data-value="moderate" data-idx="1"><span class="emoji">😐</span> Moderate</button>
+      <button class="slider-opt" data-key="stress" data-value="high" data-idx="2"><span class="emoji">😤</span> High</button>
+      <button class="slider-opt" data-key="stress" data-value="very-high" data-idx="3"><span class="emoji">😰</span> Very high</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S16 — Motivation
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s16" data-quiz="12">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">What matters most to you?</h1>
+    <p class="subtitle">Your goal shapes your personalized plan</p>
+  </div>
+  <div class="options">
+    <button class="option" data-key="motivation" data-value="discomfort"><span class="emoji">🎯</span> Get rid of discomfort</button>
+    <button class="option" data-key="motivation" data-value="understand"><span class="emoji">🧠</span> Understand my body better</button>
+    <button class="option" data-key="motivation" data-value="nutrition"><span class="emoji">🥗</span> Improve my nutrition</button>
+    <button class="option" data-key="motivation" data-value="energy"><span class="emoji">⚡</span> More energy every day</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S17 — Height & Weight
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="s17" data-quiz="13">
+  <div class="quiz-top"></div>
+  <div class="quiz-text">
+    <h1 class="title">Your height and weight</h1>
+    <p class="subtitle">Helps us calculate your gut health baseline</p>
+  </div>
+  <div class="input-section">
+    <div class="unit-toggle">
+      <button class="unit-btn active" id="unit-metric" onclick="setUnit('metric')">cm / kg</button>
+      <button class="unit-btn" id="unit-imperial" onclick="setUnit('imperial')">ft / lbs</button>
+    </div>
+    <div class="input-row">
+      <div class="input-group">
+        <label>Height</label>
+        <div class="input-wrap">
+          <input type="number" id="inp-height" placeholder="170" inputmode="decimal">
+          <span class="input-unit" id="unit-h">cm</span>
+        </div>
+      </div>
+      <div class="input-group">
+        <label>Weight</label>
+        <div class="input-wrap">
+          <input type="number" id="inp-weight" placeholder="70" inputmode="decimal">
+          <span class="input-unit" id="unit-w">kg</span>
+        </div>
+      </div>
+    </div>
+    <button class="primary-btn" onclick="submitHeightWeight()">Continue →</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TS-INTRO — Tongue Scan: Intro
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden ts-screen" id="ts-intro">
+  <div class="quiz-top" data-no-header="true">
+    <div class="quiz-header-row">
+      <button class="back-btn" aria-label="Back" onclick="goBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18L9 12L15 6"/></svg>
+      </button>
+      <button class="ts-skip-btn" onclick="tsGoTo('ts-how')">Skip</button>
+    </div>
+  </div>
+  <div class="quiz-text">
+    <h1 class="title">Your Tongue Reveals<br>Your Gut Health</h1>
+    <p class="subtitle">In Ayurvedic and Traditional Chinese Medicine, the tongue is a mirror of your digestive system. Our AI reads colour, coating and texture — in seconds.</p>
+  </div>
+  <div class="proof-row">
+    <div class="proof-item"><span class="proof-num">3 200+</span><span class="proof-label">scans today</span></div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="proof-num">94%</span><span class="proof-label">accuracy rate</span></div>
+    <div class="proof-divider"></div>
+    <div class="proof-item"><span class="proof-num">5 sec</span><span class="proof-label">analysis time</span></div>
+  </div>
+  <div class="signals-grid">
+    <div class="signal-card"><span class="signal-icon">💧</span><p>Hydration level</p></div>
+    <div class="signal-card"><span class="signal-icon">🔥</span><p>Inflammation signs</p></div>
+    <div class="signal-card"><span class="signal-icon">🦠</span><p>Bacterial balance</p></div>
+    <div class="signal-card"><span class="signal-icon">🌿</span><p>Digestive stress</p></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TS-HOW — Tongue Scan: How To
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden ts-screen" id="ts-how">
+  <div class="quiz-top" data-no-header="true">
+    <div class="quiz-header-row">
+      <button class="back-btn" aria-label="Back" onclick="goBack()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18L9 12L15 6"/></svg>
+      </button>
+    </div>
+  </div>
+  <h2 class="section-title how-title">How to take<br>the perfect scan</h2>
+  <div class="steps-list">
+    <div class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-body"><p class="step-title">Good lighting</p><p class="step-desc">Stand near a window or turn on a light. Natural light gives the most accurate colour reading.</p></div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-body"><p class="step-title">Stick out your tongue fully</p><p class="step-desc">Relax and extend your tongue as far as comfortable. Make sure the whole surface is visible.</p></div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-body"><p class="step-title">Take the photo before eating</p><p class="step-desc">Best done in the morning before breakfast for the clearest reading.</p></div>
+    </div>
+    <div class="step-item">
+      <div class="step-num">4</div>
+      <div class="step-body"><p class="step-title">Hold the camera steady</p><p class="step-desc">Keep the camera 20–30 cm away. No zoom needed — a clear, well-lit close-up is enough.</p></div>
+    </div>
+  </div>
+  <div class="example-wrap">
+    <img src="assets/tongue.png" alt="tongue example" class="example-img" />
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TS-CAMERA — Tongue Scan: Camera
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden" id="ts-camera">
+  <div class="live-camera-wrap" id="live-camera-wrap">
+    <video id="camera-video" autoplay playsinline muted></video>
+    <canvas id="capture-canvas" style="display:none"></canvas>
+    <div class="cam-overlay">
+      <div class="cam-top-bar">
+        <button class="cam-close-btn" onclick="stopCameraAndBack()">✕</button>
+        <p class="cam-hint">Stick out your tongue fully</p>
+        <div style="width:40px"></div>
+      </div>
+      <div class="cam-guide-oval">
+        <div class="cam-oval-ring"></div>
+      </div>
+      <div class="cam-bottom-bar"></div>
+    </div>
+    <div class="cam-denied" id="cam-denied" style="display:none">
+      <p class="cam-denied-icon">📷</p>
+      <p class="cam-denied-title">Camera access denied</p>
+      <p class="cam-denied-sub">Please allow camera access in your browser settings, or use the gallery option below.</p>
+      <button style="width:260px;height:44px;border-radius:22px;background:#f1f1f1;border:none;font-size:15px;font-weight:600;cursor:pointer;" onclick="document.getElementById('ts-file-input').click()">📁 Choose from Gallery</button>
+      <button class="ts-btn-demo" onclick="runDemoScan()">Try Demo Scan</button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TS-SCANNING — Tongue Scan: Analysis
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden ts-screen ts-scanning-screen" id="ts-scanning">
+  <div class="scan-photo-wrap">
+    <img id="scan-preview" src="" alt="tongue" class="scan-photo" />
+    <div class="scan-laser"></div>
+    <div class="scan-overlay"></div>
+  </div>
+  <p class="scan-title" id="scan-label">Analysing your tongue…</p>
+  <div class="scan-ring-wrap">
+    <svg class="scan-ring-svg" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="52" fill="none" stroke="#e8e8e8" stroke-width="8"/>
+      <circle cx="60" cy="60" r="52" fill="none" stroke="#00ce00" stroke-width="8"
+        stroke-dasharray="327" stroke-dashoffset="327"
+        stroke-linecap="round" transform="rotate(-90 60 60)" id="scan-ring-circle"/>
+    </svg>
+    <span class="scan-ring-pct" id="scan-pct">0%</span>
+  </div>
+  <div class="scan-steps" id="scan-steps">
+    <div class="scan-step" id="step1" data-label="Detecting tongue boundaries…"></div>
+    <div class="scan-step" id="step2" data-label="Analysing colour distribution…"></div>
+    <div class="scan-step" id="step3" data-label="Reading coating &amp; texture…"></div>
+    <div class="scan-step" id="step4" data-label="Mapping digestive zones…"></div>
+    <div class="scan-step" id="step5" data-label="Generating health report…"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     TS-RESULTS — Tongue Scan: Results
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden ts-screen ts-results-screen" id="ts-results">
+  <div class="ts-results-header">
+    <div class="ts-results-badge">AI Analysis Complete</div>
+    <h2 class="ts-results-title" id="results-title">Scan Results</h2>
+  </div>
+  <div class="result-photo-wrap">
+    <img id="result-photo" src="" alt="tongue scan" class="result-photo" />
+    <div class="zone-markers" id="zone-markers"></div>
+  </div>
+  <div class="score-card">
+    <div class="score-left">
+      <p class="score-label">Digestive Health Score</p>
+      <div class="score-bar-wrap">
+        <div class="score-bar"><div class="score-fill" id="score-fill"></div></div>
+        <span class="score-pct" id="score-pct"></span>
+      </div>
+    </div>
+    <div class="score-ring-wrap">
+      <svg class="score-ring" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="26" fill="none" stroke="#e8e8e8" stroke-width="6"/>
+        <circle cx="32" cy="32" r="26" fill="none" stroke="#00ce00" stroke-width="6"
+          stroke-dasharray="163" stroke-dashoffset="163"
+          stroke-linecap="round" transform="rotate(-90 32 32)" id="ring-circle"/>
+      </svg>
+      <span class="ring-num" id="ring-num"></span>
+    </div>
+  </div>
+  <div class="metrics-list">
+    <div class="metric-item">
+      <div class="metric-icon">🎨</div>
+      <div class="metric-body"><p class="metric-name">Tongue Colour</p><p class="metric-val" id="mc-val"></p><p class="metric-desc" id="mc-desc"></p></div>
+      <div class="metric-badge" id="mc-badge"></div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-icon">🌫️</div>
+      <div class="metric-body"><p class="metric-name">Coating &amp; Film</p><p class="metric-val" id="mf-val"></p><p class="metric-desc" id="mf-desc"></p></div>
+      <div class="metric-badge" id="mf-badge"></div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-icon">💧</div>
+      <div class="metric-body"><p class="metric-name">Hydration Level</p><p class="metric-val" id="mh-val"></p><p class="metric-desc" id="mh-desc"></p></div>
+      <div class="metric-badge" id="mh-badge"></div>
+    </div>
+    <div class="metric-item">
+      <div class="metric-icon">🔬</div>
+      <div class="metric-body"><p class="metric-name">Surface Texture</p><p class="metric-val" id="mt-val"></p><p class="metric-desc" id="mt-desc"></p></div>
+      <div class="metric-badge" id="mt-badge"></div>
+    </div>
+  </div>
+  <div class="ts-insight-card">
+    <p class="ts-insight-label">What this means for your gut</p>
+    <p class="insight-text" id="insight-text"></p>
+  </div>
+  <div class="zones-section">
+    <p class="zones-title">Digestive Zone Map</p>
+    <div class="tongue-map">
+      <div class="tongue-shape">
+        <div class="tzone" id="tzone-tip"><div class="tzone-dot" id="tz-tip-dot"></div><span class="tzone-label">Tip<br><small>Heart &amp; Lungs</small></span></div>
+        <div class="tzone" id="tzone-front"><div class="tzone-dot" id="tz-front-dot"></div><span class="tzone-label">Front<br><small>Liver &amp; Gallbladder</small></span></div>
+        <div class="tzone" id="tzone-center"><div class="tzone-dot" id="tz-center-dot"></div><span class="tzone-label">Centre<br><small>Stomach &amp; Spleen</small></span></div>
+        <div class="tzone" id="tzone-back"><div class="tzone-dot" id="tz-back-dot"></div><span class="tzone-label">Back<br><small>Kidneys &amp; Intestines</small></span></div>
+      </div>
+      <div class="tzone-legend">
+        <div class="legend-item"><div class="legend-dot green"></div><span>Healthy</span></div>
+        <div class="legend-item"><div class="legend-dot yellow"></div><span>Attention needed</span></div>
+        <div class="legend-item"><div class="legend-dot red"></div><span>Potential issue</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="recs-section">
+    <p class="recs-title">Your personalised recommendations</p>
+    <div class="recs-list" id="recs-list"></div>
+  </div>
+  <div class="ts-share-card">
+    <p class="ts-share-text">Share your tongue scan result 👅</p>
+    <p class="ts-share-sub">Join 3,200 people who scanned today</p>
+    <button class="ts-btn-share" onclick="shareResult()">Share My Result</button>
+  </div>
+  <div class="ts-cta-section">
+    <button class="ts-btn-rescan" onclick="rescan()">Scan Again</button>
+  </div>
+  <p class="disclaimer">This scan is for informational purposes only and is not a medical diagnosis.</p>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S18 — Loading (8s)
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden loading-screen" id="s18">
+  <div class="loading-content">
+    <div class="loading-icon-spin">🥬</div>
+    <h2 class="loading-title">Building your plan...</h2>
+    <div class="loading-bar-wrap"><div class="loading-bar" id="loading-bar"></div></div>
+    <div class="loading-steps">
+      <p class="l-step" id="l1">Analyzing your answers...</p>
+      <p class="l-step" id="l2">Identifying possible triggers...</p>
+      <p class="l-step" id="l3">Creating your personal plan...</p>
+    </div>
+    <p class="loading-note">Based on data from 500,000+ users</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S19 — Results / AHA
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden results-screen" id="s19">
+  <div class="results-content">
+    <p class="results-eyebrow">YOUR DIGESTIVE PROFILE IS READY</p>
+    <h1 class="results-title">Start seeing results by <span id="target-date" class="results-date">–</span></h1>
+    <div class="results-chart">
+      <svg id="results-svg" viewBox="0 0 320 110" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="cg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#00ce00" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#00ce00" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path id="chart-area" fill="url(#cg)"/>
+        <path id="chart-line" fill="none" stroke="#00ce00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle id="chart-dot" r="6" fill="#00ce00" stroke="white" stroke-width="2"/>
+      </svg>
+      <div class="chart-labels"><span>Now</span><span>Day 7</span><span>Day 14</span></div>
+    </div>
+    <div class="insights" id="insights"></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S20 — Email Capture
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden email-screen" id="s20">
+  <div class="quiz-top" data-no-header="true"></div>
+  <div class="email-content">
+    <h1 class="title">Where should we send your full plan?</h1>
+    <p class="subtitle">Enter your email to receive your personalized gut health report</p>
+    <div class="email-form">
+      <input type="email" id="email-input" placeholder="your@email.com" autocomplete="email" inputmode="email">
+      <button class="primary-btn" onclick="submitEmail()">Get My Plan →</button>
+    </div>
+    <p class="email-fine">No spam. Only your plan and important updates.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S21 — Paywall
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden paywall-screen" id="s21">
+  <!-- Green header bg -->
+  <div class="pw-hero-bg">
+    <img src="assets/green-back2.svg" class="pw-hero-green-back" alt="">
+  </div>
+
+  <!-- Body -->
+  <div class="pw-body">
+
+    <!-- 1. Hero -->
+    <section class="pw-sec-hero">
+      <div class="pw-hero-top-group">
+        <h1 class="pw-title1">Your Personal Gut Health Plan Is Waiting Inside</h1>
+        <div class="pw-hero-sub-img">
+          <p class="pw-subtitle">Get personalized digestion insights based on your habits — what helps, what hurts, and how your gut works differently.</p>
+          <div class="pw-hero-img-wrap">
+            <img src="assets/Gut.png" alt="Healthy gut foods" class="pw-hero-img">
+          </div>
+        </div>
+      </div>
+      <div class="pw-social-proof">
+        <div class="pw-proof-row">
+          <div class="pw-proof-icon">
+            <img src="assets/ellipse-bg.svg" class="pw-proof-icon-bg" alt="">
+            <img src="assets/clock-inner2.svg" class="pw-proof-icon-inner" alt="">
+          </div>
+          <p class="pw-proof-text"><strong>1,300+</strong> <span class="pw-proof-light">people took the quiz today</span></p>
+        </div>
+        <div class="pw-proof-row">
+          <div class="pw-proof-icon">
+            <img src="assets/ellipse-bg.svg" class="pw-proof-icon-bg" alt="">
+            <img src="assets/menu-inner2.svg" class="pw-proof-icon-inner" alt="">
+          </div>
+          <p class="pw-proof-text"><span class="pw-proof-light">Trusted by </span><strong>1.8M+</strong><span class="pw-proof-light"> users worldwide</span></p>
+        </div>
+      </div>
+      <div class="pw-media-strip-wrap">
+        <div class="pw-media-strip" id="pw-media-strip">
+          <img src="assets/media1b.svg" alt="" class="pw-media-logo">
+          <img src="assets/media2b.svg" alt="" class="pw-media-logo">
+          <img src="assets/media3b.svg" alt="" class="pw-media-logo">
+          <img src="assets/media4b.svg" alt="" class="pw-media-logo">
+          <img src="assets/media5b.svg" alt="" class="pw-media-logo">
+          <img src="assets/media6b.svg" alt="" class="pw-media-logo">
+        </div>
+      </div>
+      <button class="pw-btn-main" onclick="document.getElementById('pw-sticky-bar').scrollIntoView()">Get My Personal Gut Health Plan</button>
+    </section>
+
+    <!-- 2. Guide card -->
+    <section class="pw-sec-guide">
+      <div class="pw-guide-card">
+        <p class="pw-guide-title">Health + Digestive Wellness Guide</p>
+        <p class="pw-guide-text">Discover how your body processes food — and how to work with it, not against it. Your report reveals the patterns behind your digestion, bloating, energy, cravings, and how your gut responds to different foods.</p>
+        <div class="pw-guide-blur-overlay">
+          <p class="pw-guide-blur-text">Discover how your body processes energy – and how to work with it, not against it. Unlock full access to read your complete report.</p>
+        </div>
+        <div class="pw-guide-unlock">
+          <div class="pw-guide-unlock-icon"><img src="assets/lock-icon2.svg" alt=""></div>
+          <p class="pw-guide-unlock-text">Unlock full access to read your complete report.</p>
+        </div>
+      </div>
+      <button class="pw-btn-main" onclick="document.getElementById('pw-sticky-bar').scrollIntoView()">Get My Personal Gut Health Plan</button>
+    </section>
+
+    <!-- 3. Plan includes -->
+    <section class="pw-sec-includes">
+      <h2 class="pw-title3 pw-center">Your Personalized Digestive Health Plan Includes</h2>
+      <ul class="pw-features-list">
+        <li class="pw-feature-item">
+          <img src="assets/feat1b.svg" alt="" class="pw-feature-icon">
+          <p class="pw-feature-text">Personalized meal plan tailored to your gut type &amp; digestive patterns</p>
+        </li>
+        <li class="pw-feature-item">
+          <img src="assets/feat2b.svg" alt="" class="pw-feature-icon">
+          <p class="pw-feature-text">Insights across digestion, metabolism, bloating triggers, sensitivities &amp; nutrient absorption</p>
+        </li>
+        <li class="pw-feature-item">
+          <img src="assets/feat3b.svg" alt="" class="pw-feature-icon">
+          <p class="pw-feature-text">Detailed Digestive Health Report</p>
+        </li>
+        <li class="pw-feature-item">
+          <img src="assets/feat3b.svg" alt="" class="pw-feature-icon">
+          <p class="pw-feature-text">Interactive food guide aligned with your bathroom habits</p>
+        </li>
+        <li class="pw-feature-item">
+          <img src="assets/feat3b.svg" alt="" class="pw-feature-icon">
+          <p class="pw-feature-text">Balanced Plate Builder for ideal fiber, hydration &amp; gut-friendly foods</p>
+        </li>
+      </ul>
+      <div class="pw-pricing-block">
+        <div class="pw-discount-badge">
+          <div class="pw-discount-icon-wrap"><img src="assets/discount-icon2.svg" alt="" class="pw-discount-icon"></div>
+          <p class="pw-discount-text"><strong>Personal discount applied</strong> <span class="pw-discount-save">You save 93%</span></p>
+        </div>
+        <div class="pw-price-row">
+          <span class="pw-price-label">Total</span>
+          <div class="pw-price-values">
+            <span class="pw-price-old">$9.99</span>
+            <span class="pw-price-new">$0.99</span>
+          </div>
+        </div>
+        <p class="pw-price-save-text">You save 93%</p>
+        <button class="pw-btn-main" onclick="document.getElementById('pw-sticky-bar').scrollIntoView()">Get My Personal Gut Health Plan</button>
+        <p class="pw-fine-print">Your 1-Month plan begins today. You will be charged $0.99 for your introductory offer, then $39.99 per month after the trial ends. Cancel anytime and you won't be charged for the next billing period. Learn more about cancellation and refund policy in Terms of Use. For support, simply let us know <span class="pw-fine-link">support@foodzee.tech</span></p>
+      </div>
+      <div class="pw-people-pill">
+        <p class="pw-people-text"><strong>1,211</strong> people joined today</p>
+        <div class="pw-avatars-row">
+          <div class="pw-avatar-circle pw-av4"><img src="assets/avatar-b.png" alt=""></div>
+          <div class="pw-avatar-circle pw-av3"><img src="assets/avatar-a.png" alt=""></div>
+          <div class="pw-avatar-circle pw-av2"><img src="assets/avatars2.svg" alt=""></div>
+          <div class="pw-avatar-circle pw-av1"><img src="assets/avatar-b.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Trust -->
+    <section class="pw-sec-trust">
+      <h2 class="pw-title3 pw-center">Why you can trust your <span class="pw-green">personalized plan</span></h2>
+      <ul class="pw-trust-list">
+        <li class="pw-trust-item">
+          <span class="pw-trust-emoji">💡</span>
+          <div class="pw-trust-content">
+            <p class="pw-trust-title">Scientifically validated insights</p>
+            <p class="pw-trust-desc">Based on proven gut health research linking diet, habits and digestive patterns.</p>
+          </div>
+        </li>
+        <li class="pw-trust-item">
+          <span class="pw-trust-emoji">🌱</span>
+          <div class="pw-trust-content">
+            <p class="pw-trust-title">Habit-based personalization</p>
+            <p class="pw-trust-desc">Your plan adapts to your unique digestive profile — not generic templates.</p>
+          </div>
+        </li>
+        <li class="pw-trust-item">
+          <span class="pw-trust-emoji">⭐</span>
+          <div class="pw-trust-content">
+            <p class="pw-trust-title">Your personal wellness blueprint</p>
+            <p class="pw-trust-desc">Reveals key dietary patterns and digestive tendencies shaped by your daily habits.</p>
+          </div>
+        </li>
+        <li class="pw-trust-item">
+          <span class="pw-trust-emoji">🔬</span>
+          <div class="pw-trust-content">
+            <p class="pw-trust-title">Strict scientific standards</p>
+            <p class="pw-trust-desc">Built using validated models and reviewed for accuracy and reliability.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 5. Reviews -->
+    <section class="pw-sec-reviews">
+      <h2 class="pw-title3 pw-center">Customers reviews</h2>
+      <div class="pw-reviews-list">
+        <div class="pw-review-card">
+          <div class="pw-review-header">
+            <img src="assets/review1-photo.png" alt="Maria R." class="pw-review-photo">
+            <div class="pw-review-meta">
+              <p class="pw-review-name">Maria R., 52</p>
+              <img src="assets/stars2.svg" alt="★★★★★" class="pw-review-stars">
+            </div>
+          </div>
+          <p class="pw-review-text">The gut health plan finally matched what my body needs. I even discovered which foods were triggering my bloating for years.</p>
+        </div>
+        <div class="pw-review-card">
+          <div class="pw-review-header">
+            <img src="assets/review2-photo.png" alt="Daniel K." class="pw-review-photo">
+            <div class="pw-review-meta">
+              <p class="pw-review-name">Daniel K., 39</p>
+              <img src="assets/stars2.svg" alt="★★★★★" class="pw-review-stars">
+            </div>
+          </div>
+          <p class="pw-review-text">The insights explained my irregular schedule and showed which foods work best for smoother digestion.</p>
+        </div>
+        <div class="pw-review-card">
+          <div class="pw-review-header">
+            <img src="assets/review3-photo.png" alt="Sophie L." class="pw-review-photo">
+            <div class="pw-review-meta">
+              <p class="pw-review-name">Sophie L., 28</p>
+              <img src="assets/stars2.svg" alt="★★★★★" class="pw-review-stars">
+            </div>
+          </div>
+          <p class="pw-review-text">Clear, simple guidance with foods that help my gut. Easy to follow and I noticed results within a week.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Guarantee -->
+    <section class="pw-sec-guarantee">
+      <div class="pw-guarantee-icon-wrap"><img src="assets/shield2.svg" alt="" class="pw-guarantee-icon"></div>
+      <h2 class="pw-title3 pw-center">100% Money-back guarantee</h2>
+      <p class="pw-guarantee-text">At FoodZee we carefully designed our product and strongly believe in its quality. If you don't notice any progress after using the app for at least a week, we are ready to make a complete refund within 21 days.</p>
+      <p class="pw-guarantee-text">&nbsp;</p>
+      <p class="pw-guarantee-text">Find more about the applicable limitations in our Terms of Use.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pw-footer">
+      <a href="#" class="pw-footer-link">Contact us</a>
+      <p class="pw-footer-address">Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus</p>
+      <div class="pw-footer-links">
+        <a href="#" class="pw-footer-link">Privacy Policy</a>
+        <a href="#" class="pw-footer-link">Terms of Use</a>
+      </div>
+    </footer>
+
+  </div><!-- /pw-body -->
+
+</div>
+
+<!-- ═══════════════════════════════════════
+     S22 — Payment
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden payment-screen" id="s22">
+  <div class="payment-content">
+    <button class="back-inline" onclick="goBack()">← Back</button>
+    <h1 class="title" style="text-align:left;margin-bottom:20px">Complete your order</h1>
+    <div class="order-summary" id="order-summary">
+      <span>FoodZee Plan</span><span>$0.99</span>
+    </div>
+    <div class="payment-form">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="pay-email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label>Card number</label>
+        <input type="text" id="pay-card" placeholder="4242 4242 4242 4242" maxlength="19" oninput="formatCard(this)">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Expiry</label>
+          <input type="text" id="pay-expiry" placeholder="MM / YY" maxlength="7" oninput="formatExpiry(this)">
+        </div>
+        <div class="form-group">
+          <label>CVC</label>
+          <input type="text" id="pay-cvc" placeholder="123" maxlength="3" inputmode="numeric">
+        </div>
+      </div>
+      <button class="primary-btn" onclick="submitPayment()">Pay & Start Free Trial →</button>
+    </div>
+    <div class="payment-security">🔒 Secured by Stripe · 256-bit SSL</div>
+    <p class="payment-fine">You won't be charged during the 7-day trial. Cancel anytime.</p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     S23 — Download App
+═══════════════════════════════════════ -->
+<div class="screen-inner hidden download-screen" id="s23">
+  <div class="download-content">
+    <div class="download-icon">🎉</div>
+    <h1 class="download-title">Your plan is activated!</h1>
+    <p class="download-sub">Download the app and start tracking today</p>
+    <div class="qr-wrap">
+      <svg class="qr-code" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <rect width="100" height="100" fill="white"/>
+        <rect x="5" y="5" width="35" height="35" fill="none" stroke="#000" stroke-width="3"/>
+        <rect x="12" y="12" width="21" height="21" fill="#000"/>
+        <rect x="60" y="5" width="35" height="35" fill="none" stroke="#000" stroke-width="3"/>
+        <rect x="67" y="12" width="21" height="21" fill="#000"/>
+        <rect x="5" y="60" width="35" height="35" fill="none" stroke="#000" stroke-width="3"/>
+        <rect x="12" y="67" width="21" height="21" fill="#000"/>
+        <rect x="60" y="60" width="8" height="8" fill="#000"/>
+        <rect x="72" y="60" width="8" height="8" fill="#000"/>
+        <rect x="84" y="60" width="8" height="8" fill="#000"/>
+        <rect x="60" y="72" width="8" height="8" fill="#000"/>
+        <rect x="84" y="72" width="8" height="8" fill="#000"/>
+        <rect x="60" y="84" width="8" height="8" fill="#000"/>
+        <rect x="72" y="84" width="8" height="8" fill="#000"/>
+        <rect x="84" y="84" width="8" height="8" fill="#000"/>
+        <rect x="45" y="5"  width="8" height="8" fill="#000"/>
+        <rect x="45" y="17" width="8" height="8" fill="#000"/>
+        <rect x="45" y="29" width="8" height="8" fill="#000"/>
+        <rect x="45" y="45" width="8" height="8" fill="#000"/>
+        <rect x="45" y="57" width="8" height="8" fill="#000"/>
+        <rect x="5"  y="45" width="8" height="8" fill="#000"/>
+        <rect x="17" y="45" width="8" height="8" fill="#000"/>
+        <rect x="29" y="45" width="8" height="8" fill="#000"/>
+      </svg>
+    </div>
+    <p class="qr-hint">Scan to download FoodZee</p>
+    <div class="store-buttons">
+      <a class="store-btn" href="https://apps.apple.com/us/app/foodzee-eat-ai-calorie-tracker/id6739945978" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        App Store
+      </a>
+      <a class="store-btn" href="#" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8L20.6 11.7c.59.46.59 1.34 0 1.8L4.6 21.3c-.66.5-1.6.03-1.6-.8z"/></svg>
+        Google Play
+      </a>
+    </div>
+    <div class="download-note"><strong>Sign in with the same email</strong> — your plan is already inside the app</div>
+  </div>
+</div>
+
+
+<!-- TS: Hidden file input -->
+<input type="file" id="ts-file-input" accept="image/*" style="display:none" onchange="handlePhoto(event)" />
+
+<!-- TS: Sticky CTA -->
+<div class="ts-sticky-cta hidden" id="ts-sticky-cta">
+  <p class="ts-sticky-fine" id="ts-sticky-fine">No account needed · 100% private · Photo stays on device</p>
+  <button class="ts-sticky-btn" id="ts-sticky-btn" onclick="tsStickyAction()"></button>
+</div>
+
+<!-- S19: Sticky CTA -->
+<button class="primary-btn results-sticky-btn" id="results-sticky-btn" onclick="advanceStep()" style="display:none">Get My Full Plan →</button>
+
+<!-- PW: Sticky bar -->
+<div class="pw-sticky-bar" id="pw-sticky-bar" style="display:none">
+  <div class="pw-sticky-left">
+    <p class="pw-sticky-label">Your Report for: <strong>$0.99!</strong> Expires in</p>
+    <p class="pw-sticky-timer" id="pw-timer">14:47</p>
+  </div>
+  <button class="pw-btn-sticky" onclick="advanceStep()">Get Plan</button>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
