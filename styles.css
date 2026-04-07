@@ -17,16 +17,18 @@
 body {
   display: flex;
   justify-content: center;
-  background: #e8e8e8;
+  background: var(--white);
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 /* ─── Outer shell ────────────────────────────── */
 .screen {
   position: relative;
-  width: 375px;
-  height: 812px;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
   background: var(--white);
   overflow: hidden;
 }
@@ -44,7 +46,7 @@ body {
 .screen-inner {
   position: absolute;
   top: 0; left: 0;
-  width: 375px; height: 812px;
+  width: 100%; height: 100%;
   z-index: 5;
   overflow-y: auto;
   overflow-x: hidden;
@@ -60,7 +62,7 @@ body {
 
 /* Green header background image */
 .quiz-top {
-  width: 375px;
+  width: 100%;
   height: 210px;
   background: url('assets/greenback.png') center center / cover no-repeat;
   flex-shrink: 0;
@@ -406,7 +408,7 @@ body {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  width: calc(375px - 32px);
+  width: calc(100vw - 32px);
   z-index: 1000;
   display: none;
 }
@@ -705,7 +707,7 @@ body {
 .trans-grass-bottom {
   position: absolute;
   bottom: 0; left: 0;
-  width: 375px; height: 117px;
+  width: 100%; height: 117px;
   object-fit: cover;
   object-position: bottom;
   pointer-events: none;
@@ -715,7 +717,7 @@ body {
 .trans-grass-top {
   position: absolute;
   top: 0; left: 0;
-  width: 375px; height: 105px;
+  width: 100%; height: 105px;
   object-fit: cover;
   object-position: top;
   pointer-events: none;
@@ -970,7 +972,7 @@ body {
 .disclaimer { font-size:11px; color:#8a8a8a; text-align:center; line-height:16px; margin-top:20px; padding:0 8px; }
 
 /* TS Sticky CTA */
-.ts-sticky-cta { position:fixed; bottom:0; left:50%; transform:translateX(-50%); width:375px; padding:20px 16px; background:linear-gradient(transparent,#fff 40%); z-index:1000; box-sizing:border-box; }
+.ts-sticky-cta { position:fixed; bottom:0; left:0; width:100vw; padding:20px 16px; background:linear-gradient(transparent,#fff 40%); z-index:1000; box-sizing:border-box; }
 .ts-sticky-cta.hidden { display:none; }
 .ts-sticky-fine { font-size:12px; color:#8a8a8a; text-align:center; margin:0 0 12px; display:none; }
 .ts-sticky-btn {
@@ -1039,13 +1041,13 @@ body {
 .pw-proof-light { font-size:14px; font-weight:500; color:#8a8a8a; }
 
 /* Media strip */
-.pw-media-strip-wrap { width:375px; margin-left:-16px; height:37px; overflow:hidden; }
+.pw-media-strip-wrap { width:100%; margin-left:-16px; height:37px; overflow:hidden; }
 .pw-media-strip { display:flex; align-items:center; gap:20px; height:37px; padding-left:16px; animation:pw-marquee 14s linear infinite; width:max-content; flex-shrink:0; }
 .pw-media-logo { height:27px; width:auto; max-width:none; flex-shrink:0; flex-grow:0; object-fit:contain; display:block; }
 @keyframes pw-marquee { 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
 
 /* Guide card */
-.pw-sec-guide { display:flex; flex-direction:column; align-items:center; gap:24px; width:375px; padding:0 16px; }
+.pw-sec-guide { display:flex; flex-direction:column; align-items:center; gap:24px; width:100%; padding:0 16px; }
 .pw-guide-card { position:relative; width:343px; min-height:414px; background:#f1f1f1; border-radius:16px; overflow:hidden; padding:30px 24px 110px; }
 .pw-guide-title { font-size:24px; font-weight:700; line-height:29px; color:#000; text-align:center; margin-bottom:16px; }
 .pw-guide-text { font-size:17px; font-weight:500; line-height:25px; color:#8a8a8a; }
@@ -1057,7 +1059,7 @@ body {
 .pw-guide-unlock-text { font-size:19px; font-weight:600; line-height:27px; color:#00ce00; text-align:center; }
 
 /* Plan includes */
-.pw-sec-includes { display:flex; flex-direction:column; align-items:center; gap:24px; width:375px; padding:0 16px; }
+.pw-sec-includes { display:flex; flex-direction:column; align-items:center; gap:24px; width:100%; padding:0 16px; }
 .pw-title3 { font-size:24px; font-weight:700; line-height:29px; color:#000; }
 .pw-center { text-align:center; width:100%; }
 .pw-features-list { display:flex; flex-direction:column; gap:12px; width:343px; }
@@ -1101,7 +1103,7 @@ body {
 .pw-green { color:#00ce00; }
 
 /* Reviews */
-.pw-sec-reviews { display:flex; flex-direction:column; align-items:center; gap:20px; width:375px; }
+.pw-sec-reviews { display:flex; flex-direction:column; align-items:center; gap:20px; width:100%; }
 .pw-reviews-list { display:flex; flex-direction:column; gap:16px; width:343px; }
 .pw-review-card { background:#f1f1f1; border-radius:16px; padding:14px; display:flex; flex-direction:column; gap:12px; width:343px; }
 .pw-review-header { display:flex; align-items:center; gap:12px; height:60px; }
@@ -1118,7 +1120,7 @@ body {
 .pw-guarantee-text { font-size:17px; font-weight:400; line-height:24px; color:#8a8a8a; text-align:left; width:100%; }
 
 /* Footer */
-.pw-footer { width:375px; background:#a5f3a5; padding:24px 16px 90px; display:flex; flex-direction:column; align-items:center; gap:14px; }
+.pw-footer { width:100%; background:#a5f3a5; padding:24px 16px 90px; display:flex; flex-direction:column; align-items:center; gap:14px; }
 .pw-footer-link { font-size:14px; font-weight:500; color:#3f3f3f; text-decoration:underline; opacity:0.7; }
 .pw-footer-address { font-size:14px; font-weight:500; line-height:22px; color:#3f3f3f; text-align:center; width:343px; }
 .pw-footer-links { display:flex; gap:32px; }
@@ -1127,9 +1129,8 @@ body {
 .pw-sticky-bar {
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 375px;
+  left: 0;
+  width: 100vw;
   height: 71px;
   background: #fff;
   display: flex;
