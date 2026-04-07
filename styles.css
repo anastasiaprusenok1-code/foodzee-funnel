@@ -750,8 +750,9 @@ body {
   box-sizing: border-box;
 }
 .ts-screen .quiz-top {
-  width: calc(100% + 32px);
+  width: 100vw;
   margin-left: -16px;
+  align-self: flex-start;
 }
 
 .ts-scanning-screen {
