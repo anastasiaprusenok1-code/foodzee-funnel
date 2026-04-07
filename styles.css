@@ -755,6 +755,10 @@ body {
   padding: 0 16px 120px;
   box-sizing: border-box;
 }
+.ts-screen .quiz-top {
+  width: calc(100% + 32px);
+  margin-left: -16px;
+}
 
 .ts-scanning-screen {
   padding: 0 0 40px;
