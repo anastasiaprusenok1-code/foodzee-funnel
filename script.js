@@ -101,6 +101,10 @@ function showScreen(idx) {
   const resBtn = document.getElementById('results-sticky-btn');
   if (resBtn) resBtn.style.display = (sid === 's19') ? 'block' : 'none';
 
+  // Show/hide multi-select confirm wrap
+  const multiWrap = document.getElementById('multi-confirm-wrap');
+  if (multiWrap) multiWrap.style.display = (sid === 's11') ? 'block' : 'none';
+
   // Special inits
   if (sid === 's18') runLoading();
   if (sid === 's19') initResults();

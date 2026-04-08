@@ -220,9 +220,6 @@
     <button class="option multi" data-value="sugary"><span class="emoji">🍭</span> Sugary food</button>
     <button class="option multi" data-value="none"><span class="emoji">✅</span> Haven't noticed any</button>
   </div>
-  <div class="multi-confirm-wrap">
-    <button class="primary-btn multi-confirm hidden" id="confirm-11" onclick="confirmMulti()">Continue →</button>
-  </div>
 </div>
 
 <!-- ═══════════════════════════════════════
@@ -923,6 +920,11 @@
 <div class="ts-sticky-cta hidden" id="ts-sticky-cta">
   <p class="ts-sticky-fine" id="ts-sticky-fine">No account needed · 100% private · Photo stays on device</p>
   <button class="ts-sticky-btn" id="ts-sticky-btn" onclick="tsStickyAction()"></button>
+</div>
+
+<!-- S11: Multi-select confirm -->
+<div class="multi-confirm-wrap" id="multi-confirm-wrap" style="display:none">
+  <button class="primary-btn multi-confirm hidden" id="confirm-11" onclick="confirmMulti()">Continue →</button>
 </div>
 
 <!-- S19: Sticky CTA -->

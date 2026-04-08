@@ -157,17 +157,17 @@ body {
 .emoji { font-size: 22px; flex-shrink: 0; }
 
 /* Multi-select confirm button */
-#s11 .options { padding-bottom: 0; }
+#s11 .options { padding-bottom: 100px; }
 
 .multi-confirm-wrap {
-  position: sticky;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  padding: 20px 16px 40px;
-  background: linear-gradient(transparent, var(--white) 40%);
-  z-index: 10;
+  position: fixed;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 32px);
+  z-index: 1000;
 }
+.multi-confirm-wrap .primary-btn:active { transform: translateX(-50%) scale(0.98); }
 .multi-confirm.hidden { display: none; }
 
 /* ─── Slider section ──────────────────────────── */
@@ -719,9 +719,10 @@ body {
 }
 
 .trans-btn {
-  position: absolute;
-  bottom: 107px; left: 16px;
-  width: calc(100% - 32px); height: 50px;
+  position: fixed;
+  bottom: 20px; left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 32px); height: 50px;
   background: linear-gradient(#000, #000) padding-box,
               linear-gradient(135deg, #cc00ff, #ff44dd, #7700cc, #ff00cc) border-box;
   border: 2.5px solid transparent;
@@ -735,7 +736,7 @@ body {
   z-index: 4;
   transition: opacity 0.2s;
 }
-.trans-btn:active { opacity: 0.85; }
+.trans-btn:active { opacity: 0.85; transform: translateX(-50%) scale(0.98); }
 
 /* ═══════════════════════════════════════════
    TONGUE SCAN — Integrated Screens
