@@ -685,19 +685,7 @@ body {
   margin: 0;
 }
 
-.trans-blur {
-  position: absolute;
-  left: -23px;
-  bottom: -171px;
-  width: 457px;
-  height: 397px;
-  background: rgba(255, 204, 243, 0.01);
-  backdrop-filter: blur(27.9px);
-  -webkit-backdrop-filter: blur(27.9px);
-  filter: blur(21.5px);
-  pointer-events: none;
-  z-index: 2;
-}
+.trans-blur { display: none; }
 
 .trans-grass-bottom {
   position: absolute;
