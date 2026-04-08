@@ -157,11 +157,11 @@ body {
 .emoji { font-size: 22px; flex-shrink: 0; }
 
 /* Multi-select confirm button */
-#s11 .options { padding-bottom: 100px; }
+#s11 .options { padding-bottom: 90px; }
 
 .multi-confirm-wrap {
   position: fixed;
-  bottom: -70px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100vw - 32px);
