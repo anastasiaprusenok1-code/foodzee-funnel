@@ -566,13 +566,13 @@ body {
   text-align:center; padding:80px 28px 60px;
   min-height:100%; justify-content:center;
 }
-.download-icon  { font-size:64px; margin-bottom:20px; }
+.download-icon  { display:none; }
 .download-title { font-weight:900; font-size:28px; line-height:36px; color:var(--black); margin-bottom:12px; }
-.download-sub   { font-size:16px; color:var(--gray3); margin-bottom:28px; }
+.download-sub   { font-size:16px; color:var(--gray3); margin-bottom:56px; }
 .download-app-icon {
   width:124px; height:124px;
   border-radius:24px;
-  margin-bottom:28px;
+  margin-bottom:56px;
   object-fit:cover;
 }
 .store-buttons { display:flex; gap:12px; margin-bottom:28px; }
@@ -585,9 +585,9 @@ body {
 }
 .store-btn:hover { opacity: 0.85; }
 .download-note {
-  background:var(--green-light); border:1px solid rgba(0,206,0,0.2);
+  background:#e8d9ff; border:1px solid rgba(139,94,255,0.2);
   border-radius:12px; padding:16px 20px;
-  font-size:14px; line-height:21px; color:#005500;
+  font-size:14px; line-height:21px; color:#000;
 }
 
 /* ══════════════════════════════════════════════
