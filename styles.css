@@ -167,7 +167,8 @@ body {
   width: calc(100vw - 32px);
   z-index: 1000;
 }
-.multi-confirm-wrap .primary-btn:active { transform: translateX(-50%) scale(0.98); }
+.multi-confirm-wrap .primary-btn:active { transform: scale(0.98); }
+.multi-confirm-wrap { touch-action: manipulation; }
 .multi-confirm.hidden { display: none; }
 
 /* ─── Slider section ──────────────────────────── */
