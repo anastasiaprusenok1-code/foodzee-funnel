@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Lanjutkan →",
+    "skip": "Lewati",
+    "back": "← Kembali"
+  },
+  "s1": {
+    "title": "Temukan bagaimana diet Anda mempengaruhi pencernaan Anda",
+    "subtitle": "Kuis gratis 2 menit akan mengungkapkan rencana kesehatan usus yang dipersonalisasi",
+    "socialProof": "500.000+ orang telah meningkatkan kesehatan usus mereka",
+    "cta": "Mulai kuis gratis →",
+    "fine": "Tidak diperlukan pendaftaran"
+  },
+  "s2": {
+    "title": "Apa yang mengganggu Anda paling?",
+    "subtitle": "Pilih masalah yang paling ingin Anda selesaikan",
+    "option": {
+      "bloating": "Kembung",
+      "irregularity": "Ketidakteraturan",
+      "discomfort": "Ketidaknyamanan setelah makan",
+      "nutrition": "Meningkatkan nutrisi secara keseluruhan"
+    }
+  },
+  "s3": {
+    "title": "Apa jenis kelamin Anda?",
+    "subtitle": "Kami akan menyesuaikan rencana Anda berdasarkan kebutuhan unik tubuh Anda",
+    "option": {
+      "male": "Pria",
+      "female": "Wanita",
+      "other": "Non-biner / Lainnya",
+      "skip": "Lebih suka tidak mengatakan"
+    }
+  },
+  "s4": {
+    "title": "Berapa usia Anda?",
+    "subtitle": "Pola pencernaan berubah di setiap tahap kehidupan",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Awal yang baik!",
+    "body": "Anda berada di antara <strong>86% orang</strong> yang mengalami masalah pencernaan. Kebanyakan orang tidak menyadari seberapa erat kaitannya dengan diet mereka. Kami akan membantu Anda menghubungkan titik-titiknya."
+  },
+  "s6": {
+    "title": "Seberapa sering Anda melihat masalah pencernaan?",
+    "subtitle": "Jujurlah — hasil Anda tergantung pada ini",
+    "option": {
+      "daily": "Setiap hari",
+      "weekly": "Beberapa kali seminggu",
+      "once": "Sekali seminggu",
+      "sometimes": "Kadang-kadang",
+      "rarely": "Jarang"
+    }
+  },
+  "s7": {
+    "title": "Berapa lama Anda menghabiskan waktu di kamar mandi per kunjungan?",
+    "subtitle": "Membantu kami memahami waktu transit usus Anda",
+    "option": {
+      "time1": "1–5 mnt",
+      "time2": "5–10 mnt",
+      "time3": "10–20 mnt",
+      "time4": "20+ mnt"
+    }
+  },
+  "s8": {
+    "title": "Seberapa teratur buang air besar Anda?",
+    "subtitle": "Indikator kunci kesehatan usus",
+    "option": {
+      "clockwork": "Seperti jam",
+      "mostly": "Umumnya teratur",
+      "unpredictable": "Tidak dapat diprediksi",
+      "issues": "Saya memiliki masalah keteraturan"
+    }
+  },
+  "s9": {
+    "title": "Apakah Anda tahu?",
+    "body": "<strong>70% sistem kekebalan tubuh Anda</strong> hidup di usus Anda. Kesehatan pencernaan secara langsung mempengaruhi energi, suasana hati, kualitas kulit, dan kejelasan mental Anda."
+  },
+  "s10": {
+    "title": "Gaya makan mana yang paling sesuai dengan Anda?",
+    "subtitle": "Diet berbeda mempengaruhi bakteri usus berbeda",
+    "option": {
+      "regular": "Reguler / Campuran",
+      "vegan": "Vegetarian / Vegan",
+      "keto": "Keto / Rendah karbohidrat",
+      "mediterranean": "Mediterania",
+      "none": "Tidak ada diet khusus"
+    }
+  },
+  "s11": {
+    "title": "Apakah Anda melihat masalah setelah makanan tertentu?",
+    "subtitle": "Pilih semua yang berlaku",
+    "option": {
+      "dairy": "Produk susu",
+      "gluten": "Gluten / Gandum",
+      "spicy": "Makanan pedas",
+      "fatty": "Makanan berlemak / Goreng",
+      "sugary": "Makanan manis",
+      "none": "Tidak ada yang diperhatikan"
+    }
+  },
+  "s12": {
+    "title": "Berapa banyak air yang Anda minum per hari?",
+    "subtitle": "Hidrasi berdampak besar pada pencernaan",
+    "option": {
+      "less": "Kurang dari 1L",
+      "medium": "1–1,5L",
+      "good": "1,5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "Seberapa sering Anda berolahraga?",
+    "subtitle": "Aktivitas fisik secara langsung mempengaruhi motilitas usus",
+    "option": {
+      "daily": "Setiap hari",
+      "often": "3–4 kali seminggu",
+      "sometimes": "1–2 kali seminggu",
+      "rarely": "Jarang atau tidak pernah"
+    }
+  },
+  "s14": {
+    "title": "Fakta menarik",
+    "body": "<strong>73% pengguna FoodZee</strong> menemukan pemicu makanan mereka dalam 10 hari pertama pelacakan. Sebagian besar benar-benar terkejut dengan hasilnya."
+  },
+  "s15": {
+    "title": "Bagaimana Anda menilai tingkat stres Anda?",
+    "subtitle": "Stres kronis mengganggu keseimbangan bakteri usus Anda",
+    "option": {
+      "minimal": "Minimal",
+      "moderate": "Menengah",
+      "high": "Tinggi",
+      "veryHigh": "Sangat tinggi"
+    }
+  },
+  "s16": {
+    "title": "Apa yang paling penting bagi Anda?",
+    "subtitle": "Tujuan Anda membentuk rencana yang dipersonalisasi",
+    "option": {
+      "discomfort": "Menghilangkan ketidaknyamanan",
+      "understand": "Memahami tubuh saya lebih baik",
+      "nutrition": "Meningkatkan nutrisi saya",
+      "energy": "Lebih banyak energi setiap hari"
+    }
+  },
+  "s17": {
+    "title": "Tinggi dan berat badan Anda",
+    "subtitle": "Membantu kami menghitung garis dasar kesehatan usus Anda",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Tinggi",
+    "weight": "Berat",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Membangun rencana Anda...",
+    "step1": "Menganalisis jawaban Anda...",
+    "step2": "Mengidentifikasi pemicu yang mungkin...",
+    "step3": "Membuat rencana pribadi Anda...",
+    "note": "Berdasarkan data dari 500.000+ pengguna"
+  },
+  "s19": {
+    "header": "PROFIL PENCERNAAN ANDA SIAP",
+    "title": "Mulai melihat hasil sejak",
+    "now": "Sekarang",
+    "day7": "Hari 7",
+    "day14": "Hari 14",
+    "sticky": "Dapatkan rencana lengkap saya →"
+  },
+  "s20": {
+    "title": "Ke mana kami harus mengirim rencana lengkap Anda?",
+    "subtitle": "Masukkan email Anda untuk menerima laporan kesehatan usus yang dipersonalisasi",
+    "placeholder": "anda@email.com",
+    "cta": "Dapatkan rencana saya →",
+    "fine": "Tidak ada spam. Hanya rencana Anda dan pembaruan penting."
+  },
+  "s21": {
+    "hero": {
+      "title": "Rencana kesehatan usus yang dipersonalisasi menanti Anda",
+      "subtitle": "Dapatkan wawasan pencernaan yang dipersonalisasi berdasarkan kebiasaan Anda — apa yang membantu, apa yang merugikan, dan bagaimana usus Anda berfungsi berbeda.",
+      "proof1Num": "1.300+",
+      "proof1Text": "orang menjawab kuis hari ini",
+      "proof2Pre": "Dipercaya oleh",
+      "proof2Num": "1,8M+",
+      "proof2Post": "pengguna di seluruh dunia",
+      "cta": "Dapatkan rencana kesehatan usus yang dipersonalisasi"
+    },
+    "guide": {
+      "title": "Panduan kesehatan dan kesejahteraan pencernaan",
+      "text": "Temukan bagaimana tubuh Anda memproses makanan — dan cara bekerja dengannya, bukan melawannya. Laporan Anda mengungkapkan pola di balik pencernaan, kembung, energi, keinginan, dan bagaimana usus Anda merespons makanan yang berbeda.",
+      "blurText": "Temukan bagaimana tubuh Anda memproses energi — dan cara bekerja dengannya, bukan melawannya. Buka akses penuh untuk membaca laporan lengkap Anda.",
+      "unlock": "Buka akses penuh untuk membaca laporan lengkap Anda."
+    },
+    "includes": {
+      "title": "Rencana kesehatan pencernaan yang dipersonalisasi mencakup",
+      "feature1": "Rencana makan yang dipersonalisasi disesuaikan dengan jenis usus dan pola pencernaan Anda",
+      "feature2": "Wawasan tentang pencernaan, metabolisme, pemicu kembung, sensitivitas, dan penyerapan nutrisi",
+      "feature3": "Laporan kesehatan usus terperinci",
+      "feature4": "Panduan makanan interaktif selaras dengan kebiasaan kamar mandi Anda",
+      "feature5": "Pembuat piring seimbang untuk serat, hidrasi, dan makanan yang ramah usus yang ideal"
+    },
+    "pricing": {
+      "badgeTitle": "Diskon pribadi diterapkan",
+      "badgeSub": "Anda menghemat 93% selama 3 hari",
+      "total": "Total",
+      "oldPrice": "$9,99",
+      "newPrice": "$0,99 selama 3 hari",
+      "subtext": "Kemudian $19,99 per minggu",
+      "finePrint": "Rencana Anda dimulai hari ini. Anda akan dikenakan biaya $0,99 untuk penawaran pengenalan 3 hari, kemudian $19,99 per minggu setelah masa uji coba berakhir. Batalkan kapan saja dan Anda tidak akan dikenakan biaya untuk periode penagihan berikutnya. Pelajari lebih lanjut tentang kebijakan pembatalan dan pengembalian dana di Ketentuan Layanan. Untuk dukungan, hubungi kami di support@foodzee.tech"
+    },
+    "people": {
+      "num": "1.211",
+      "text": "orang bergabung hari ini"
+    },
+    "trust": {
+      "title": "Mengapa Anda dapat mempercayai",
+      "highlight": "rencana yang dipersonalisasi",
+      "item1Title": "Wawasan yang divalidasi secara ilmiah",
+      "item1Desc": "Berdasarkan penelitian kesehatan usus yang terbukti menghubungkan diet, kebiasaan, dan pola pencernaan.",
+      "item2Title": "Personalisasi berbasis kebiasaan",
+      "item2Desc": "Rencana Anda beradaptasi dengan profil pencernaan unik Anda — bukan templat generik.",
+      "item3Title": "Cetak biru kesejahteraan pribadi Anda",
+      "item3Desc": "Mengungkapkan pola diet utama dan kecenderungan pencernaan yang dibentuk oleh kebiasaan sehari-hari Anda.",
+      "item4Title": "Standar ilmiah yang ketat",
+      "item4Desc": "Dibangun menggunakan model yang divalidasi dan ditinjau untuk akurasi dan keandalan."
+    },
+    "reviews": {
+      "title": "Ulasan pelanggan",
+      "reviewer1": "Maria R., 52",
+      "review1": "Rencana kesehatan usus akhirnya sesuai dengan apa yang dibutuhkan tubuh saya. Saya bahkan menemukan makanan mana yang memicu kembung saya selama bertahun-tahun.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "Wawasan menjelaskan jadwal tidak teratur saya dan menunjukkan makanan mana yang bekerja paling baik untuk pencernaan yang lebih lancar.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Panduan yang jelas dan sederhana dengan makanan yang membantu usus saya. Mudah diikuti dan saya melihat hasil dalam seminggu."
+    },
+    "guarantee": {
+      "title": "Jaminan pengembalian dana 100%",
+      "text1": "Di FoodZee, kami merancang produk kami dengan cermat dan sangat percaya pada kualitasnya. Jika Anda tidak melihat kemajuan apa pun setelah menggunakan aplikasi selama setidaknya seminggu, kami siap melakukan pengembalian dana lengkap dalam 21 hari.",
+      "text2": "Temukan informasi lebih lanjut tentang batasan yang berlaku di Ketentuan Layanan kami."
+    },
+    "footer": {
+      "contact": "Hubungi kami",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan"
+    }
+  },
+  "s22": {
+    "title": "Selesaikan pesanan Anda",
+    "summary": "Rencana FoodZee",
+    "email": "Email",
+    "emailPlaceholder": "anda@email.com",
+    "cardNumber": "Nomor kartu",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Kadaluarsa",
+    "expiryPlaceholder": "BB / TT",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Bayar dan mulai uji coba gratis →",
+    "security": "🔒 Aman dengan Stripe · SSL 256-bit",
+    "fine": "Anda tidak akan dikenakan biaya selama periode uji coba. Batalkan kapan saja."
+  },
+  "s23": {
+    "title": "Rencana Anda diaktifkan!",
+    "subtitle": "Unduh aplikasi dan mulai lacak hari ini",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Masuk dengan email yang sama — rencana Anda sudah ada di aplikasi"
+  },
+  "ts": {
+    "intro": {
+      "title": "Lidah Anda mengungkapkan kesehatan usus Anda",
+      "subtitle": "Dalam pengobatan Ayurveda dan pengobatan tradisional Tiongkok, lidah adalah cerminan dari sistem pencernaan Anda. AI kami membaca warna, lapisan, dan tekstur — dalam hitungan detik.",
+      "scans": "3.200+",
+      "scansLabel": "pemindaian hari ini",
+      "accuracy": "94%",
+      "accuracyLabel": "tingkat akurasi",
+      "time": "5 dtk",
+      "timeLabel": "waktu analisis",
+      "hydration": "Tingkat hidrasi",
+      "inflammation": "Tanda-tanda peradangan",
+      "bacteria": "Keseimbangan bakteri",
+      "stress": "Stres pencernaan"
+    },
+    "how": {
+      "title": "Cara melakukan pemindaian sempurna",
+      "step1Title": "Pencahayaan bagus",
+      "step1Desc": "Berdiri di dekat jendela atau nyalakan cahaya. Cahaya alami memberikan pembacaan warna paling akurat.",
+      "step2Title": "Julurkan lidah Anda sepenuhnya",
+      "step2Desc": "Santai dan panjangkan lidah Anda sejauh nyaman. Pastikan seluruh permukaan terlihat.",
+      "step3Title": "Ambil foto sebelum makan",
+      "step3Desc": "Sebaiknya dilakukan di pagi hari sebelum sarapan untuk pembacaan paling jelas.",
+      "step4Title": "Pegang kamera tetap stabil",
+      "step4Desc": "Jauhkan kamera 20–30 cm. Tidak perlu zoom — close-up yang jelas dan terang cukup."
+    },
+    "camera": {
+      "hint": "Julurkan lidah Anda sepenuhnya",
+      "deniedTitle": "Akses kamera ditolak",
+      "deniedSub": "Aktifkan akses kamera di pengaturan browser Anda, atau gunakan opsi galeri di bawah ini.",
+      "gallery": "Pilih dari galeri",
+      "demo": "Coba pemindaian demo"
+    },
+    "scanning": {
+      "title": "Menganalisis lidah Anda…",
+      "step1": "Mendeteksi batas lidah…",
+      "step2": "Menganalisis distribusi warna…",
+      "step3": "Membaca lapisan dan tekstur…",
+      "step4": "Memetakan zona pencernaan…",
+      "step5": "Menghasilkan laporan kesehatan…"
+    },
+    "results": {
+      "badge": "Analisis AI selesai",
+      "title": "Hasil pemindaian",
+      "healthScore": "Skor kesehatan usus",
+      "colour": "Warna lidah",
+      "coating": "Lapisan dan film",
+      "hydration": "Tingkat hidrasi",
+      "texture": "Tekstur permukaan",
+      "insightLabel": "Apa artinya ini bagi usus Anda",
+      "zoneMap": "Peta zona pencernaan",
+      "zoneTip": "Tip<br><small>Jantung dan paru-paru</small>",
+      "zoneFront": "Depan<br><small>Hati dan empedu</small>",
+      "zoneCenter": "Pusat<br><small>Perut dan limpa</small>",
+      "zoneBack": "Belakang<br><small>Ginjal dan usus</small>",
+      "healthy": "Sehat",
+      "attention": "Perhatian diperlukan",
+      "issue": "Masalah potensial",
+      "recommendations": "Rekomendasi yang dipersonalisasi",
+      "shareText": "Bagikan hasil pemindaian lidah Anda 👅",
+      "shareSub": "Bergabunglah dengan 3.200 orang yang memindai hari ini",
+      "shareBtn": "Bagikan hasil saya",
+      "rescan": "Pindai lagi",
+      "disclaimer": "Pemindaian ini hanya untuk tujuan informatif dan bukan diagnosis medis."
+    },
+    "sticky": {
+      "info": "Tidak perlu akun · 100% pribadi · Foto tetap ada di perangkat Anda"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Rencana Anda untuk:",
+      "expires": "Berakhir dalam"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Continue →",
+    "skip": "Skip",
+    "back": "← Back"
+  },
+  "s1": {
+    "title": "Find out how your diet affects your digestion",
+    "subtitle": "A free 2-minute quiz will reveal your personalized gut health plan",
+    "socialProof": "500,000+ people have already improved their gut health",
+    "cta": "Start Free Quiz →",
+    "fine": "No registration required"
+  },
+  "s2": {
+    "title": "What bothers you the most?",
+    "subtitle": "Choose the issue you'd most like to solve",
+    "option": {
+      "bloating": "Bloating",
+      "irregularity": "Irregularity",
+      "discomfort": "Discomfort after eating",
+      "nutrition": "Improve nutrition overall"
+    }
+  },
+  "s3": {
+    "title": "What is your gender?",
+    "subtitle": "We'll customize your plan based on your body's unique needs",
+    "option": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Non-binary / Other",
+      "skip": "Prefer not to say"
+    }
+  },
+  "s4": {
+    "title": "How old are you?",
+    "subtitle": "Digestive patterns change at every life stage",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Great start!",
+    "body": "You're among <strong>86% of people</strong> who experience digestive issues. Most don't realize how closely it's linked to their diet. We'll help you connect the dots."
+  },
+  "s6": {
+    "title": "How often do you notice digestive issues?",
+    "subtitle": "Be honest — your results depend on it",
+    "option": {
+      "daily": "Every day",
+      "weekly": "Several times a week",
+      "once": "Once a week",
+      "sometimes": "Occasionally",
+      "rarely": "Rarely"
+    }
+  },
+  "s7": {
+    "title": "How long do you spend in the bathroom per visit?",
+    "subtitle": "Helps us understand your gut transit time",
+    "option": {
+      "time1": "1–5 min",
+      "time2": "5–10 min",
+      "time3": "10–20 min",
+      "time4": "20+ min"
+    }
+  },
+  "s8": {
+    "title": "How regular are your bowel movements?",
+    "subtitle": "A key indicator of gut health",
+    "option": {
+      "clockwork": "Like clockwork",
+      "mostly": "Generally regular",
+      "unpredictable": "Unpredictable",
+      "issues": "I have regularity issues"
+    }
+  },
+  "s9": {
+    "title": "Did you know?",
+    "body": "<strong>70% of your immune system</strong> lives in your gut. Digestive health directly affects your energy, mood, skin quality, and mental clarity."
+  },
+  "s10": {
+    "title": "Which eating style fits you best?",
+    "subtitle": "Different diets affect gut bacteria differently",
+    "option": {
+      "regular": "Regular / Mixed",
+      "vegan": "Vegetarian / Vegan",
+      "keto": "Keto / Low-carb",
+      "mediterranean": "Mediterranean",
+      "none": "No particular diet"
+    }
+  },
+  "s11": {
+    "title": "Have you noticed issues after certain foods?",
+    "subtitle": "Select all that apply",
+    "option": {
+      "dairy": "Dairy",
+      "gluten": "Gluten / Wheat",
+      "spicy": "Spicy food",
+      "fatty": "Fatty / Fried food",
+      "sugary": "Sugary food",
+      "none": "Haven't noticed any"
+    }
+  },
+  "s12": {
+    "title": "How much water do you drink per day?",
+    "subtitle": "Hydration has a huge impact on digestion",
+    "option": {
+      "less": "Less than 1L",
+      "medium": "1–1.5L",
+      "good": "1.5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "How often do you exercise?",
+    "subtitle": "Physical activity directly affects gut motility",
+    "option": {
+      "daily": "Every day",
+      "often": "3–4 times a week",
+      "sometimes": "1–2 times a week",
+      "rarely": "Rarely or never"
+    }
+  },
+  "s14": {
+    "title": "Interesting fact",
+    "body": "<strong>73% of FoodZee users</strong> discovered their food trigger within the first 10 days of tracking. Most were genuinely surprised by the result."
+  },
+  "s15": {
+    "title": "How would you rate your stress level?",
+    "subtitle": "Chronic stress disrupts your gut bacteria balance",
+    "option": {
+      "minimal": "Minimal",
+      "moderate": "Moderate",
+      "high": "High",
+      "veryHigh": "Very high"
+    }
+  },
+  "s16": {
+    "title": "What matters most to you?",
+    "subtitle": "Your goal shapes your personalized plan",
+    "option": {
+      "discomfort": "Get rid of discomfort",
+      "understand": "Understand my body better",
+      "nutrition": "Improve my nutrition",
+      "energy": "More energy every day"
+    }
+  },
+  "s17": {
+    "title": "Your height and weight",
+    "subtitle": "Helps us calculate your gut health baseline",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Height",
+    "weight": "Weight",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Building your plan...",
+    "step1": "Analyzing your answers...",
+    "step2": "Identifying possible triggers...",
+    "step3": "Creating your personal plan...",
+    "note": "Based on data from 500,000+ users"
+  },
+  "s19": {
+    "header": "YOUR DIGESTIVE PROFILE IS READY",
+    "title": "Start seeing results by",
+    "now": "Now",
+    "day7": "Day 7",
+    "day14": "Day 14",
+    "sticky": "Get My Full Plan →"
+  },
+  "s20": {
+    "title": "Where should we send your full plan?",
+    "subtitle": "Enter your email to receive your personalized gut health report",
+    "placeholder": "your@email.com",
+    "cta": "Get My Plan →",
+    "fine": "No spam. Only your plan and important updates."
+  },
+  "s21": {
+    "hero": {
+      "title": "Your Personal Gut Health Plan Is Waiting Inside",
+      "subtitle": "Get personalized digestion insights based on your habits — what helps, what hurts, and how your gut works differently.",
+      "proof1Num": "1,300+",
+      "proof1Text": "people took the quiz today",
+      "proof2Pre": "Trusted by",
+      "proof2Num": "1.8M+",
+      "proof2Post": "users worldwide",
+      "cta": "Get My Personal Gut Health Plan"
+    },
+    "guide": {
+      "title": "Health + Digestive Wellness Guide",
+      "text": "Discover how your body processes food — and how to work with it, not against it. Your report reveals the patterns behind your digestion, bloating, energy, cravings, and how your gut responds to different foods.",
+      "blurText": "Discover how your body processes energy – and how to work with it, not against it. Unlock full access to read your complete report.",
+      "unlock": "Unlock full access to read your complete report."
+    },
+    "includes": {
+      "title": "Your Personalized Digestive Health Plan Includes",
+      "feature1": "Personalized meal plan tailored to your gut type & digestive patterns",
+      "feature2": "Insights across digestion, metabolism, bloating triggers, sensitivities & nutrient absorption",
+      "feature3": "Detailed Digestive Health Report",
+      "feature4": "Interactive food guide aligned with your bathroom habits",
+      "feature5": "Balanced Plate Builder for ideal fiber, hydration & gut-friendly foods"
+    },
+    "pricing": {
+      "badgeTitle": "Personal discount applied",
+      "badgeSub": "You save 93% for 3 days",
+      "total": "Total",
+      "oldPrice": "$9.99",
+      "newPrice": "$0.99 for 3 days",
+      "subtext": "Then 19.99$ per week",
+      "finePrint": "Your plan begins today. You will be charged 0.99$ for your 3-day introductory offer, then 19.99$ per week after the trial ends. Cancel anytime and you won't be charged for the next billing period. Learn more about cancellation and refund policy in Terms of Use. For support, simply let us know support@foodzee.tech"
+    },
+    "people": {
+      "num": "1,211",
+      "text": "people joined today"
+    },
+    "trust": {
+      "title": "Why you can trust your",
+      "highlight": "personalized plan",
+      "item1Title": "Scientifically validated insights",
+      "item1Desc": "Based on proven gut health research linking diet, habits and digestive patterns.",
+      "item2Title": "Habit-based personalization",
+      "item2Desc": "Your plan adapts to your unique digestive profile — not generic templates.",
+      "item3Title": "Your personal wellness blueprint",
+      "item3Desc": "Reveals key dietary patterns and digestive tendencies shaped by your daily habits.",
+      "item4Title": "Strict scientific standards",
+      "item4Desc": "Built using validated models and reviewed for accuracy and reliability."
+    },
+    "reviews": {
+      "title": "Customers reviews",
+      "reviewer1": "Maria R., 52",
+      "review1": "The gut health plan finally matched what my body needs. I even discovered which foods were triggering my bloating for years.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "The insights explained my irregular schedule and showed which foods work best for smoother digestion.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Clear, simple guidance with foods that help my gut. Easy to follow and I noticed results within a week."
+    },
+    "guarantee": {
+      "title": "100% Money-back guarantee",
+      "text1": "At FoodZee we carefully designed our product and strongly believe in its quality. If you don't notice any progress after using the app for at least a week, we are ready to make a complete refund within 21 days.",
+      "text2": "Find more about the applicable limitations in our Terms of Use."
+    },
+    "footer": {
+      "contact": "Contact us",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    }
+  },
+  "s22": {
+    "title": "Complete your order",
+    "summary": "FoodZee Plan",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "cardNumber": "Card number",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Expiry",
+    "expiryPlaceholder": "MM / YY",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Pay & Start Free Trial →",
+    "security": "🔒 Secured by Stripe · 256-bit SSL",
+    "fine": "You won't be charged during the 7-day trial. Cancel anytime."
+  },
+  "s23": {
+    "title": "Your plan is activated!",
+    "subtitle": "Download the app and start tracking today",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Sign in with the same email — your plan is already inside the app"
+  },
+  "ts": {
+    "intro": {
+      "title": "Your Tongue Reveals Your Gut Health",
+      "subtitle": "In Ayurvedic and Traditional Chinese Medicine, the tongue is a mirror of your digestive system. Our AI reads colour, coating and texture — in seconds.",
+      "scans": "3 200+",
+      "scansLabel": "scans today",
+      "accuracy": "94%",
+      "accuracyLabel": "accuracy rate",
+      "time": "5 sec",
+      "timeLabel": "analysis time",
+      "hydration": "Hydration level",
+      "inflammation": "Inflammation signs",
+      "bacteria": "Bacterial balance",
+      "stress": "Digestive stress"
+    },
+    "how": {
+      "title": "How to take the perfect scan",
+      "step1Title": "Good lighting",
+      "step1Desc": "Stand near a window or turn on a light. Natural light gives the most accurate colour reading.",
+      "step2Title": "Stick out your tongue fully",
+      "step2Desc": "Relax and extend your tongue as far as comfortable. Make sure the whole surface is visible.",
+      "step3Title": "Take the photo before eating",
+      "step3Desc": "Best done in the morning before breakfast for the clearest reading.",
+      "step4Title": "Hold the camera steady",
+      "step4Desc": "Keep the camera 20–30 cm away. No zoom needed — a clear, well-lit close-up is enough."
+    },
+    "camera": {
+      "hint": "Stick out your tongue fully",
+      "deniedTitle": "Camera access denied",
+      "deniedSub": "Please allow camera access in your browser settings, or use the gallery option below.",
+      "gallery": "Choose from Gallery",
+      "demo": "Try Demo Scan"
+    },
+    "scanning": {
+      "title": "Analysing your tongue…",
+      "step1": "Detecting tongue boundaries…",
+      "step2": "Analysing colour distribution…",
+      "step3": "Reading coating & texture…",
+      "step4": "Mapping digestive zones…",
+      "step5": "Generating health report…"
+    },
+    "results": {
+      "badge": "AI Analysis Complete",
+      "title": "Scan Results",
+      "healthScore": "Digestive Health Score",
+      "colour": "Tongue Colour",
+      "coating": "Coating & Film",
+      "hydration": "Hydration Level",
+      "texture": "Surface Texture",
+      "insightLabel": "What this means for your gut",
+      "zoneMap": "Digestive Zone Map",
+      "zoneTip": "Tip<br><small>Heart & Lungs</small>",
+      "zoneFront": "Front<br><small>Liver & Gallbladder</small>",
+      "zoneCenter": "Centre<br><small>Stomach & Spleen</small>",
+      "zoneBack": "Back<br><small>Kidneys & Intestines</small>",
+      "healthy": "Healthy",
+      "attention": "Attention needed",
+      "issue": "Potential issue",
+      "recommendations": "Your personalised recommendations",
+      "shareText": "Share your tongue scan result 👅",
+      "shareSub": "Join 3,200 people who scanned today",
+      "shareBtn": "Share My Result",
+      "rescan": "Scan Again",
+      "disclaimer": "This scan is for informational purposes only and is not a medical diagnosis."
+    },
+    "sticky": {
+      "info": "No account needed · 100% private · Photo stays on device"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Your Plan for:",
+      "expires": "Expires in"
+    }
+  }
+}

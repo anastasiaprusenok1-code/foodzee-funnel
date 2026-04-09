@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Continuar →",
+    "skip": "Pular",
+    "back": "← Voltar"
+  },
+  "s1": {
+    "title": "Descubra como sua dieta afeta sua digestão",
+    "subtitle": "Um quiz gratuito de 2 minutos revelará seu plano personalizado de saúde intestinal",
+    "socialProof": "500.000+ pessoas já melhoraram sua saúde intestinal",
+    "cta": "Iniciar quiz gratuito →",
+    "fine": "Nenhum registro necessário"
+  },
+  "s2": {
+    "title": "O que mais te incomoda?",
+    "subtitle": "Escolha o problema que você gostaria de resolver",
+    "option": {
+      "bloating": "Inchaço",
+      "irregularity": "Irregularidade",
+      "discomfort": "Desconforto após comer",
+      "nutrition": "Melhorar a nutrição geral"
+    }
+  },
+  "s3": {
+    "title": "Qual é seu gênero?",
+    "subtitle": "Personalizaremos seu plano de acordo com as necessidades únicas do seu corpo",
+    "option": {
+      "male": "Masculino",
+      "female": "Feminino",
+      "other": "Não-binário / Outro",
+      "skip": "Prefiro não dizer"
+    }
+  },
+  "s4": {
+    "title": "Quantos anos você tem?",
+    "subtitle": "Os padrões digestivos mudam em cada etapa da vida",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Ótimo começo!",
+    "body": "Você está entre os <strong>86% das pessoas</strong> que têm problemas digestivos. A maioria não percebe o quanto isso está ligado à sua dieta. Vamos ajudá-lo a conectar os pontos."
+  },
+  "s6": {
+    "title": "Com que frequência você nota problemas digestivos?",
+    "subtitle": "Seja honesto — seus resultados dependem disso",
+    "option": {
+      "daily": "Todos os dias",
+      "weekly": "Várias vezes por semana",
+      "once": "Uma vez por semana",
+      "sometimes": "Ocasionalmente",
+      "rarely": "Raramente"
+    }
+  },
+  "s7": {
+    "title": "Quanto tempo você passa no banheiro por visita?",
+    "subtitle": "Nos ajuda a entender seu tempo de trânsito intestinal",
+    "option": {
+      "time1": "1–5 min",
+      "time2": "5–10 min",
+      "time3": "10–20 min",
+      "time4": "20+ min"
+    }
+  },
+  "s8": {
+    "title": "Com que regularidade você tem evacuações?",
+    "subtitle": "Um indicador chave da saúde intestinal",
+    "option": {
+      "clockwork": "Como um relógio",
+      "mostly": "Geralmente regular",
+      "unpredictable": "Imprevisível",
+      "issues": "Tenho problemas de regularidade"
+    }
+  },
+  "s9": {
+    "title": "Você sabia?",
+    "body": "<strong>70% do seu sistema imunológico</strong> vive no seu intestino. A saúde digestiva afeta diretamente sua energia, humor, qualidade da pele e clareza mental."
+  },
+  "s10": {
+    "title": "Qual estilo alimentar se encaixa melhor em você?",
+    "subtitle": "Diferentes dietas afetam as bactérias intestinais de forma diferente",
+    "option": {
+      "regular": "Regular / Misto",
+      "vegan": "Vegetariano / Vegano",
+      "keto": "Ceto / Baixo carb",
+      "mediterranean": "Mediterrânico",
+      "none": "Nenhuma dieta em particular"
+    }
+  },
+  "s11": {
+    "title": "Você notou problemas após certos alimentos?",
+    "subtitle": "Selecione todos os que se aplicam",
+    "option": {
+      "dairy": "Laticínios",
+      "gluten": "Glúten / Trigo",
+      "spicy": "Alimento picante",
+      "fatty": "Alimento gorduroso / Frito",
+      "sugary": "Alimento açucarado",
+      "none": "Nenhum notado"
+    }
+  },
+  "s12": {
+    "title": "Quanta água você bebe por dia?",
+    "subtitle": "A hidratação tem um impacto enorme na digestão",
+    "option": {
+      "less": "Menos de 1L",
+      "medium": "1–1,5L",
+      "good": "1,5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "Com que frequência você se exercita?",
+    "subtitle": "A atividade física afeta diretamente a motilidade intestinal",
+    "option": {
+      "daily": "Todos os dias",
+      "often": "3–4 vezes por semana",
+      "sometimes": "1–2 vezes por semana",
+      "rarely": "Raramente ou nunca"
+    }
+  },
+  "s14": {
+    "title": "Fato interessante",
+    "body": "<strong>73% dos usuários do FoodZee</strong> descobriram seus gatilhos alimentares nos primeiros 10 dias de rastreamento. A maioria ficou genuinamente surpresa com o resultado."
+  },
+  "s15": {
+    "title": "Como você classificaria seu nível de estresse?",
+    "subtitle": "O estresse crônico perturba o equilíbrio das suas bactérias intestinais",
+    "option": {
+      "minimal": "Mínimo",
+      "moderate": "Moderado",
+      "high": "Alto",
+      "veryHigh": "Muito alto"
+    }
+  },
+  "s16": {
+    "title": "O que é mais importante para você?",
+    "subtitle": "Seu objetivo molda seu plano personalizado",
+    "option": {
+      "discomfort": "Me livrar do desconforto",
+      "understand": "Entender melhor meu corpo",
+      "nutrition": "Melhorar minha nutrição",
+      "energy": "Mais energia todos os dias"
+    }
+  },
+  "s17": {
+    "title": "Sua altura e peso",
+    "subtitle": "Nos ajuda a calcular sua linha de base de saúde intestinal",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Altura",
+    "weight": "Peso",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Construindo seu plano...",
+    "step1": "Analisando suas respostas...",
+    "step2": "Identificando possíveis gatilhos...",
+    "step3": "Criando seu plano pessoal...",
+    "note": "Baseado em dados de 500.000+ usuários"
+  },
+  "s19": {
+    "header": "SEU PERFIL DIGESTIVO ESTÁ PRONTO",
+    "title": "Comece a ver resultados em",
+    "now": "Agora",
+    "day7": "Dia 7",
+    "day14": "Dia 14",
+    "sticky": "Obtenha meu plano completo →"
+  },
+  "s20": {
+    "title": "Para onde devemos enviar seu plano completo?",
+    "subtitle": "Digite seu e-mail para receber seu relatório personalizado de saúde intestinal",
+    "placeholder": "seu@email.com",
+    "cta": "Obtenha meu plano →",
+    "fine": "Sem spam. Apenas seu plano e atualizações importantes."
+  },
+  "s21": {
+    "hero": {
+      "title": "Seu plano personalizado de saúde intestinal está esperando por você",
+      "subtitle": "Obtenha informações de digestão personalizadas baseadas em seus hábitos — o que ajuda, o que prejudica e como seu intestino funciona de forma diferente.",
+      "proof1Num": "1.300+",
+      "proof1Text": "pessoas responderam o quiz hoje",
+      "proof2Pre": "Confiado por",
+      "proof2Num": "1,8M+",
+      "proof2Post": "usuários em todo o mundo",
+      "cta": "Obtenha meu plano personalizado de saúde intestinal"
+    },
+    "guide": {
+      "title": "Guia de saúde e bem-estar digestivo",
+      "text": "Descubra como seu corpo processa alimentos — e como trabalhar com ele, não contra ele. Seu relatório revela os padrões por trás de sua digestão, inchaço, energia, desejos e como seu intestino responde a diferentes alimentos.",
+      "blurText": "Descubra como seu corpo processa energia — e como trabalhar com ele, não contra ele. Desbloqueie acesso completo para ler seu relatório completo.",
+      "unlock": "Desbloqueie acesso completo para ler seu relatório completo."
+    },
+    "includes": {
+      "title": "Seu plano personalizado de saúde digestiva inclui",
+      "feature1": "Plano de refeições personalizado adaptado ao seu tipo intestinal e padrões digestivos",
+      "feature2": "Insights sobre digestão, metabolismo, acionadores de inchaço, sensibilidades e absorção de nutrientes",
+      "feature3": "Relatório detalhado de saúde intestinal",
+      "feature4": "Guia alimentar interativo alinhado com seus hábitos no banheiro",
+      "feature5": "Construtor de prato equilibrado para fibra ideal, hidratação e alimentos amigáveis ao intestino"
+    },
+    "pricing": {
+      "badgeTitle": "Desconto pessoal aplicado",
+      "badgeSub": "Você economiza 93% por 3 dias",
+      "total": "Total",
+      "oldPrice": "$9,99",
+      "newPrice": "$0,99 por 3 dias",
+      "subtext": "Depois $19,99 por semana",
+      "finePrint": "Seu plano começa hoje. Será cobrado $0,99 pela sua oferta introdutória de 3 dias, depois $19,99 por semana após o término do período de avaliação. Cancele a qualquer momento e você não será cobrado pelo próximo período de faturamento. Saiba mais sobre a política de cancelamento e reembolso nos Termos de Serviço. Para suporte, entre em contato conosco em support@foodzee.tech"
+    },
+    "people": {
+      "num": "1.211",
+      "text": "pessoas se juntaram hoje"
+    },
+    "trust": {
+      "title": "Por que você pode confiar em seu",
+      "highlight": "plano personalizado",
+      "item1Title": "Insights cientificamente validados",
+      "item1Desc": "Baseado em pesquisa comprovada de saúde intestinal vinculando dieta, hábitos e padrões digestivos.",
+      "item2Title": "Personalização baseada em hábitos",
+      "item2Desc": "Seu plano se adapta ao seu perfil digestivo único — não modelos genéricos.",
+      "item3Title": "Seu blueprint pessoal de bem-estar",
+      "item3Desc": "Revela padrões dietéticos-chave e tendências digestivas moldadas por seus hábitos diários.",
+      "item4Title": "Padrões científicos rigorosos",
+      "item4Desc": "Construído usando modelos validados e revisado para precisão e confiabilidade."
+    },
+    "reviews": {
+      "title": "Avaliações de clientes",
+      "reviewer1": "Maria R., 52",
+      "review1": "O plano de saúde intestinal finalmente correspondia ao que meu corpo precisava. Até descobri quais alimentos estavam desencadeando meu inchaço há anos.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "Os insights explicaram meu cronograma irregular e mostraram quais alimentos funcionam melhor para uma digestão mais suave.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Orientação clara e simples com alimentos que ajudam meu intestino. Fácil de seguir e notei resultados dentro de uma semana."
+    },
+    "guarantee": {
+      "title": "Garantia de devolução de dinheiro 100%",
+      "text1": "No FoodZee, projetamos cuidadosamente nosso produto e acreditamos fortemente em sua qualidade. Se você não notar nenhum progresso após usar o aplicativo por pelo menos uma semana, estamos prontos para fazer um reembolso completo dentro de 21 dias.",
+      "text2": "Encontre mais informações sobre limitações aplicáveis em nossos Termos de Serviço."
+    },
+    "footer": {
+      "contact": "Entre em contato conosco",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Política de privacidade",
+      "terms": "Termos de serviço"
+    }
+  },
+  "s22": {
+    "title": "Complete seu pedido",
+    "summary": "Plano FoodZee",
+    "email": "Email",
+    "emailPlaceholder": "seu@email.com",
+    "cardNumber": "Número do cartão",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Expiração",
+    "expiryPlaceholder": "MM / AA",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Pagar e iniciar avaliação gratuita →",
+    "security": "🔒 Protegido por Stripe · SSL 256-bit",
+    "fine": "Você não será cobrado durante o período de avaliação. Cancele a qualquer momento."
+  },
+  "s23": {
+    "title": "Seu plano está ativado!",
+    "subtitle": "Baixe o aplicativo e comece a rastrear hoje",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Entre com o mesmo e-mail — seu plano já está no aplicativo"
+  },
+  "ts": {
+    "intro": {
+      "title": "Sua língua revela sua saúde intestinal",
+      "subtitle": "Na medicina ayurvédica e na medicina tradicional chinesa, a língua é um espelho do seu sistema digestivo. Nossa IA lê cor, revestimento e textura — em segundos.",
+      "scans": "3.200+",
+      "scansLabel": "scans hoje",
+      "accuracy": "94%",
+      "accuracyLabel": "taxa de precisão",
+      "time": "5 seg",
+      "timeLabel": "tempo de análise",
+      "hydration": "Nível de hidratação",
+      "inflammation": "Sinais de inflamação",
+      "bacteria": "Equilíbrio bacteriano",
+      "stress": "Estresse digestivo"
+    },
+    "how": {
+      "title": "Como fazer o scan perfeito",
+      "step1Title": "Boa iluminação",
+      "step1Desc": "Fique perto de uma janela ou acenda uma luz. A luz natural dá a leitura de cor mais precisa.",
+      "step2Title": "Estique a língua completamente",
+      "step2Desc": "Relaxe e estenda a língua o máximo que puder com conforto. Certifique-se de que toda a superfície está visível.",
+      "step3Title": "Tire a foto antes de comer",
+      "step3Desc": "Melhor feito de manhã antes do café da manhã para a leitura mais clara.",
+      "step4Title": "Mantenha a câmera firme",
+      "step4Desc": "Mantenha a câmera a 20–30 cm de distância. Nenhum zoom necessário — um close-up claro e bem iluminado é suficiente."
+    },
+    "camera": {
+      "hint": "Estique a língua completamente",
+      "deniedTitle": "Acesso à câmera negado",
+      "deniedSub": "Ative o acesso à câmera nas configurações do navegador ou use a opção de galeria abaixo.",
+      "gallery": "Escolher da galeria",
+      "demo": "Tentar scan de demonstração"
+    },
+    "scanning": {
+      "title": "Analisando sua língua…",
+      "step1": "Detectando limites da língua…",
+      "step2": "Analisando distribuição de cores…",
+      "step3": "Lendo revestimento e textura…",
+      "step4": "Mapeando zonas digestivas…",
+      "step5": "Gerando relatório de saúde…"
+    },
+    "results": {
+      "badge": "Análise de IA completa",
+      "title": "Resultados do scan",
+      "healthScore": "Pontuação de saúde intestinal",
+      "colour": "Cor da língua",
+      "coating": "Revestimento e filme",
+      "hydration": "Nível de hidratação",
+      "texture": "Textura de superfície",
+      "insightLabel": "O que isso significa para seu intestino",
+      "zoneMap": "Mapa das zonas digestivas",
+      "zoneTip": "Ponta<br><small>Coração e pulmões</small>",
+      "zoneFront": "Frente<br><small>Fígado e vesícula biliar</small>",
+      "zoneCenter": "Centro<br><small>Estômago e baço</small>",
+      "zoneBack": "Trás<br><small>Rins e intestinos</small>",
+      "healthy": "Saudável",
+      "attention": "Atenção necessária",
+      "issue": "Possível problema",
+      "recommendations": "Suas recomendações personalizadas",
+      "shareText": "Compartilhe seu resultado de scan de língua 👅",
+      "shareSub": "Junte-se a 3.200 pessoas que fizeram scan hoje",
+      "shareBtn": "Compartilhar meu resultado",
+      "rescan": "Fazer scan novamente",
+      "disclaimer": "Este scan é apenas para fins informativos e não constitui um diagnóstico médico."
+    },
+    "sticky": {
+      "info": "Sem conta necessária · 100% privado · Foto permanece em seu dispositivo"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Seu plano por:",
+      "expires": "Expira em"
+    }
+  }
+}

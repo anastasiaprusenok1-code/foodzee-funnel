@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Devam Et →",
+    "skip": "Atla",
+    "back": "← Geri"
+  },
+  "s1": {
+    "title": "Diyetinizin sindiriminizi nasıl etkilediğini keşfedin",
+    "subtitle": "Ücretsiz 2 dakikalık bir anket, kişiselleştirilmiş bağırsak sağlığı planınızı ortaya çıkaracak",
+    "socialProof": "500.000+ kişi zaten bağırsak sağlığını iyileştirdi",
+    "cta": "Ücretsiz anketi başlat →",
+    "fine": "Kayıt gerekmez"
+  },
+  "s2": {
+    "title": "Seni en çok ne rahatsız ediyor?",
+    "subtitle": "Çözmek istediğin sorunu seç",
+    "option": {
+      "bloating": "Şişkinlik",
+      "irregularity": "Düzensizlik",
+      "discomfort": "Yemekten sonra rahatsızlık",
+      "nutrition": "Genel beslenmeyi iyileştir"
+    }
+  },
+  "s3": {
+    "title": "Cinsiyetin ne?",
+    "subtitle": "Planını vücudunun benzersiz ihtiyaçlarına göre özelleştireceğiz",
+    "option": {
+      "male": "Erkek",
+      "female": "Kadın",
+      "other": "Branş dışı / Diğer",
+      "skip": "Söylemeyi tercih etmem"
+    }
+  },
+  "s4": {
+    "title": "Kaç yaşındasın?",
+    "subtitle": "Sindirim alışkanlıkları hayatın her aşamasında değişir",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Harika bir başlangıç!",
+    "body": "<strong>Sindirim problemleri yaşayan %86 insan</strong> arasındasın. Çoğu kişi bunun diyetiyle ne kadar yakından ilişkili olduğunu fark etmez. Bağlantıları kurmanıza yardımcı olacağız."
+  },
+  "s6": {
+    "title": "Sindirim problemlerini ne sıklıkla fark edersin?",
+    "subtitle": "Dürüst ol — sonuçların buna bağlı",
+    "option": {
+      "daily": "Her gün",
+      "weekly": "Haftada birkaç kez",
+      "once": "Haftada bir kez",
+      "sometimes": "Ara sıra",
+      "rarely": "Nadiren"
+    }
+  },
+  "s7": {
+    "title": "Tuvalete her gitişte ne kadar zaman harcıyorsun?",
+    "subtitle": "Bağırsak geçiş süreni anlamamıza yardımcı olur",
+    "option": {
+      "time1": "1–5 dk",
+      "time2": "5–10 dk",
+      "time3": "10–20 dk",
+      "time4": "20+ dk"
+    }
+  },
+  "s8": {
+    "title": "Bağırsak hareketlerin ne kadar düzenli?",
+    "subtitle": "Bağırsak sağlığının temel göstergesi",
+    "option": {
+      "clockwork": "Saat gibi",
+      "mostly": "Genellikle düzenli",
+      "unpredictable": "Öngörülemez",
+      "issues": "Düzenlilikle ilgili sorunlarım var"
+    }
+  },
+  "s9": {
+    "title": "Biliyor muydun?",
+    "body": "<strong>Bağışıklık sisteminizin %70'i</strong> bağırsaklarında yaşamaktadır. Sindirim sağlığı enerji, ruh hali, cilt kalitesi ve zihinsel netliği doğrudan etkiler."
+  },
+  "s10": {
+    "title": "Hangi beslenme tarzı sana en uygun?",
+    "subtitle": "Farklı diyetler bağırsak bakterilerini farklı şekilde etkiler",
+    "option": {
+      "regular": "Düzenli / Karışık",
+      "vegan": "Vejetaryen / Vegan",
+      "keto": "Keto / Düşük karbohidrat",
+      "mediterranean": "Akdeniz",
+      "none": "Belirli bir diyet yok"
+    }
+  },
+  "s11": {
+    "title": "Belirli yiyeceklerden sonra sorunlar fark ettin mi?",
+    "subtitle": "Geçerli olanların tümünü seç",
+    "option": {
+      "dairy": "Süt ürünleri",
+      "gluten": "Gluten / Buğday",
+      "spicy": "Baharatlı yiyecekler",
+      "fatty": "Yağlı / Kızartılmış yiyecekler",
+      "sugary": "Şekerli yiyecekler",
+      "none": "Hiçbiri fark etmedi"
+    }
+  },
+  "s12": {
+    "title": "Günde ne kadar su içiyorsun?",
+    "subtitle": "Hidrasyon sindirime muazzam bir etkisi vardır",
+    "option": {
+      "less": "1 litresinden az",
+      "medium": "1–1,5L",
+      "good": "1,5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "Ne sıklıkta egzersiz yapıyorsun?",
+    "subtitle": "Fiziksel aktivite bağırsak hareketliliğini doğrudan etkiler",
+    "option": {
+      "daily": "Her gün",
+      "often": "Haftada 3–4 kez",
+      "sometimes": "Haftada 1–2 kez",
+      "rarely": "Nadiren veya hiç"
+    }
+  },
+  "s14": {
+    "title": "İlginç bir gerçek",
+    "body": "<strong>FoodZee kullanıcılarının %73'ü</strong> izlemenin ilk 10 günü içinde yiyecek tetikleyicilerini keşfetti. Çoğu sonuç karşısında gerçekten şaşırdı."
+  },
+  "s15": {
+    "title": "Stres seviyeni nasıl değerlendirirsin?",
+    "subtitle": "Kronik stres bağırsak bakterilerinin dengesini bozar",
+    "option": {
+      "minimal": "Minimal",
+      "moderate": "Orta",
+      "high": "Yüksek",
+      "veryHigh": "Çok yüksek"
+    }
+  },
+  "s16": {
+    "title": "Sana en önemli olan ne?",
+    "subtitle": "Hedefiniz kişiselleştirilmiş planını şekillendiriyor",
+    "option": {
+      "discomfort": "Rahatsızlıktan kurtulmak",
+      "understand": "Bedenini daha iyi anlamak",
+      "nutrition": "Beslenmemin iyileştirmek",
+      "energy": "Her gün daha çok enerji"
+    }
+  },
+  "s17": {
+    "title": "Boyun ve kilin",
+    "subtitle": "Bağırsak sağlığı temel değerini hesaplamaya yardımcı olur",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Boy",
+    "weight": "Kilo",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Planın hazırlanıyor...",
+    "step1": "Cevapları analiz ediliyor...",
+    "step2": "Olası tetikleyiciler tanımlanıyor...",
+    "step3": "Kişisel planın oluşturuluyor...",
+    "note": "500.000+ kullanıcıdan alınan veriler üzerine kurulu"
+  },
+  "s19": {
+    "header": "SİNDİRİM PROFİLİN HAZIR",
+    "title": "Sonuçları görmeye başla",
+    "now": "Şimdi",
+    "day7": "7. Gün",
+    "day14": "14. Gün",
+    "sticky": "Tam planımı al →"
+  },
+  "s20": {
+    "title": "Tam planını nereye göndermemiz gerekir?",
+    "subtitle": "Kişiselleştirilmiş bağırsak sağlığı raporunu almak için e-posta adresini gir",
+    "placeholder": "senin@email.com",
+    "cta": "Planımı al →",
+    "fine": "Spam yok. Sadece planın ve önemli güncellemeler."
+  },
+  "s21": {
+    "hero": {
+      "title": "Kişiselleştirilmiş bağırsak sağlığı planın seni bekliyor",
+      "subtitle": "Alışkanlıklarına dayalı kişiselleştirilmiş sindirim öğrenmeleri al — ne yardımcı, ne zararlı ve bağırsaklarınız farklı nasıl çalışıyor?",
+      "proof1Num": "1.300+",
+      "proof1Text": "kişi bugün anketi cevapladı",
+      "proof2Pre": "Güvenilen",
+      "proof2Num": "1,8M+",
+      "proof2Post": "dünya çapında kullanıcı",
+      "cta": "Kişiselleştirilmiş bağırsak sağlığı planımı al"
+    },
+    "guide": {
+      "title": "Sağlık ve sindirim refahı rehberi",
+      "text": "Vücudunun yiyecekleri nasıl işlediğini keşfet — ve onunla birlikte, ona karşı değil nasıl çalışacağını. Raporun sindirim, şişkinlik, enerji, değiştirimler ve bağırsaklarının farklı yiyeceklere nasıl tepki verdiğinin ardındaki desenleri ortaya çıkarıyor.",
+      "blurText": "Vücudunun enerjiyi nasıl işlediğini keşfet — ve onunla birlikte, ona karşı değil nasıl çalışacağını. Tam raporunu okumak için tam erişim kilidini aç.",
+      "unlock": "Tam raporunu okumak için tam erişim kilidini aç."
+    },
+    "includes": {
+      "title": "Kişiselleştirilmiş sindirim sağlığı planın içerir",
+      "feature1": "Bağırsak türüne ve sindirim alışkanlıklarına göre özelleştirilmiş kişisel yemek planı",
+      "feature2": "Sindirim, metabolizm, şişkinlik tetikleyicileri, hassasiyetler ve besin emilimi hakkında içgörüler",
+      "feature3": "Detaylı bağırsak sağlığı raporu",
+      "feature4": "Tuvalete gidiş alışkanlıklarınla uyumlu etkileşimli yiyecek rehberi",
+      "feature5": "İdeal lif, hidrasyon ve bağırsakça dostça yiyecekler için dengeli yemek yapıcısı"
+    },
+    "pricing": {
+      "badgeTitle": "Kişisel indirim uygulandı",
+      "badgeSub": "3 gün için %93 tasarruf et",
+      "total": "Toplam",
+      "oldPrice": "$9,99",
+      "newPrice": "3 gün için $0,99",
+      "subtext": "Sonra haftada $19,99",
+      "finePrint": "Planın bugün başlıyor. 3 günlük giriş teklifiniz için $0,99 ücretlendirileceksiniz, ardından deneme süresi bittikten sonra haftada $19,99. İstediğiniz zaman iptal edin ve bir sonraki faturalandırma döneminde ücretlendirilmeyeceksiniz. Hizmet Şartlarında iptal ve geri ödeme politikası hakkında daha fazla bilgi edinin. Destek için support@foodzee.tech adresinden bize ulaşın"
+    },
+    "people": {
+      "num": "1.211",
+      "text": "kişi bugün katıldı"
+    },
+    "trust": {
+      "title": "Neden kişiselleştirilmiş plana güvenebilirsin",
+      "highlight": "planı",
+      "item1Title": "Bilimin doğruladığı içgörüler",
+      "item1Desc": "Beslenme, alışkanlıklar ve sindirim alışkanlıklarını bağlayan kanıtlanmış bağırsak sağlığı araştırmasına dayanıyor.",
+      "item2Title": "Alışkanlık tabanlı kişiselleştirme",
+      "item2Desc": "Planın benzersiz sindirim profiline uyum sağlıyor — genel şablonlar değil.",
+      "item3Title": "Kişisel refah taslağın",
+      "item3Desc": "Günlük alışkanlıklarınla şekillenen temel diyet alışkanlıkları ve sindirim eğilimlerini ortaya çıkarıyor.",
+      "item4Title": "Katı bilimsel standartlar",
+      "item4Desc": "Doğrulanmış modeller kullanılarak inşa edilmiş ve doğruluk ve güvenilirlik için gözden geçirilmiş."
+    },
+    "reviews": {
+      "title": "Müşteri yorumları",
+      "reviewer1": "Maria R., 52",
+      "review1": "Bağırsak sağlığı planı sonunda vücudumun ihtiyaç duyduğu şeyle eşleşti. Hatta yıllardır şişkinliğimi tetikleyen yiyecekleri bile keşfettim.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "İçgörüler düzensiz takvimi açıkladı ve daha yumuşak sindirim için hangi yiyeceklerin en iyi çalıştığını gösterdi.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Net, basit rehberlik ve bağırsağıma yardımcı olan yiyecekler. Takip etmesi kolay ve bir hafta içinde sonuç gördüm."
+    },
+    "guarantee": {
+      "title": "%100 geri ödeme garantisi",
+      "text1": "FoodZee'de ürünümüzü dikkatle tasarladık ve kalitesine kesinlikle inanıyoruz. Uygulamayı en az bir hafta kullandığınızdan sonra hiç ilerleme görmezseniz, 21 gün içinde tam geri ödeme yapmaya hazırız.",
+      "text2": "Hizmet Şartlarımızda geçerli olan kısıtlamalar hakkında daha fazla bilgi edinin."
+    },
+    "footer": {
+      "contact": "Bizimle iletişime geç",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Hizmet Şartları"
+    }
+  },
+  "s22": {
+    "title": "Siparişini tamamla",
+    "summary": "FoodZee Planı",
+    "email": "E-posta",
+    "emailPlaceholder": "senin@email.com",
+    "cardNumber": "Kart numarası",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Son kullanma",
+    "expiryPlaceholder": "AA / YY",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Ödeme yap ve deneme sürümünü başlat →",
+    "security": "🔒 Stripe tarafından güvenli · 256-bit SSL",
+    "fine": "Deneme süresi boyunca size ücret yansıtılmayacak. İstediğiniz zaman iptal edin."
+  },
+  "s23": {
+    "title": "Planın etkinleştirildi!",
+    "subtitle": "Uygulamayı indir ve bugün izlemeye başla",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Aynı e-posta ile giriş yap — planın zaten uygulamada"
+  },
+  "ts": {
+    "intro": {
+      "title": "Dilin bağırsak sağlığını ortaya çıkarıyor",
+      "subtitle": "Ayurvedik ve geleneksel Çin tıbbında, dil sindirim sisteminin aynasıdır. Yapay zekamız renk, leke ve dokuyu okur — saniyeler içinde.",
+      "scans": "3.200+",
+      "scansLabel": "bugün tarama",
+      "accuracy": "94%",
+      "accuracyLabel": "doğruluk oranı",
+      "time": "5 sn",
+      "timeLabel": "analiz süresi",
+      "hydration": "Hidrasyon seviyesi",
+      "inflammation": "İltihaplanma belirtileri",
+      "bacteria": "Bakteri dengesi",
+      "stress": "Sindirim stresi"
+    },
+    "how": {
+      "title": "Mükemmel taramayı nasıl yaparsın",
+      "step1Title": "İyi aydınlatma",
+      "step1Desc": "Bir pencere yakınında durun veya ışığı açın. Doğal ışık en doğru renk okumasını verir.",
+      "step2Title": "Dilin tamamen dışarı çık",
+      "step2Desc": "Rahatla ve dilini rahat olabileceğin kadar uzat. Tüm yüzeyin görülür olduğundan emin ol.",
+      "step3Title": "Yemekten önce fotoğraf çek",
+      "step3Desc": "Kahvaltıdan önce sabah yapıldığında en net okumayı alırsın.",
+      "step4Title": "Kamerayı sabit tut",
+      "step4Desc": "Kamerayı 20–30 cm uzağında tut. Yakınlaştırmaya gerek yok — net, iyi aydınlatılmış bir yakın çekim yeterli."
+    },
+    "camera": {
+      "hint": "Dilin tamamen dışarı çık",
+      "deniedTitle": "Kamera erişimi reddedildi",
+      "deniedSub": "Tarayıcı ayarlarında kamera erişimine izin ver veya aşağıdaki galeri seçeneğini kullan.",
+      "gallery": "Galeriden seç",
+      "demo": "Demo taramayı dene"
+    },
+    "scanning": {
+      "title": "Dilin analiz ediliyor…",
+      "step1": "Dil sınırları tespit ediliyor…",
+      "step2": "Renk dağılımı analiz ediliyor…",
+      "step3": "Leke ve doku okunuyor…",
+      "step4": "Sindirim bölgeleri haritalanıyor…",
+      "step5": "Sağlık raporu oluşturuluyor…"
+    },
+    "results": {
+      "badge": "Yapay zeka analizi tamamlandı",
+      "title": "Tarama sonuçları",
+      "healthScore": "Bağırsak sağlığı puanı",
+      "colour": "Dil rengi",
+      "coating": "Leke ve film",
+      "hydration": "Hidrasyon seviyesi",
+      "texture": "Yüzey dokusu",
+      "insightLabel": "Bunun bağırsakların için anlamı",
+      "zoneMap": "Sindirim bölgeleri haritası",
+      "zoneTip": "İpucu<br><small>Kalp ve akciğerler</small>",
+      "zoneFront": "Ön<br><small>Karaciğer ve safra kesesi</small>",
+      "zoneCenter": "Merkez<br><small>Mide ve dalak</small>",
+      "zoneBack": "Arka<br><small>Böbrekler ve bağırsaklar</small>",
+      "healthy": "Sağlıklı",
+      "attention": "Dikkat gerekli",
+      "issue": "Olası sorun",
+      "recommendations": "Kişiselleştirilmiş öneriler",
+      "shareText": "Dil tarama sonucunu paylaş 👅",
+      "shareSub": "Bugün tarayan 3.200 kişiye katıl",
+      "shareBtn": "Sonucumu paylaş",
+      "rescan": "Yeniden tara",
+      "disclaimer": "Bu tarama yalnızca bilgilendirme amaçlıdır ve tıbbi tanı değildir."
+    },
+    "sticky": {
+      "info": "Hesap gerekli değil · %100 özel · Fotoğraf cihazında kalır"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Planın için:",
+      "expires": "Süresi şuna kadar bitecek"
+    }
+  }
+}

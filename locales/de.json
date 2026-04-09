@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Weiter →",
+    "skip": "Überspringen",
+    "back": "← Zurück"
+  },
+  "s1": {
+    "title": "Erfahre, wie deine Ernährung deine Verdauung beeinflusst",
+    "subtitle": "Ein kostenloses 2-Minuten-Quiz zeigt dir deinen personalisierten Darmgesundheitsplan",
+    "socialProof": "500.000+ Menschen haben bereits ihre Darmgesundheit verbessert",
+    "cta": "Kostenloses Quiz starten →",
+    "fine": "Keine Registrierung erforderlich"
+  },
+  "s2": {
+    "title": "Was belastet dich am meisten?",
+    "subtitle": "Wähle das Problem, das du am liebsten lösen möchtest",
+    "option": {
+      "bloating": "Aufblähung",
+      "irregularity": "Unregelmäßigkeit",
+      "discomfort": "Unbehagen nach dem Essen",
+      "nutrition": "Ernährung insgesamt verbessern"
+    }
+  },
+  "s3": {
+    "title": "Welches Geschlecht hast du?",
+    "subtitle": "Wir passen deinen Plan an die einzigartigen Bedürfnisse deines Körpers an",
+    "option": {
+      "male": "Männlich",
+      "female": "Weiblich",
+      "other": "Non-binär / Sonstiges",
+      "skip": "Keine Angabe"
+    }
+  },
+  "s4": {
+    "title": "Wie alt bist du?",
+    "subtitle": "Verdauungsmuster ändern sich in jeder Lebensphase",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Guter Start!",
+    "body": "Du gehörst zu den <strong>86% der Menschen</strong>, die Verdauungsprobleme haben. Die meisten bemerken nicht, wie eng das mit ihrer Ernährung zusammenhängt. Wir helfen dir, die Verbindung zu erkennen."
+  },
+  "s6": {
+    "title": "Wie oft bemerkst du Verdauungsprobleme?",
+    "subtitle": "Sei ehrlich — deine Ergebnisse hängen davon ab",
+    "option": {
+      "daily": "Täglich",
+      "weekly": "Mehrmals pro Woche",
+      "once": "Einmal pro Woche",
+      "sometimes": "Gelegentlich",
+      "rarely": "Selten"
+    }
+  },
+  "s7": {
+    "title": "Wie lange verbringst du pro Besuch auf der Toilette?",
+    "subtitle": "Hilft uns, deine Darmtransitzeit zu verstehen",
+    "option": {
+      "time1": "1–5 Min",
+      "time2": "5–10 Min",
+      "time3": "10–20 Min",
+      "time4": "20+ Min"
+    }
+  },
+  "s8": {
+    "title": "Wie regelmäßig sind deine Stuhlgänge?",
+    "subtitle": "Ein wichtiger Indikator für Darmgesundheit",
+    "option": {
+      "clockwork": "Wie am Schnürchen",
+      "mostly": "Generell regelmäßig",
+      "unpredictable": "Unvorhersehbar",
+      "issues": "Ich habe Probleme mit Regelmäßigkeit"
+    }
+  },
+  "s9": {
+    "title": "Wusstest du das?",
+    "body": "<strong>70% deines Immunsystems</strong> lebt in deinem Darm. Darmgesundheit beeinflusst direkt deine Energie, Stimmung, Hautqualität und geistige Klarheit."
+  },
+  "s10": {
+    "title": "Welcher Essenstil passt zu dir am besten?",
+    "subtitle": "Verschiedene Diäten beeinflussen die Darmbakterien unterschiedlich",
+    "option": {
+      "regular": "Gemischt / Omnivore",
+      "vegan": "Vegetarisch / Vegan",
+      "keto": "Keto / Low-Carb",
+      "mediterranean": "Mittelmeer-Diät",
+      "none": "Keine spezielle Diät"
+    }
+  },
+  "s11": {
+    "title": "Hast du Probleme nach bestimmten Lebensmitteln bemerkt?",
+    "subtitle": "Wähle alle zutreffenden aus",
+    "option": {
+      "dairy": "Milchprodukte",
+      "gluten": "Gluten / Weizen",
+      "spicy": "Scharfe Speisen",
+      "fatty": "Fettige / Frittierte Speisen",
+      "sugary": "Zuckerhaltige Speisen",
+      "none": "Keine bemerkt"
+    }
+  },
+  "s12": {
+    "title": "Wie viel Wasser trinkst du täglich?",
+    "subtitle": "Flüssigkeitszufuhr hat großen Einfluss auf die Verdauung",
+    "option": {
+      "less": "Weniger als 1L",
+      "medium": "1–1,5L",
+      "good": "1,5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "Wie oft trainierst du?",
+    "subtitle": "Körperliche Aktivität beeinflusst direkt die Darmmotilität",
+    "option": {
+      "daily": "Täglich",
+      "often": "3–4 Mal pro Woche",
+      "sometimes": "1–2 Mal pro Woche",
+      "rarely": "Selten oder nie"
+    }
+  },
+  "s14": {
+    "title": "Interessante Tatsache",
+    "body": "<strong>73% der FoodZee-Nutzer</strong> entdeckten ihre Lebensmittelauslöser innerhalb der ersten 10 Tage des Trackings. Die meisten waren wirklich überrascht vom Ergebnis."
+  },
+  "s15": {
+    "title": "Wie würdest du dein Stressniveau einschätzen?",
+    "subtitle": "Chronischer Stress stört das Gleichgewicht deiner Darmbakterien",
+    "option": {
+      "minimal": "Minimal",
+      "moderate": "Moderat",
+      "high": "Hoch",
+      "veryHigh": "Sehr hoch"
+    }
+  },
+  "s16": {
+    "title": "Was ist dir am wichtigsten?",
+    "subtitle": "Dein Ziel prägt deinen personalisierten Plan",
+    "option": {
+      "discomfort": "Unbehagen loswerden",
+      "understand": "Meinen Körper besser verstehen",
+      "nutrition": "Meine Ernährung verbessern",
+      "energy": "Mehr Energie jeden Tag"
+    }
+  },
+  "s17": {
+    "title": "Deine Größe und dein Gewicht",
+    "subtitle": "Hilft uns, deinen Darmgesundheits-Ausgangswert zu berechnen",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Größe",
+    "weight": "Gewicht",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Erstelle deinen Plan...",
+    "step1": "Deine Antworten werden analysiert...",
+    "step2": "Mögliche Auslöser werden identifiziert...",
+    "step3": "Dein persönlicher Plan wird erstellt...",
+    "note": "Basierend auf Daten von 500.000+ Nutzern"
+  },
+  "s19": {
+    "header": "DEIN VERDAUUNGSPROFIL IST BEREIT",
+    "title": "Erste Ergebnisse ab",
+    "now": "Jetzt",
+    "day7": "Tag 7",
+    "day14": "Tag 14",
+    "sticky": "Meinen vollständigen Plan erhalten →"
+  },
+  "s20": {
+    "title": "Wohin sollen wir deinen Plan senden?",
+    "subtitle": "Gib deine E-Mail ein, um deinen personalisierten Darmgesundheitsbericht zu erhalten",
+    "placeholder": "deine@email.com",
+    "cta": "Meinen Plan erhalten →",
+    "fine": "Keine Spamverteilung. Nur dein Plan und wichtige Updates."
+  },
+  "s21": {
+    "hero": {
+      "title": "Dein persönlicher Darmgesundheitsplan wartet auf dich",
+      "subtitle": "Erhalte personalisierte Verdauungserkenntnisse basierend auf deinen Gewohnheiten — was hilft, was schadet und wie dein Darm unterschiedlich funktioniert.",
+      "proof1Num": "1.300+",
+      "proof1Text": "Menschen haben heute das Quiz gemacht",
+      "proof2Pre": "Vertraut von",
+      "proof2Num": "1,8Mio+",
+      "proof2Post": "Nutzern weltweit",
+      "cta": "Meinen persönlichen Darmgesundheitsplan erhalten"
+    },
+    "guide": {
+      "title": "Gesundheits- und Verdauungswellness-Leitfaden",
+      "text": "Entdecke, wie dein Körper Nahrung verarbeitet — und wie du mit ihm zusammenarbeitest, anstatt dagegen. Dein Bericht zeigt die Muster hinter deiner Verdauung, Aufblähung, Energie, Heißhunger und wie dein Darm auf verschiedene Lebensmittel reagiert.",
+      "blurText": "Entdecke, wie dein Körper Energie verarbeitet – und wie du mit ihm zusammenarbeitest, anstatt dagegen. Entsperren Sie vollständigen Zugriff, um deinen vollständigen Bericht zu lesen.",
+      "unlock": "Entsperren Sie vollständigen Zugriff, um deinen vollständigen Bericht zu lesen."
+    },
+    "includes": {
+      "title": "Dein personalisierter Darmgesundheitsplan enthält",
+      "feature1": "Personalisierter Ernährungsplan auf deinen Darmtyp und Verdauungsmuster abgestimmt",
+      "feature2": "Erkenntnisse über Verdauung, Stoffwechsel, Aufblähungsauslöser, Empfindlichkeiten und Nährstoffaufnahme",
+      "feature3": "Detaillierter Darmgesundheitsbericht",
+      "feature4": "Interaktiver Ernährungsleitfaden zu deinen Toilettengewohnheiten",
+      "feature5": "Ausgewogener Teller-Builder für optimale Ballaststoffe, Flüssigkeitszufuhr und darmfreundliche Lebensmittel"
+    },
+    "pricing": {
+      "badgeTitle": "Persönlicher Rabatt angewendet",
+      "badgeSub": "Du sparst 93% für 3 Tage",
+      "total": "Gesamt",
+      "oldPrice": "$9,99",
+      "newPrice": "$0,99 für 3 Tage",
+      "subtext": "Dann 19,99$ pro Woche",
+      "finePrint": "Dein Plan beginnt heute. Dir werden 0,99$ für dein 3-Tage-Einführungsangebot berechnet, dann 19,99$ pro Woche nach Ende der Testversion. Jederzeit kündbar – dann keine Belastung für die nächste Abrechnungsperiode. Mehr zur Kündigungsrichtlinie in den Nutzungsbedingungen. Kontaktiere uns unter support@foodzee.tech"
+    },
+    "people": {
+      "num": "1.211",
+      "text": "Menschen sind heute beigetreten"
+    },
+    "trust": {
+      "title": "Warum du deinem",
+      "highlight": "personalisierten Plan vertrauen kannst",
+      "item1Title": "Wissenschaftlich validierte Erkenntnisse",
+      "item1Desc": "Basierend auf bewährter Darmgesundheitsforschung, die Ernährung, Gewohnheiten und Verdauungsmuster verbindet.",
+      "item2Title": "Gewohnheitsbasierte Personalisierung",
+      "item2Desc": "Dein Plan passt sich deinem einzigartigen Verdauungsprofil an — keine generischen Vorlagen.",
+      "item3Title": "Dein persönlicher Wellness-Plan",
+      "item3Desc": "Zeigt wichtige Essensmuster und Verdauungstendenzen, die durch deine täglichen Gewohnheiten geprägt sind.",
+      "item4Title": "Streng wissenschaftliche Standards",
+      "item4Desc": "Gebaut mit validierten Modellen und überprüft auf Genauigkeit und Zuverlässigkeit."
+    },
+    "reviews": {
+      "title": "Kundenbewertungen",
+      "reviewer1": "Maria R., 52",
+      "review1": "Der Darmgesundheitsplan passte endlich zu dem, was mein Körper braucht. Ich entdeckte sogar, welche Lebensmittel jahrelang meine Aufblähung verursachten.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "Die Erkenntnisse erklärten meinen unregelmäßigen Rhythmus und zeigten, welche Lebensmittel für sanftere Verdauung am besten sind.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Klare, einfache Anleitung mit Lebensmitteln, die meinem Darm helfen. Leicht zu folgen und ich sah Ergebnisse innerhalb einer Woche."
+    },
+    "guarantee": {
+      "title": "100% Geld-zurück-Garantie",
+      "text1": "Bei FoodZee haben wir unser Produkt sorgfältig entwickelt und vertrauen stark auf seine Qualität. Wenn du nach mindestens einer Woche Nutzung keine Fortschritte bemerkst, erstatten wir dir vollständig die Gebühr innerhalb von 21 Tagen.",
+      "text2": "Weitere Informationen zu geltenden Beschränkungen findest du in unseren Nutzungsbedingungen."
+    },
+    "footer": {
+      "contact": "Kontaktiere uns",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen"
+    }
+  },
+  "s22": {
+    "title": "Schließe deine Bestellung ab",
+    "summary": "FoodZee Plan",
+    "email": "E-Mail",
+    "emailPlaceholder": "deine@email.com",
+    "cardNumber": "Kartennummer",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Verfallsdatum",
+    "expiryPlaceholder": "MM / JJ",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Zahle & Starte die Testversion →",
+    "security": "🔒 Gesichert durch Stripe · 256-Bit SSL",
+    "fine": "Dir wird während der kostenlosen Testversion nichts berechnet. Jederzeit kündbar."
+  },
+  "s23": {
+    "title": "Dein Plan ist aktiviert!",
+    "subtitle": "Lade die App herunter und beginne heute zu tracken",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Melde dich mit der gleichen E-Mail an — dein Plan ist bereits in der App"
+  },
+  "ts": {
+    "intro": {
+      "title": "Deine Zunge offenbart deine Darmgesundheit",
+      "subtitle": "In der ayurvedischen und traditionellen chinesischen Medizin ist die Zunge ein Spiegel deines Verdauungssystems. Unsere KI liest Farbe, Belag und Textur — in Sekunden.",
+      "scans": "3.200+",
+      "scansLabel": "Scans heute",
+      "accuracy": "94%",
+      "accuracyLabel": "Genauigkeitsrate",
+      "time": "5 Sek",
+      "timeLabel": "Analysedauer",
+      "hydration": "Flüssigkeitsniveau",
+      "inflammation": "Entzündungszeichen",
+      "bacteria": "Bakterienbestand",
+      "stress": "Verdauungsstress"
+    },
+    "how": {
+      "title": "So machst du den perfekten Scan",
+      "step1Title": "Gute Beleuchtung",
+      "step1Desc": "Stelle dich ans Fenster oder mach das Licht an. Natürliches Licht gibt die genaueste Farblesung.",
+      "step2Title": "Strecke deine Zunge vollständig raus",
+      "step2Desc": "Entspanne dich und strecke deine Zunge so weit wie möglich raus. Stelle sicher, dass die ganze Oberfläche sichtbar ist.",
+      "step3Title": "Mach das Foto vor dem Essen",
+      "step3Desc": "Am besten morgens vor dem Frühstück für die klarste Lesung.",
+      "step4Title": "Halte die Kamera stabil",
+      "step4Desc": "Halte die Kamera 20–30 cm entfernt. Kein Zoom nötig — ein klares, gut beleuchtetes Close-up reicht."
+    },
+    "camera": {
+      "hint": "Strecke deine Zunge vollständig raus",
+      "deniedTitle": "Kamerazugriff verweigert",
+      "deniedSub": "Bitte erlaube Kamerazugriff in deinen Browsereinstellungen oder nutze die Galerie-Option unten.",
+      "gallery": "Aus Galerie wählen",
+      "demo": "Probiere Demo-Scan"
+    },
+    "scanning": {
+      "title": "Deine Zunge wird analysiert…",
+      "step1": "Zungenmitten werden erkannt…",
+      "step2": "Farbverteilung wird analysiert…",
+      "step3": "Belag & Textur werden gelesen…",
+      "step4": "Verdauungszonen werden kartiert…",
+      "step5": "Gesundheitsbericht wird erstellt…"
+    },
+    "results": {
+      "badge": "KI-Analyse abgeschlossen",
+      "title": "Scan-Ergebnisse",
+      "healthScore": "Darmgesundheits-Score",
+      "colour": "Zungenfarbe",
+      "coating": "Belag & Film",
+      "hydration": "Flüssigkeitsniveau",
+      "texture": "Oberflächenstruktur",
+      "insightLabel": "Was das für deinen Darm bedeutet",
+      "zoneMap": "Verdauungszonen-Karte",
+      "zoneTip": "Spitze<br><small>Herz & Lungen</small>",
+      "zoneFront": "Vorne<br><small>Leber & Gallenblase</small>",
+      "zoneCenter": "Mitte<br><small>Magen & Milz</small>",
+      "zoneBack": "Hinten<br><small>Nieren & Darm</small>",
+      "healthy": "Gesund",
+      "attention": "Aufmerksamkeit erforderlich",
+      "issue": "Mögliches Problem",
+      "recommendations": "Deine personalisierten Empfehlungen",
+      "shareText": "Teile dein Zungen-Scan-Ergebnis 👅",
+      "shareSub": "Tritt 3.200 Menschen bei, die heute gescannt haben",
+      "shareBtn": "Mein Ergebnis teilen",
+      "rescan": "Erneut scannen",
+      "disclaimer": "Dieser Scan dient nur zu Informationszwecken und ist keine medizinische Diagnose."
+    },
+    "sticky": {
+      "info": "Kein Konto erforderlich · 100% privat · Foto bleibt auf deinem Gerät"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Dein Plan für:",
+      "expires": "Läuft ab in"
+    }
+  }
+}

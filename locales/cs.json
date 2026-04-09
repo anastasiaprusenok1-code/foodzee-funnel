@@ -1,0 +1,353 @@
+{
+  "common": {
+    "continue": "Pokračovat →",
+    "skip": "Přeskočit",
+    "back": "← Zpět"
+  },
+  "s1": {
+    "title": "Zjisti, jak tvá dieta ovlivňuje tvé trávení",
+    "subtitle": "Bezplatný 2minutový kvíz odhalí tvůj personalizovaný plán zdraví střev",
+    "socialProof": "500 000+ lidí už zlepšilo své zdraví střev",
+    "cta": "Spustit bezplatný kvíz →",
+    "fine": "Není nutná registrace"
+  },
+  "s2": {
+    "title": "Co tě trápí nejvíce?",
+    "subtitle": "Vyber problém, který bys nejraději vyřešil",
+    "option": {
+      "bloating": "Nafouklost",
+      "irregularity": "Nepravidelnost",
+      "discomfort": "Nepohodlí po jídle",
+      "nutrition": "Zlepšit výživu"
+    }
+  },
+  "s3": {
+    "title": "Jaké je tvé pohlaví?",
+    "subtitle": "Přizpůsobíme tvůj plán jedinečným potřebám tvého těla",
+    "option": {
+      "male": "Muž",
+      "female": "Žena",
+      "other": "Non-binární / Jiné",
+      "skip": "Raději nebudu říkat"
+    }
+  },
+  "s4": {
+    "title": "Kolik ti je let?",
+    "subtitle": "Trávicí vzorce se mění v každé životní etapě",
+    "option": {
+      "age1": "18–25",
+      "age2": "26–35",
+      "age3": "36–45",
+      "age4": "46–55",
+      "age5": "55+"
+    }
+  },
+  "s5": {
+    "title": "Skvělý začátek!",
+    "body": "Patříš k <strong>86% lidí</strong>, kteří mají trávicí problémy. Většina si neuvědomuje, jak úzce to souvisí s jejich dietou. Pomůžeme ti spojit body."
+  },
+  "s6": {
+    "title": "Jak často si všimneš trávicích problémů?",
+    "subtitle": "Buď upřímný - tvé výsledky na tom závisí",
+    "option": {
+      "daily": "Každý den",
+      "weekly": "Několikrát týdně",
+      "once": "Jednou týdně",
+      "sometimes": "Příležitostně",
+      "rarely": "Zřídka"
+    }
+  },
+  "s7": {
+    "title": "Kolik času trávíš na toaletě?",
+    "subtitle": "Pomáhá nám pochopit tvůj střevní tranzit",
+    "option": {
+      "time1": "1–5 min",
+      "time2": "5–10 min",
+      "time3": "10–20 min",
+      "time4": "20+ min"
+    }
+  },
+  "s8": {
+    "title": "Jak pravidelné jsou tvé stolice?",
+    "subtitle": "Klíčový ukazatel zdraví střev",
+    "option": {
+      "clockwork": "Jako přesné hodinky",
+      "mostly": "Obecně pravidelné",
+      "unpredictable": "Nepředvídatelné",
+      "issues": "Mám problémy s pravidelností"
+    }
+  },
+  "s9": {
+    "title": "Věděl jsi to?",
+    "body": "<strong>70% tvého imunitního systému</strong> žije v tvých střevech. Zdraví trávení přímo ovlivňuje tvou energii, náladu, kvalitu kůže a duševní jasnost."
+  },
+  "s10": {
+    "title": "Jaký jídelní styl se ti nejlépe hodí?",
+    "subtitle": "Různé diety ovlivňují střevní bakterie různě",
+    "option": {
+      "regular": "Běžná / Smíšená",
+      "vegan": "Vegetariánská / Veganská",
+      "keto": "Keto / Nízkouhlíková",
+      "mediterranean": "Středomořská",
+      "none": "Žádná konkrétní dieta"
+    }
+  },
+  "s11": {
+    "title": "Všiml jsi si problémů po určitých potravinách?",
+    "subtitle": "Vyber všechny, které se na tebe vztahují",
+    "option": {
+      "dairy": "Mléčné výrobky",
+      "gluten": "Gluten / Pšenice",
+      "spicy": "Kořeněné jídlo",
+      "fatty": "Tučné / Smažené jídlo",
+      "sugary": "Sladké jídlo",
+      "none": "Žádné si neuvědomuji"
+    }
+  },
+  "s12": {
+    "title": "Kolik vody piješ denně?",
+    "subtitle": "Hydratace má obrovský dopad na trávení",
+    "option": {
+      "less": "Méně než 1L",
+      "medium": "1–1,5L",
+      "good": "1,5–2L",
+      "plenty": "2L+"
+    }
+  },
+  "s13": {
+    "title": "Jak často cvičíš?",
+    "subtitle": "Fyzická aktivita přímo ovlivňuje střevní motilitu",
+    "option": {
+      "daily": "Každý den",
+      "often": "3–4 krát týdně",
+      "sometimes": "1–2 krát týdně",
+      "rarely": "Zřídka nebo nikdy"
+    }
+  },
+  "s14": {
+    "title": "Zajímavá skutečnost",
+    "body": "<strong>73% uživatelů FoodZee</strong> objevilo své potravinové spouštěče během prvních 10 dnů sledování. Většina byla vskutku překvapena výsledkem."
+  },
+  "s15": {
+    "title": "Jak bys ohodnotil svou úroveň stresu?",
+    "subtitle": "Chronický stres narušuje rovnováhu tvých střevních bakterií",
+    "option": {
+      "minimal": "Minimální",
+      "moderate": "Střední",
+      "high": "Vysoký",
+      "veryHigh": "Velmi vysoký"
+    }
+  },
+  "s16": {
+    "title": "Co je pro tebe nejdůležitější?",
+    "subtitle": "Tvůj cíl formuje tvůj personalizovaný plán",
+    "option": {
+      "discomfort": "Zbavit se nepříjemností",
+      "understand": "Lépe poznat své tělo",
+      "nutrition": "Zlepšit svou výživu",
+      "energy": "Více energie každý den"
+    }
+  },
+  "s17": {
+    "title": "Tvá výška a váha",
+    "subtitle": "Pomáhá nám vypočítat tvůj základní zdravotní stav střev",
+    "metric": "cm / kg",
+    "imperial": "ft / lbs",
+    "height": "Výška",
+    "weight": "Váha",
+    "heightPlaceholder": "170",
+    "weightPlaceholder": "70",
+    "unitCm": "cm",
+    "unitKg": "kg"
+  },
+  "s18": {
+    "title": "Vytváření tvého plánu...",
+    "step1": "Analýza tvých odpovědí...",
+    "step2": "Identifikace možných spouštěčů...",
+    "step3": "Vytváření tvého osobního plánu...",
+    "note": "Na základě dat od 500 000+ uživatelů"
+  },
+  "s19": {
+    "header": "TVŮJ TRÁVICÍ PROFIL JE PŘIPRAVEN",
+    "title": "Začni vidět výsledky od",
+    "now": "Nyní",
+    "day7": "Den 7",
+    "day14": "Den 14",
+    "sticky": "Získat můj plný plán →"
+  },
+  "s20": {
+    "title": "Kam ti máme poslat tvůj plný plán?",
+    "subtitle": "Zadej svůj e-mail pro příjem personalizované zprávy o zdraví střev",
+    "placeholder": "tvůj@email.com",
+    "cta": "Získat můj plán →",
+    "fine": "Bez spamu. Jen tvůj plán a důležité novinky."
+  },
+  "s21": {
+    "hero": {
+      "title": "Tvůj personalizovaný plán zdraví střev na tebe čeká",
+      "subtitle": "Získej personalizované poznatky o trávení na základě svých návyků - co pomáhá, co škodí a jak tvé střevo funguje jinak.",
+      "proof1Num": "1 300+",
+      "proof1Text": "lidí zodpovědělo kvíz dnes",
+      "proof2Pre": "Důvěřuje",
+      "proof2Num": "1,8M+",
+      "proof2Post": "uživatelů po celém světě",
+      "cta": "Získat můj personalizovaný plán zdraví střev"
+    },
+    "guide": {
+      "title": "Průvodce zdravím a trávicím wellness",
+      "text": "Zjisti, jak tvoje tělo zpracovává jídlo - a jak s ním spolupraco vat, ne proti němu. Tvá zpráva odhaluje vzorce za tvým trávením, nafouklostí, energií, choutkami a tím, jak tvé střevo reaguje na různé potraviny.",
+      "blurText": "Zjisti, jak tvoje tělo zpracovává energii - a jak s ním spolupracovat, ne proti němu. Odemkni plný přístup k přečtení své kompletní zprávy.",
+      "unlock": "Odemkni plný přístup k přečtení své kompletní zprávy."
+    },
+    "includes": {
+      "title": "Tvůj personalizovaný plán zdraví středů obsahuje",
+      "feature1": "Personalizovaný jídelní plán přizpůsobený tvému typu střev a trávicím návykům",
+      "feature2": "Poznatky o trávení, metabolismu, spouštěčích nafouklosti, citlivostech a vstřebávání živin",
+      "feature3": "Podrobná zpráva o zdraví střev",
+      "feature4": "Interaktivní průvodce jídlem v souladu s tvými toaletními návyky",
+      "feature5": "Stavitel vyvážené talíře pro ideální vlákninu, hydrataci a bakterie střdnu příznivé potraviny"
+    },
+    "pricing": {
+      "badgeTitle": "Osobní sleva uplatnit",
+      "badgeSub": "Ušetříš 93% na 3 dny",
+      "total": "Celkem",
+      "oldPrice": "$9,99",
+      "newPrice": "$0,99 na 3 dny",
+      "subtext": "Pak $19,99 za týden",
+      "finePrint": "Tvůj plán začíná dnes. Budeš účtován $0,99 za svou 3denní úvodní nabídku, poté $19,99 za týden po skončení zkušební doby. Zrušit kdykoliv a nebudeš účtován za příští fakturační období. Více informací o zásadách zrušení a vrácení peněz v Podmínkách používání. Pro podporu nás kontaktuj na support@foodzee.tech"
+    },
+    "people": {
+      "num": "1 211",
+      "text": "lidí se dnes připojilo"
+    },
+    "trust": {
+      "title": "Proč si můžeš věřit svému",
+      "highlight": "personalizovanému plánu",
+      "item1Title": "Vědecky ověřené poznatky",
+      "item1Desc": "Na základě prokázaného výzkumu zdraví střev spojujícího stravu, návyky a trávicí vzorce.",
+      "item2Title": "Personalizace na základě návyků",
+      "item2Desc": "Tvůj plán se přizpůsobí tvému jedinečnému trávicímu profilu - ne generických šablonám.",
+      "item3Title": "Tvůj osobní plán wellness",
+      "item3Desc": "Odhaluje klíčové jídelní vzorce a trávicí tendence utvářené tvými každodenními návyky.",
+      "item4Title": "Přísné vědecké normy",
+      "item4Desc": "Vytvořeno pomocí ověřených modelů a recenzováno pro přesnost a spolehlivost."
+    },
+    "reviews": {
+      "title": "Recenze zákazníků",
+      "reviewer1": "Maria R., 52",
+      "review1": "Plán zdraví střev se konečně shodoval s tím, co moje tělo potřebuje. Dokonce jsem objevila, která jídla spouštěla mou nafouklost roky.",
+      "reviewer2": "Daniel K., 39",
+      "review2": "Poznatky vysvětlily můj nepravidelný plán a ukázaly, která jídla fungují nejlépe pro hladší trávení.",
+      "reviewer3": "Sophie L., 28",
+      "review3": "Jasné, jednoduché rady s potravinami, které pomáhají mým střevům. Snadné na sledování a znovu jsem si všimla výsledků během týdne."
+    },
+    "guarantee": {
+      "title": "Záruka 100% vrácení peněz",
+      "text1": "V FoodZee jsme pečlivě navrhli náš produkt a silně věříme v jeho kvalitu. Pokud si po použití aplikace alespoň týden neuvědomíš žádný pokrok, jsme připraveni udělat úplné vrácení peněz do 21 dnů.",
+      "text2": "Najdi více informací o použitelných omezeních v našich Podmínkách používání."
+    },
+    "footer": {
+      "contact": "Kontaktuj nás",
+      "address": "Thessalonikis 43, office/flat 301 Thessaloniki Court, 3025 Limassol, Cyprus",
+      "privacy": "Zásady ochrany osobních údajů",
+      "terms": "Podmínky používání"
+    }
+  },
+  "s22": {
+    "title": "Dokončit objednávku",
+    "summary": "Plán FoodZee",
+    "email": "Email",
+    "emailPlaceholder": "tvůj@email.com",
+    "cardNumber": "Číslo karty",
+    "cardPlaceholder": "4242 4242 4242 4242",
+    "expiry": "Platnost",
+    "expiryPlaceholder": "MM / RR",
+    "cvc": "CVC",
+    "cvcPlaceholder": "123",
+    "cta": "Zaplatit a spustit zkušební dobu →",
+    "security": "🔒 Zabezpečeno Stripe · 256-bit SSL",
+    "fine": "Nebudeš účtován během zkušební doby. Zrušit kdykoliv."
+  },
+  "s23": {
+    "title": "Tvůj plán je aktivován!",
+    "subtitle": "Stáhni aplikaci a začni sledovat dnes",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "note": "Přihlaš se se stejným emailem - tvůj plán je již v aplikaci"
+  },
+  "ts": {
+    "intro": {
+      "title": "Tvůj jazyk odhaluje zdraví tvých střev",
+      "subtitle": "V ajurvédské a tradiční čínské medicíně je jazyk zrcadlem tvého trávicího systému. Naše umělá inteligence čte barvu, nátěr a texturu - v sekundách.",
+      "scans": "3 200+",
+      "scansLabel": "skenů dnes",
+      "accuracy": "94%",
+      "accuracyLabel": "přesnost",
+      "time": "5 sek",
+      "timeLabel": "čas analýzy",
+      "hydration": "Úroveň hydratace",
+      "inflammation": "Známky zánětu",
+      "bacteria": "Rovnováha bakterií",
+      "stress": "Trávicí stres"
+    },
+    "how": {
+      "title": "Jak udělat dokonalý sken",
+      "step1Title": "Dobré osvětlení",
+      "step1Desc": "Postav se blízko oknu nebo rozsvít světlo. Přirozené světlo dává nejpřesnější čtení barvy.",
+      "step2Title": "Plně vytáhni jazyk",
+      "step2Desc": "Relaxuj a rozšíř jazyk co nejdál, jak je pohodlné. Ujisti se, že je viditelný celý povrch.",
+      "step3Title": "Vezmi fotku před jídlem",
+      "step3Desc": "Nejlépe ráno před snídaní pro nejjasnější čtení.",
+      "step4Title": "Drž fotoaparát stabilně",
+      "step4Desc": "Drž fotoaparát 20–30 cm daleko. Není potřeba přiblížit - čisté, dobře osvětlené detailní snímky stačí."
+    },
+    "camera": {
+      "hint": "Plně vytáhni jazyk",
+      "deniedTitle": "Přístup k fotoaparátu odepřen",
+      "deniedSub": "Prosím, povolte přístup k fotoaparátu v nastavení prohlížeče nebo použijte níže uvedenou možnost galerie.",
+      "gallery": "Zvolit z galerie",
+      "demo": "Vyzkoušet demo sken"
+    },
+    "scanning": {
+      "title": "Analýza tvého jazyka…",
+      "step1": "Detekce hranic jazyka…",
+      "step2": "Analýza distribuce barev…",
+      "step3": "Čtení nátěru a textury…",
+      "step4": "Mapování trávicích zón…",
+      "step5": "Generování zdravotní zprávy…"
+    },
+    "results": {
+      "badge": "Analýza umělé inteligence dokončena",
+      "title": "Výsledky skenování",
+      "healthScore": "Skóre zdraví střev",
+      "colour": "Barva jazyka",
+      "coating": "Nátěr a film",
+      "hydration": "Úroveň hydratace",
+      "texture": "Textura povrchu",
+      "insightLabel": "Co to znamená pro tvá střeva",
+      "zoneMap": "Mapa digestivních zón",
+      "zoneTip": "Špička<br><small>Srdce a plíce</small>",
+      "zoneFront": "Přední<br><small>Játra a žlučník</small>",
+      "zoneCenter": "Střed<br><small>Žaludek a slezina</small>",
+      "zoneBack": "Zadní<br><small>Ledviny a střeva</small>",
+      "healthy": "Zdravý",
+      "attention": "Vyžaduje pozornost",
+      "issue": "Potenciální problém",
+      "recommendations": "Tvá personalizovaná doporučení",
+      "shareText": "Sdílej svůj výsledek skenování jazyka 👅",
+      "shareSub": "Připoj se k 3 200 lidem, kteří dnes skenovali",
+      "shareBtn": "Sdílet můj výsledek",
+      "rescan": "Zásken znovu",
+      "disclaimer": "Tento sken je pouze pro informační účely a nekonstituuje lékařské diagnózy."
+    },
+    "sticky": {
+      "info": "Není potřeba účet · 100% soukromé · Fotka zůstane na tvém zařízení"
+    }
+  },
+  "pw": {
+    "sticky": {
+      "label": "Tvůj plán za:",
+      "expires": "Platnost vypršela za"
+    }
+  }
+}
