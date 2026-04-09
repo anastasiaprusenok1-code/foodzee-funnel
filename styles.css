@@ -573,7 +573,8 @@ body {
   width:124px; height:124px;
   border-radius:24px;
   margin-bottom:56px;
-  object-fit:cover;
+  object-fit:contain;
+  display:block;
 }
 .store-buttons { display:flex; gap:12px; margin-bottom:28px; }
 .store-btn {
@@ -994,13 +995,13 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding-top: 40px;
+  padding: 40px 16px 0;
   padding-bottom: 20px;
 }
 
 .pw-btn-main {
   display: flex; align-items: center; justify-content: center;
-  width: 339px; height: 50px;
+  width: 100%; height: 50px;
   background: linear-gradient(#000,#000) padding-box,
               linear-gradient(90deg,#B502D9 0%,#6F03CD 23%,#80FF00 42%,#FFE380 66%,#C625FF 100%) border-box;
   border: 2.5px solid transparent;
@@ -1011,8 +1012,8 @@ body {
 }
 
 /* Hero */
-.pw-sec-hero { display:flex; flex-direction:column; align-items:flex-start; gap:24px; width:343px; }
-.pw-hero-top-group { display:flex; flex-direction:column; gap:10px; width:343px; }
+.pw-sec-hero { display:flex; flex-direction:column; align-items:flex-start; gap:24px; width:100%; }
+.pw-hero-top-group { display:flex; flex-direction:column; gap:10px; width:100%; }
 .pw-hero-sub-img { display:flex; flex-direction:column; gap:14px; width:100%; }
 .pw-title1 { font-size:28px; font-weight:800; line-height:38px; letter-spacing:-0.4px; color:#000; text-align:center; width:100%; }
 .pw-subtitle { font-size:17px; font-weight:500; line-height:25px; letter-spacing:-0.014px; color:#3f3f3f; text-align:center; width:100%; }
@@ -1036,7 +1037,7 @@ body {
 
 /* Guide card */
 .pw-sec-guide { display:flex; flex-direction:column; align-items:center; gap:24px; width:100%; padding:0 16px; }
-.pw-guide-card { position:relative; width:343px; min-height:414px; background:#f1f1f1; border-radius:16px; overflow:hidden; padding:30px 24px 110px; }
+.pw-guide-card { position:relative; width:100%; min-height:414px; background:#f1f1f1; border-radius:16px; overflow:hidden; padding:30px 24px 110px; }
 .pw-guide-title { font-size:24px; font-weight:700; line-height:29px; color:#000; text-align:center; margin-bottom:16px; }
 .pw-guide-text { font-size:17px; font-weight:500; line-height:25px; color:#8a8a8a; }
 .pw-guide-blur-overlay { position:absolute; bottom:80px; left:0; right:0; height:100px; background:linear-gradient(to bottom,transparent,rgba(241,241,241,0.9)); pointer-events:none; }
@@ -1050,29 +1051,30 @@ body {
 .pw-sec-includes { display:flex; flex-direction:column; align-items:center; gap:24px; width:100%; padding:0 16px; }
 .pw-title3 { font-size:24px; font-weight:700; line-height:29px; color:#000; }
 .pw-center { text-align:center; width:100%; }
-.pw-features-list { display:flex; flex-direction:column; gap:12px; width:343px; }
+.pw-features-list { display:flex; flex-direction:column; gap:12px; width:100%; }
 .pw-feature-item { display:flex; align-items:flex-start; gap:11px; }
 .pw-feature-icon { width:36px; height:36px; flex-shrink:0; display:block; }
 .pw-feature-text { font-size:17px; font-weight:500; line-height:25px; color:#8a8a8a; padding-top:5px; }
 
 /* Pricing */
-.pw-pricing-block { display:flex; flex-direction:column; gap:10px; width:343px; }
+.pw-pricing-block { display:flex; flex-direction:column; gap:20px; width:100%; }
 .pw-discount-badge { display:flex; align-items:center; gap:10px; background:#c9ffc9; border-radius:16px; height:73px; padding:14px 19px; }
 .pw-discount-icon-wrap { width:30px; height:30px; flex-shrink:0; }
 .pw-discount-icon { width:30px; height:30px; display:block; }
-.pw-discount-text { font-size:17px; font-weight:700; color:#000; letter-spacing:0.3px; line-height:21px; }
-.pw-discount-save { font-size:14px; font-weight:400; color:#3f3f3f; margin-left:4px; }
-.pw-price-row { display:flex; align-items:center; justify-content:space-between; margin-top:4px; }
+.pw-discount-text-wrap { display:flex; flex-direction:column; }
+.pw-discount-title { font-size:17px; font-weight:700; color:#000; letter-spacing:0.3px; line-height:21px; margin:0; }
+.pw-discount-sub { font-size:17px; font-weight:400; color:#000; line-height:22px; margin:0; }
+.pw-price-row { display:flex; align-items:center; justify-content:space-between; }
 .pw-price-label { font-size:19px; font-weight:600; line-height:27px; color:#000; }
 .pw-price-values { display:flex; align-items:flex-end; gap:8px; }
 .pw-price-old { font-size:17px; font-weight:500; color:#cfcfcf; text-decoration:line-through; }
 .pw-price-new { font-size:19px; font-weight:600; color:#000; }
-.pw-price-save-text { font-size:14px; font-weight:500; color:#00ce00; text-align:right; }
+.pw-price-sub-text { font-size:14px; font-weight:500; color:#3f3f3f; text-align:right; margin:0; }
 .pw-fine-print { font-size:9px; font-weight:400; line-height:14px; color:#b9b9b9; text-align:center; }
 .pw-fine-link { color:#8a8a8a; }
 
 /* People pill */
-.pw-people-pill { display:flex; align-items:center; justify-content:space-between; width:343px; height:73px; background:#f1f1f1; border-radius:16px; padding:0 20px; }
+.pw-people-pill { display:flex; align-items:center; justify-content:space-between; width:100%; height:73px; background:#f1f1f1; border-radius:16px; padding:0 20px; }
 .pw-people-text { font-size:17px; font-weight:400; color:#3f3f3f; }
 .pw-people-text strong { font-weight:700; }
 .pw-avatars-row { position:relative; width:117px; height:36px; }
@@ -1081,7 +1083,7 @@ body {
 .pw-av1{left:0;} .pw-av2{left:25px;} .pw-av3{left:53px;} .pw-av4{left:79px;}
 
 /* Trust */
-.pw-sec-trust { display:flex; flex-direction:column; gap:20px; width:343px; }
+.pw-sec-trust { display:flex; flex-direction:column; gap:20px; width:100%; }
 .pw-trust-list { display:flex; flex-direction:column; gap:8px; }
 .pw-trust-item { display:flex; gap:8px; align-items:flex-start; min-height:71px; }
 .pw-trust-emoji { font-size:28px; line-height:38px; flex-shrink:0; }
@@ -1092,8 +1094,8 @@ body {
 
 /* Reviews */
 .pw-sec-reviews { display:flex; flex-direction:column; align-items:center; gap:20px; width:100%; }
-.pw-reviews-list { display:flex; flex-direction:column; gap:16px; width:343px; }
-.pw-review-card { background:#f1f1f1; border-radius:16px; padding:14px; display:flex; flex-direction:column; gap:12px; width:343px; }
+.pw-reviews-list { display:flex; flex-direction:column; gap:16px; width:100%; }
+.pw-review-card { background:#f1f1f1; border-radius:16px; padding:14px; display:flex; flex-direction:column; gap:12px; width:100%; }
 .pw-review-header { display:flex; align-items:center; gap:12px; height:60px; }
 .pw-review-photo { width:60px; height:60px; border-radius:50%; object-fit:cover; flex-shrink:0; display:block; }
 .pw-review-meta { display:flex; flex-direction:column; gap:4px; }
@@ -1102,7 +1104,7 @@ body {
 .pw-review-text { font-size:17px; font-weight:400; line-height:24px; color:#8a8a8a; }
 
 /* Guarantee */
-.pw-sec-guarantee { display:flex; flex-direction:column; align-items:center; gap:6px; width:343px; padding-bottom:8px; }
+.pw-sec-guarantee { display:flex; flex-direction:column; align-items:center; gap:6px; width:100%; padding-bottom:8px; }
 .pw-guarantee-icon-wrap { width:31px; height:31px; margin-bottom:4px; }
 .pw-guarantee-icon { width:31px; height:31px; display:block; }
 .pw-guarantee-text { font-size:17px; font-weight:400; line-height:24px; color:#8a8a8a; text-align:left; width:100%; }
@@ -1110,7 +1112,7 @@ body {
 /* Footer */
 .pw-footer { width:100%; background:#a5f3a5; padding:24px 16px 90px; display:flex; flex-direction:column; align-items:center; gap:14px; }
 .pw-footer-link { font-size:14px; font-weight:500; color:#3f3f3f; text-decoration:underline; opacity:0.7; }
-.pw-footer-address { font-size:14px; font-weight:500; line-height:22px; color:#3f3f3f; text-align:center; width:343px; }
+.pw-footer-address { font-size:14px; font-weight:500; line-height:22px; color:#3f3f3f; text-align:center; width:100%; }
 .pw-footer-links { display:flex; gap:32px; }
 
 /* Sticky bar */
