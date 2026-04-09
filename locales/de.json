@@ -173,7 +173,20 @@
     "now": "Jetzt",
     "day7": "Tag 7",
     "day14": "Tag 14",
-    "sticky": "Meinen vollständigen Plan erhalten →"
+    "sticky": "Meinen vollständigen Plan erhalten →",
+    "insight1": "Deine Essgewohnheiten könnten zu <strong>{concern}</strong> beitragen. Tägliches Tracking wird deine Auslöser innerhalb von 10 Tagen aufdecken.",
+    "insight2": "Achte besonders auf <strong>{diet}</strong> in deiner Ernährung.",
+    "insight3": "Dein Plan umfasst: <strong>tägliches Ernährungstracking</strong> + KI-Empfehlungen + Darmgesundheitswarnungen.",
+    "insight4": "Dein <strong>erhöhtes Stressniveau</strong> beeinflusst wahrscheinlich dein Darmmikrobiom. Wir werden Stress-Darm-Tipps in deinen Plan aufnehmen.",
+    "concernBloating": "Blähungen",
+    "concernIrregularity": "Unregelmäßige Verdauung",
+    "concernDiscomfort": "Beschwerden nach dem Essen",
+    "concernGeneral": "Allgemeine Ernährung",
+    "dietRegular": "verarbeitete Lebensmittel und raffinierten Zucker",
+    "dietVegetarian": "Milchalternativen und Soja",
+    "dietKeto": "hohe Fettaufnahme und künstliche Süßstoffe",
+    "dietMediterranean": "Nachtschattengewächse und ballaststoffreiche Lebensmittel",
+    "dietNone": "unidentifizierte Auslöser"
   },
   "s20": {
     "title": "Wohin sollen wir deinen Plan senden?",

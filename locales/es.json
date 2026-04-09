@@ -173,7 +173,20 @@
     "now": "Ahora",
     "day7": "Día 7",
     "day14": "Día 14",
-    "sticky": "Obtener mi plan completo →"
+    "sticky": "Obtener mi plan completo →",
+    "insight1": "Tus patrones alimentarios pueden estar contribuyendo a <strong>{concern}</strong>. El seguimiento diario revelará tus desencadenantes en 10 días.",
+    "insight2": "Presta mucha atención a <strong>{diet}</strong> en tu dieta.",
+    "insight3": "Tu plan incluye: <strong>seguimiento diario de alimentos</strong> + recomendaciones de IA + alertas de salud intestinal.",
+    "insight4": "Tu <strong>estrés elevado</strong> probablemente está afectando tu microbioma intestinal. Incluiremos consejos sobre estrés e intestino en tu plan.",
+    "concernBloating": "Hinchazón",
+    "concernIrregularity": "Digestión irregular",
+    "concernDiscomfort": "Malestar después de comer",
+    "concernGeneral": "Nutrición general",
+    "dietRegular": "alimentos procesados y azúcares refinados",
+    "dietVegetarian": "alternativas lácteas y soja",
+    "dietKeto": "alto consumo de grasas y edulcorantes artificiales",
+    "dietMediterranean": "solanáceas y alimentos ricos en fibra",
+    "dietNone": "desencadenantes no identificados"
   },
   "s20": {
     "title": "¿A dónde deberíamos enviarte tu plan completo?",

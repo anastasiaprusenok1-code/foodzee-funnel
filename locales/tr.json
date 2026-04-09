@@ -173,7 +173,20 @@
     "now": "Şimdi",
     "day7": "7. Gün",
     "day14": "14. Gün",
-    "sticky": "Tam planımı al →"
+    "sticky": "Tam planımı al →",
+    "insight1": "Yeme alışkanlıklarınız <strong>{concern}</strong> sorununa katkıda bulunuyor olabilir. Günlük takip, tetikleyicilerinizi 10 gün içinde ortaya çıkaracak.",
+    "insight2": "Diyetinizdeki <strong>{diet}</strong> konusuna özellikle dikkat edin.",
+    "insight3": "Planınız şunları içeriyor: <strong>günlük besin takibi</strong> + yapay zeka önerileri + bağırsak sağlığı uyarıları.",
+    "insight4": "<strong>Yüksek stres</strong> düzeyiniz muhtemelen bağırsak mikrobiyomunuzu etkiliyor. Plana stres-bağırsak ipuçlarını ekleyeceğiz.",
+    "concernBloating": "Şişkinlik",
+    "concernIrregularity": "Düzensiz sindirim",
+    "concernDiscomfort": "Yemek sonrası rahatsızlık",
+    "concernGeneral": "Genel beslenme",
+    "dietRegular": "işlenmiş gıdalar ve rafine şekerler",
+    "dietVegetarian": "süt alternatifleri ve soya",
+    "dietKeto": "yüksek yağ alımı ve yapay tatlandırıcılar",
+    "dietMediterranean": "patlıcangiller ve yüksek lifli gıdalar",
+    "dietNone": "tanımlanamayan tetikleyiciler"
   },
   "s20": {
     "title": "Tam planını nereye göndermemiz gerekir?",

@@ -173,7 +173,20 @@
     "now": "Now",
     "day7": "Day 7",
     "day14": "Day 14",
-    "sticky": "Get My Full Plan →"
+    "sticky": "Get My Full Plan →",
+    "insight1": "Your eating patterns may be contributing to <strong>{concern}</strong>. Daily tracking will reveal your triggers within 10 days.",
+    "insight2": "Pay close attention to <strong>{diet}</strong> in your diet.",
+    "insight3": "Your plan includes: <strong>daily food tracking</strong> + AI recommendations + gut health alerts.",
+    "insight4": "Your <strong>elevated stress</strong> is likely affecting your gut microbiome. We'll include stress-gut tips in your plan.",
+    "concernBloating": "Bloating",
+    "concernIrregularity": "Irregular digestion",
+    "concernDiscomfort": "Post-meal discomfort",
+    "concernGeneral": "General nutrition",
+    "dietRegular": "processed foods and refined sugars",
+    "dietVegetarian": "dairy alternatives and soy",
+    "dietKeto": "high fat intake and artificial sweeteners",
+    "dietMediterranean": "nightshades and high-fiber foods",
+    "dietNone": "unidentified triggers"
   },
   "s20": {
     "title": "Where should we send your full plan?",

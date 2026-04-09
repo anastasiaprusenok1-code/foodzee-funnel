@@ -173,7 +173,20 @@
     "now": "Agora",
     "day7": "Dia 7",
     "day14": "Dia 14",
-    "sticky": "Obtenha meu plano completo →"
+    "sticky": "Obtenha meu plano completo →",
+    "insight1": "Seus padrões alimentares podem estar contribuindo para <strong>{concern}</strong>. O acompanhamento diário revelará seus gatilhos em 10 dias.",
+    "insight2": "Preste muita atenção a <strong>{diet}</strong> na sua dieta.",
+    "insight3": "Seu plano inclui: <strong>rastreamento diário de alimentos</strong> + recomendações de IA + alertas de saúde intestinal.",
+    "insight4": "Seu <strong>estresse elevado</strong> provavelmente está afetando seu microbioma intestinal. Incluiremos dicas de estresse-intestino no seu plano.",
+    "concernBloating": "Inchaço",
+    "concernIrregularity": "Digestão irregular",
+    "concernDiscomfort": "Desconforto após as refeições",
+    "concernGeneral": "Nutrição geral",
+    "dietRegular": "alimentos processados e açúcares refinados",
+    "dietVegetarian": "alternativas lácteas e soja",
+    "dietKeto": "alta ingestão de gordura e adoçantes artificiais",
+    "dietMediterranean": "solanáceas e alimentos ricos em fibras",
+    "dietNone": "gatilhos não identificados"
   },
   "s20": {
     "title": "Para onde devemos enviar seu plano completo?",

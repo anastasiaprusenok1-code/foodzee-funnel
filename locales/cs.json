@@ -173,7 +173,20 @@
     "now": "Nyní",
     "day7": "Den 7",
     "day14": "Den 14",
-    "sticky": "Získat můj plný plán →"
+    "sticky": "Získat můj plný plán →",
+    "insight1": "Vaše stravovací návyky mohou přispívat k <strong>{concern}</strong>. Každodenní sledování odhalí vaše spouštěče do 10 dní.",
+    "insight2": "Věnujte zvýšenou pozornost <strong>{diet}</strong> ve svém jídelníčku.",
+    "insight3": "Váš plán zahrnuje: <strong>každodenní sledování jídla</strong> + doporučení AI + upozornění na zdraví střev.",
+    "insight4": "Váš <strong>zvýšený stres</strong> pravděpodobně ovlivňuje vaše střevní mikrobiom. Do vašeho plánu zařadíme tipy pro střeva a stres.",
+    "concernBloating": "Nadýmání",
+    "concernIrregularity": "Nepravidelné trávení",
+    "concernDiscomfort": "Nepříjemné pocity po jídle",
+    "concernGeneral": "Obecná výživa",
+    "dietRegular": "zpracované potraviny a rafinované cukry",
+    "dietVegetarian": "mléčné alternativy a sója",
+    "dietKeto": "vysoký příjem tuků a umělá sladidla",
+    "dietMediterranean": "lilkovité plodiny a potraviny s vysokým obsahem vlákniny",
+    "dietNone": "neidentifikované spouštěče"
   },
   "s20": {
     "title": "Kam ti máme poslat tvůj plný plán?",

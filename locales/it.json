@@ -173,7 +173,20 @@
     "now": "Adesso",
     "day7": "Giorno 7",
     "day14": "Giorno 14",
-    "sticky": "Ottieni il mio piano completo →"
+    "sticky": "Ottieni il mio piano completo →",
+    "insight1": "Le tue abitudini alimentari potrebbero contribuire a <strong>{concern}</strong>. Il monitoraggio quotidiano rivelerà i tuoi fattori scatenanti entro 10 giorni.",
+    "insight2": "Presta molta attenzione a <strong>{diet}</strong> nella tua dieta.",
+    "insight3": "Il tuo piano include: <strong>monitoraggio alimentare quotidiano</strong> + raccomandazioni IA + avvisi sulla salute intestinale.",
+    "insight4": "Il tuo <strong>stress elevato</strong> sta probabilmente influenzando il tuo microbioma intestinale. Includeremo consigli stress-intestino nel tuo piano.",
+    "concernBloating": "Gonfiore",
+    "concernIrregularity": "Digestione irregolare",
+    "concernDiscomfort": "Disagio dopo i pasti",
+    "concernGeneral": "Nutrizione generale",
+    "dietRegular": "cibi lavorati e zuccheri raffinati",
+    "dietVegetarian": "alternative lattiero-casearie e soia",
+    "dietKeto": "alto apporto di grassi e dolcificanti artificiali",
+    "dietMediterranean": "solanacee e alimenti ricchi di fibre",
+    "dietNone": "fattori scatenanti non identificati"
   },
   "s20": {
     "title": "Dove dovremmo inviarti il tuo piano completo?",

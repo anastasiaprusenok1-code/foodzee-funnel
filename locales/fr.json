@@ -173,7 +173,20 @@
     "now": "Maintenant",
     "day7": "Jour 7",
     "day14": "Jour 14",
-    "sticky": "Obtenir mon plan complet →"
+    "sticky": "Obtenir mon plan complet →",
+    "insight1": "Vos habitudes alimentaires contribuent peut-être à <strong>{concern}</strong>. Le suivi quotidien révélera vos déclencheurs en 10 jours.",
+    "insight2": "Portez une attention particulière à <strong>{diet}</strong> dans votre alimentation.",
+    "insight3": "Votre plan comprend : <strong>suivi alimentaire quotidien</strong> + recommandations IA + alertes santé intestinale.",
+    "insight4": "Votre <strong>stress élevé</strong> affecte probablement votre microbiome intestinal. Nous inclurons des conseils stress-intestin dans votre plan.",
+    "concernBloating": "Ballonnements",
+    "concernIrregularity": "Digestion irrégulière",
+    "concernDiscomfort": "Inconfort après les repas",
+    "concernGeneral": "Nutrition générale",
+    "dietRegular": "aliments transformés et sucres raffinés",
+    "dietVegetarian": "alternatives laitières et soja",
+    "dietKeto": "apport élevé en graisses et édulcorants artificiels",
+    "dietMediterranean": "solanacées et aliments riches en fibres",
+    "dietNone": "déclencheurs non identifiés"
   },
   "s20": {
     "title": "Où devrions-nous t'envoyer ton plan complet?",

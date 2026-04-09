@@ -173,7 +173,20 @@
     "now": "Sekarang",
     "day7": "Hari 7",
     "day14": "Hari 14",
-    "sticky": "Dapatkan rencana lengkap saya →"
+    "sticky": "Dapatkan rencana lengkap saya →",
+    "insight1": "Pola makan Anda mungkin berkontribusi pada <strong>{concern}</strong>. Pelacakan harian akan mengungkap pemicunya dalam 10 hari.",
+    "insight2": "Perhatikan dengan seksama <strong>{diet}</strong> dalam diet Anda.",
+    "insight3": "Rencana Anda meliputi: <strong>pelacakan makanan harian</strong> + rekomendasi AI + peringatan kesehatan usus.",
+    "insight4": "<strong>Stres tinggi</strong> Anda kemungkinan memengaruhi mikrobioma usus Anda. Kami akan menyertakan tips stres-usus dalam rencana Anda.",
+    "concernBloating": "Kembung",
+    "concernIrregularity": "Pencernaan tidak teratur",
+    "concernDiscomfort": "Ketidaknyamanan setelah makan",
+    "concernGeneral": "Nutrisi umum",
+    "dietRegular": "makanan olahan dan gula rafinasi",
+    "dietVegetarian": "alternatif produk susu dan kedelai",
+    "dietKeto": "asupan lemak tinggi dan pemanis buatan",
+    "dietMediterranean": "sayuran nightshade dan makanan tinggi serat",
+    "dietNone": "pemicu yang belum teridentifikasi"
   },
   "s20": {
     "title": "Ke mana kami harus mengirim rencana lengkap Anda?",

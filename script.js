@@ -229,13 +229,14 @@ function runLoading() {
 // ═══════════════════════════════════════════
 // S19 — Results
 // ═══════════════════════════════════════════
-const CONCERN_LABEL = { bloating:'Bloating', irregularity:'Irregular digestion', discomfort:'Post-meal discomfort', general:'General nutrition' };
-const DIET_TIP     = { regular:'processed foods and refined sugars', vegetarian:'dairy alternatives and soy', keto:'high fat intake and artificial sweeteners', mediterranean:'nightshades and high-fiber foods', none:'unidentified triggers' };
+const CONCERN_I18N = { bloating:'concernBloating', irregularity:'concernIrregularity', discomfort:'concernDiscomfort', general:'concernGeneral' };
+const DIET_I18N    = { regular:'dietRegular', vegetarian:'dietVegetarian', keto:'dietKeto', mediterranean:'dietMediterranean', none:'dietNone' };
 
 function initResults() {
   const d = new Date(); d.setDate(d.getDate() + 14);
+  const lang = (typeof i18n !== 'undefined' && i18n.currentLanguage) || 'en';
   document.getElementById('target-date').textContent =
-    d.toLocaleDateString('en-US', { month:'long', day:'numeric' });
+    d.toLocaleDateString(lang, { month:'long', day:'numeric' });
 
   drawChart();
 
@@ -243,14 +244,23 @@ function initResults() {
   const diet    = answers.diet    || 'regular';
   const stress  = answers.stress  || 'moderate';
 
+  const t = (key) => (typeof i18n !== 'undefined') ? i18n.getTranslation(key) : key;
+  const concernLabel = t('s19.' + (CONCERN_I18N[concern] || 'concernGeneral'));
+  const dietLabel    = t('s19.' + (DIET_I18N[diet] || 'dietNone'));
+
+  const insight1 = t('s19.insight1').replace('{concern}', concernLabel);
+  const insight2 = t('s19.insight2').replace('{diet}', dietLabel);
+  const insight3 = t('s19.insight3');
+  const insight4 = t('s19.insight4');
+
   document.getElementById('insights').innerHTML = `
     <div class="insight-card"><span class="insight-icon">🔍</span>
-      <p class="insight-text">Your eating patterns may be contributing to <strong>${CONCERN_LABEL[concern] || concern}</strong>. Daily tracking will reveal your triggers within 10 days.</p></div>
+      <p class="insight-text">${insight1}</p></div>
     <div class="insight-card"><span class="insight-icon">⚠️</span>
-      <p class="insight-text">Pay close attention to <strong>${DIET_TIP[diet]}</strong> in your diet.</p></div>
+      <p class="insight-text">${insight2}</p></div>
     <div class="insight-card"><span class="insight-icon">📋</span>
-      <p class="insight-text">Your plan includes: <strong>daily food tracking</strong> + AI recommendations + gut health alerts.</p></div>
-    ${(stress === 'high' || stress === 'very-high') ? `<div class="insight-card"><span class="insight-icon">🧘</span><p class="insight-text">Your <strong>elevated stress</strong> is likely affecting your gut microbiome. We'll include stress-gut tips in your plan.</p></div>` : ''}
+      <p class="insight-text">${insight3}</p></div>
+    ${(stress === 'high' || stress === 'very-high') ? `<div class="insight-card"><span class="insight-icon">🧘</span><p class="insight-text">${insight4}</p></div>` : ''}
   `;
 }
 
