@@ -301,7 +301,8 @@
       "hydration": "Úroveň hydratace",
       "inflammation": "Známky zánětu",
       "bacteria": "Rovnováha bakterií",
-      "stress": "Trávicí stres"
+      "stress": "Trávicí stres",
+      "cta": "Naskenovat jazyk"
     },
     "how": {
       "title": "Jak udělat dokonalý sken",
@@ -312,14 +313,16 @@
       "step3Title": "Vezmi fotku před jídlem",
       "step3Desc": "Nejlépe ráno před snídaní pro nejjasnější čtení.",
       "step4Title": "Drž fotoaparát stabilně",
-      "step4Desc": "Drž fotoaparát 20–30 cm daleko. Není potřeba přiblížit - čisté, dobře osvětlené detailní snímky stačí."
+      "step4Desc": "Drž fotoaparát 20–30 cm daleko. Není potřeba přiblížit - čisté, dobře osvětlené detailní snímky stačí.",
+      "cta": "Jsem připraven — Začít sken"
     },
     "camera": {
       "hint": "Plně vytáhni jazyk",
       "deniedTitle": "Přístup k fotoaparátu odepřen",
       "deniedSub": "Prosím, povolte přístup k fotoaparátu v nastavení prohlížeče nebo použijte níže uvedenou možnost galerie.",
       "gallery": "Zvolit z galerie",
-      "demo": "Vyzkoušet demo sken"
+      "demo": "Vyzkoušet demo sken",
+      "cta": "Pořídit fotku"
     },
     "scanning": {
       "title": "Analýza tvého jazyka…",
@@ -352,7 +355,8 @@
       "shareSub": "Připoj se k 3 200 lidem, kteří dnes skenovali",
       "shareBtn": "Sdílet můj výsledek",
       "rescan": "Zásken znovu",
-      "disclaimer": "Tento sken je pouze pro informační účely a nekonstituuje lékařské diagnózy."
+      "disclaimer": "Tento sken je pouze pro informační účely a nekonstituuje lékařské diagnózy.",
+      "cta": "Pokračovat k mému plánu →"
     },
     "sticky": {
       "info": "Není potřeba účet · 100% soukromé · Fotka zůstane na tvém zařízení"

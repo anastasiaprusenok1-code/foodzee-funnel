@@ -301,7 +301,8 @@
       "hydration": "Tingkat hidrasi",
       "inflammation": "Tanda-tanda peradangan",
       "bacteria": "Keseimbangan bakteri",
-      "stress": "Stres pencernaan"
+      "stress": "Stres pencernaan",
+      "cta": "Pindai Lidah Sekarang"
     },
     "how": {
       "title": "Cara melakukan pemindaian sempurna",
@@ -312,14 +313,16 @@
       "step3Title": "Ambil foto sebelum makan",
       "step3Desc": "Sebaiknya dilakukan di pagi hari sebelum sarapan untuk pembacaan paling jelas.",
       "step4Title": "Pegang kamera tetap stabil",
-      "step4Desc": "Jauhkan kamera 20–30 cm. Tidak perlu zoom — close-up yang jelas dan terang cukup."
+      "step4Desc": "Jauhkan kamera 20–30 cm. Tidak perlu zoom — close-up yang jelas dan terang cukup.",
+      "cta": "Saya Siap — Mulai Pindai"
     },
     "camera": {
       "hint": "Julurkan lidah Anda sepenuhnya",
       "deniedTitle": "Akses kamera ditolak",
       "deniedSub": "Aktifkan akses kamera di pengaturan browser Anda, atau gunakan opsi galeri di bawah ini.",
       "gallery": "Pilih dari galeri",
-      "demo": "Coba pemindaian demo"
+      "demo": "Coba pemindaian demo",
+      "cta": "Ambil Foto"
     },
     "scanning": {
       "title": "Menganalisis lidah Anda…",
@@ -352,7 +355,8 @@
       "shareSub": "Bergabunglah dengan 3.200 orang yang memindai hari ini",
       "shareBtn": "Bagikan hasil saya",
       "rescan": "Pindai lagi",
-      "disclaimer": "Pemindaian ini hanya untuk tujuan informatif dan bukan diagnosis medis."
+      "disclaimer": "Pemindaian ini hanya untuk tujuan informatif dan bukan diagnosis medis.",
+      "cta": "Lanjut ke Rencana Saya →"
     },
     "sticky": {
       "info": "Tidak perlu akun · 100% pribadi · Foto tetap ada di perangkat Anda"

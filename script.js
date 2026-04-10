@@ -22,11 +22,11 @@ function tsGoTo(id) {
 
 // ── TS: Sticky CTA config ──
 const TS_STICKY_CONFIG = {
-  'ts-intro':    { text: 'Scan My Tongue Now',        fine: true,  action: () => tsGoTo('ts-how') },
-  'ts-how':      { text: "I'm Ready — Start Scan",    fine: false, action: () => tsGoTo('ts-camera') },
-  'ts-camera':   { text: 'Take Photo',                fine: false, action: () => capturePhoto() },
+  'ts-intro':    { key: 'ts.intro.cta',   fine: true,  action: () => tsGoTo('ts-how') },
+  'ts-how':      { key: 'ts.how.cta',     fine: false, action: () => tsGoTo('ts-camera') },
+  'ts-camera':   { key: 'ts.camera.cta',  fine: false, action: () => capturePhoto() },
   'ts-scanning': null,
-  'ts-results':  { text: 'Continue to My Plan →',     fine: false, action: () => advanceStep() },
+  'ts-results':  { key: 'ts.results.cta', fine: false, action: () => advanceStep() },
 };
 
 let tsStickyCurrentAction = null;
@@ -39,7 +39,9 @@ function updateTsSticky(sid) {
   const cfg = TS_STICKY_CONFIG[sid];
   if (!cfg) { bar.classList.add('hidden'); return; }
   bar.classList.remove('hidden');
-  btn.textContent = cfg.text;
+  const tr = (key) => (typeof i18n !== 'undefined') ? i18n.getTranslation(key) : key;
+  btn.textContent = tr(cfg.key);
+  btn.setAttribute('data-i18n', cfg.key);
   tsStickyCurrentAction = cfg.action;
   if (fine) {
     fine.style.display = cfg.fine ? 'block' : 'none';

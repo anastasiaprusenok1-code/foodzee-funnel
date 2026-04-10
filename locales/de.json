@@ -301,7 +301,8 @@
       "hydration": "Flüssigkeitsniveau",
       "inflammation": "Entzündungszeichen",
       "bacteria": "Bakterienbestand",
-      "stress": "Verdauungsstress"
+      "stress": "Verdauungsstress",
+      "cta": "Zunge jetzt scannen"
     },
     "how": {
       "title": "So machst du den perfekten Scan",
@@ -312,14 +313,16 @@
       "step3Title": "Mach das Foto vor dem Essen",
       "step3Desc": "Am besten morgens vor dem Frühstück für die klarste Lesung.",
       "step4Title": "Halte die Kamera stabil",
-      "step4Desc": "Halte die Kamera 20–30 cm entfernt. Kein Zoom nötig — ein klares, gut beleuchtetes Close-up reicht."
+      "step4Desc": "Halte die Kamera 20–30 cm entfernt. Kein Zoom nötig — ein klares, gut beleuchtetes Close-up reicht.",
+      "cta": "Ich bin bereit — Scan starten"
     },
     "camera": {
       "hint": "Strecke deine Zunge vollständig raus",
       "deniedTitle": "Kamerazugriff verweigert",
       "deniedSub": "Bitte erlaube Kamerazugriff in deinen Browsereinstellungen oder nutze die Galerie-Option unten.",
       "gallery": "Aus Galerie wählen",
-      "demo": "Probiere Demo-Scan"
+      "demo": "Probiere Demo-Scan",
+      "cta": "Foto aufnehmen"
     },
     "scanning": {
       "title": "Deine Zunge wird analysiert…",
@@ -352,7 +355,8 @@
       "shareSub": "Tritt 3.200 Menschen bei, die heute gescannt haben",
       "shareBtn": "Mein Ergebnis teilen",
       "rescan": "Erneut scannen",
-      "disclaimer": "Dieser Scan dient nur zu Informationszwecken und ist keine medizinische Diagnose."
+      "disclaimer": "Dieser Scan dient nur zu Informationszwecken und ist keine medizinische Diagnose.",
+      "cta": "Weiter zu meinem Plan →"
     },
     "sticky": {
       "info": "Kein Konto erforderlich · 100% privat · Foto bleibt auf deinem Gerät"

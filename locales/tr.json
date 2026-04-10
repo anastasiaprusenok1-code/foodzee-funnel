@@ -301,7 +301,8 @@
       "hydration": "Hidrasyon seviyesi",
       "inflammation": "İltihaplanma belirtileri",
       "bacteria": "Bakteri dengesi",
-      "stress": "Sindirim stresi"
+      "stress": "Sindirim stresi",
+      "cta": "Dilimi Şimdi Tara"
     },
     "how": {
       "title": "Mükemmel taramayı nasıl yaparsın",
@@ -312,14 +313,16 @@
       "step3Title": "Yemekten önce fotoğraf çek",
       "step3Desc": "Kahvaltıdan önce sabah yapıldığında en net okumayı alırsın.",
       "step4Title": "Kamerayı sabit tut",
-      "step4Desc": "Kamerayı 20–30 cm uzağında tut. Yakınlaştırmaya gerek yok — net, iyi aydınlatılmış bir yakın çekim yeterli."
+      "step4Desc": "Kamerayı 20–30 cm uzağında tut. Yakınlaştırmaya gerek yok — net, iyi aydınlatılmış bir yakın çekim yeterli.",
+      "cta": "Hazırım — Taramayı Başlat"
     },
     "camera": {
       "hint": "Dilin tamamen dışarı çık",
       "deniedTitle": "Kamera erişimi reddedildi",
       "deniedSub": "Tarayıcı ayarlarında kamera erişimine izin ver veya aşağıdaki galeri seçeneğini kullan.",
       "gallery": "Galeriden seç",
-      "demo": "Demo taramayı dene"
+      "demo": "Demo taramayı dene",
+      "cta": "Fotoğraf Çek"
     },
     "scanning": {
       "title": "Dilin analiz ediliyor…",
@@ -352,7 +355,8 @@
       "shareSub": "Bugün tarayan 3.200 kişiye katıl",
       "shareBtn": "Sonucumu paylaş",
       "rescan": "Yeniden tara",
-      "disclaimer": "Bu tarama yalnızca bilgilendirme amaçlıdır ve tıbbi tanı değildir."
+      "disclaimer": "Bu tarama yalnızca bilgilendirme amaçlıdır ve tıbbi tanı değildir.",
+      "cta": "Planıma Devam Et →"
     },
     "sticky": {
       "info": "Hesap gerekli değil · %100 özel · Fotoğraf cihazında kalır"

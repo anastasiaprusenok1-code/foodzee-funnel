@@ -301,7 +301,8 @@
       "hydration": "Hydration level",
       "inflammation": "Inflammation signs",
       "bacteria": "Bacterial balance",
-      "stress": "Digestive stress"
+      "stress": "Digestive stress",
+      "cta": "Scan My Tongue Now"
     },
     "how": {
       "title": "How to take the perfect scan",
@@ -312,14 +313,16 @@
       "step3Title": "Take the photo before eating",
       "step3Desc": "Best done in the morning before breakfast for the clearest reading.",
       "step4Title": "Hold the camera steady",
-      "step4Desc": "Keep the camera 20–30 cm away. No zoom needed — a clear, well-lit close-up is enough."
+      "step4Desc": "Keep the camera 20–30 cm away. No zoom needed — a clear, well-lit close-up is enough.",
+      "cta": "I'm Ready — Start Scan"
     },
     "camera": {
       "hint": "Stick out your tongue fully",
       "deniedTitle": "Camera access denied",
       "deniedSub": "Please allow camera access in your browser settings, or use the gallery option below.",
       "gallery": "Choose from Gallery",
-      "demo": "Try Demo Scan"
+      "demo": "Try Demo Scan",
+      "cta": "Take Photo"
     },
     "scanning": {
       "title": "Analysing your tongue…",
@@ -352,7 +355,8 @@
       "shareSub": "Join 3,200 people who scanned today",
       "shareBtn": "Share My Result",
       "rescan": "Scan Again",
-      "disclaimer": "This scan is for informational purposes only and is not a medical diagnosis."
+      "disclaimer": "This scan is for informational purposes only and is not a medical diagnosis.",
+      "cta": "Continue to My Plan →"
     },
     "sticky": {
       "info": "No account needed · 100% private · Photo stays on device"

@@ -301,7 +301,8 @@
       "hydration": "Niveau d'hydratation",
       "inflammation": "Signes d'inflammation",
       "bacteria": "Équilibre bactérien",
-      "stress": "Stress digestif"
+      "stress": "Stress digestif",
+      "cta": "Scanner ma langue maintenant"
     },
     "how": {
       "title": "Comment faire le scan parfait",
@@ -312,14 +313,16 @@
       "step3Title": "Prends la photo avant de manger",
       "step3Desc": "Mieux fait le matin avant le petit-déjeuner pour la lecture la plus claire.",
       "step4Title": "Tiens la caméra stable",
-      "step4Desc": "Garde la caméra à 20–30 cm. Pas de zoom nécessaire — un gros plan clair et bien illuminé suffit."
+      "step4Desc": "Garde la caméra à 20–30 cm. Pas de zoom nécessaire — un gros plan clair et bien illuminé suffit.",
+      "cta": "Je suis prêt — Lancer le scan"
     },
     "camera": {
       "hint": "Sors ta langue complètement",
       "deniedTitle": "Accès à la caméra refusé",
       "deniedSub": "Veille à autoriser l'accès à la caméra dans les paramètres de ton navigateur, ou utilise l'option de galerie ci-dessous.",
       "gallery": "Choisir dans la galerie",
-      "demo": "Essayer un scan de démonstration"
+      "demo": "Essayer un scan de démonstration",
+      "cta": "Prendre une photo"
     },
     "scanning": {
       "title": "Analyse de ta langue…",
@@ -352,7 +355,8 @@
       "shareSub": "Rejoins 3 200 personnes qui ont scannée aujourd'hui",
       "shareBtn": "Partager mon résultat",
       "rescan": "Scanner à nouveau",
-      "disclaimer": "Ce scan est fourni à titre informatif uniquement et n'est pas un diagnostic médical."
+      "disclaimer": "Ce scan est fourni à titre informatif uniquement et n'est pas un diagnostic médical.",
+      "cta": "Continuer vers mon plan →"
     },
     "sticky": {
       "info": "Aucun compte nécessaire · 100% privé · Photo reste sur ton appareil"
