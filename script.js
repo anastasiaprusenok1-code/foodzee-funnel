@@ -509,17 +509,19 @@ function runDemoScan() {
 // TONGUE SCAN — Scanning Animation
 // ═══════════════════════════════════════════
 function startScan(imgSrc) {
+  const tr = (key) => (typeof i18n !== 'undefined') ? i18n.getTranslation(key) : key;
+  const stepText = (el) => tr(el.dataset.label);
   currentTsProfile = TS_PROFILES[Math.floor(Math.random() * TS_PROFILES.length)];
   document.getElementById('scan-preview').src = imgSrc;
   tsGoTo('ts-scanning');
   document.getElementById('scan-pct').textContent = '0%';
-  document.getElementById('scan-label').textContent = 'Analysing your tongue…';
+  document.getElementById('scan-label').textContent = tr('ts.scanning.title');
   const ringCircleScan = document.getElementById('scan-ring-circle');
   if (ringCircleScan) { ringCircleScan.style.strokeDashoffset = '327'; ringCircleScan.style.transition = 'none'; }
   ['step1','step2','step3','step4','step5'].forEach(id => {
     const el = document.getElementById(id);
     el.classList.remove('done','active');
-    el.textContent = el.dataset.label;
+    el.textContent = stepText(el);
   });
   const steps = [
     { id:'step1', pct:18, delay:600  },
@@ -534,20 +536,20 @@ function startScan(imgSrc) {
       for (let j = 0; j < i; j++) {
         const el = document.getElementById(steps[j].id);
         el.classList.remove('active'); el.classList.add('done');
-        el.textContent = el.dataset.label;
+        el.textContent = stepText(el);
       }
       const cur = document.getElementById(step.id);
       cur.classList.add('active');
-      cur.textContent = cur.dataset.label;
+      cur.textContent = stepText(cur);
     }, step.delay);
   });
   setTimeout(() => {
     setTsProgress(100);
-    document.getElementById('scan-label').textContent = 'Analysis complete!';
+    document.getElementById('scan-label').textContent = tr('ts.scanning.complete');
     ['step1','step2','step3','step4','step5'].forEach(id => {
       const el = document.getElementById(id);
       el.classList.remove('active'); el.classList.add('done');
-      el.textContent = el.dataset.label;
+      el.textContent = stepText(el);
     });
     setTimeout(() => showTsResults(), 600);
   }, 4400);

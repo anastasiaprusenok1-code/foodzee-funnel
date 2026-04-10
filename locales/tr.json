@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Dilin analiz ediliyor…",
+      "complete": "Analiz tamamlandı!",
       "step1": "Dil sınırları tespit ediliyor…",
       "step2": "Renk dağılımı analiz ediliyor…",
       "step3": "Leke ve doku okunuyor…",

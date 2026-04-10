@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Analysing your tongue…",
+      "complete": "Analysis complete!",
       "step1": "Detecting tongue boundaries…",
       "step2": "Analysing colour distribution…",
       "step3": "Reading coating & texture…",

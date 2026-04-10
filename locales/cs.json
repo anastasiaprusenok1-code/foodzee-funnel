@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Analýza tvého jazyka…",
+      "complete": "Analýza dokončena!",
       "step1": "Detekce hranic jazyka…",
       "step2": "Analýza distribuce barev…",
       "step3": "Čtení nátěru a textury…",

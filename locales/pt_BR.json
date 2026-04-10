@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Analisando sua língua…",
+      "complete": "Análise concluída!",
       "step1": "Detectando limites da língua…",
       "step2": "Analisando distribuição de cores…",
       "step3": "Lendo revestimento e textura…",

@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Deine Zunge wird analysiert…",
+      "complete": "Analyse abgeschlossen!",
       "step1": "Zungenmitten werden erkannt…",
       "step2": "Farbverteilung wird analysiert…",
       "step3": "Belag & Textur werden gelesen…",

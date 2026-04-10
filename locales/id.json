@@ -323,6 +323,7 @@
     },
     "scanning": {
       "title": "Menganalisis lidah Anda…",
+      "complete": "Analisis selesai!",
       "step1": "Mendeteksi batas lidah…",
       "step2": "Menganalisis distribusi warna…",
       "step3": "Membaca lapisan dan tekstur…",
