@@ -234,7 +234,8 @@ const DIET_I18N    = { regular:'dietRegular', vegetarian:'dietVegetarian', keto:
 
 function initResults() {
   const d = new Date(); d.setDate(d.getDate() + 14);
-  const lang = (typeof i18n !== 'undefined' && i18n.currentLanguage) || 'en';
+  const rawLang = (typeof i18n !== 'undefined' && i18n.currentLanguage) || 'en';
+  const lang = rawLang.replace('_', '-');
   document.getElementById('target-date').textContent =
     d.toLocaleDateString(lang, { month:'long', day:'numeric' });
 
