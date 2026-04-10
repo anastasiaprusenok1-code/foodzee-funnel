@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Il tuo piano per:",
-      "expires": "Scade in"
+      "label": "Il tuo piano a: <strong>$0.99!</strong> Scade tra",
+      "cta": "Ottieni piano"
     }
   }
 }

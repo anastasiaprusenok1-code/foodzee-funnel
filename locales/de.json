@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Dein Plan für:",
-      "expires": "Läuft ab in"
+      "label": "Dein Plan für: <strong>$0.99!</strong> Läuft ab in",
+      "cta": "Plan holen"
     }
   }
 }

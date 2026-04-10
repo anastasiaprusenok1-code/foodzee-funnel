@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Tvůj plán za:",
-      "expires": "Platnost vypršela za"
+      "label": "Tvůj plán za: <strong>$0.99!</strong> Vyprší za",
+      "cta": "Získat plán"
     }
   }
 }

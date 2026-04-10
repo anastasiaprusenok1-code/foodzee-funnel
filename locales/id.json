@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Rencana Anda untuk:",
-      "expires": "Berakhir dalam"
+      "label": "Paket kamu hanya: <strong>$0.99!</strong> Berakhir dalam",
+      "cta": "Dapatkan Paket"
     }
   }
 }

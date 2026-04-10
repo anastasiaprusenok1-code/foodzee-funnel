@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Ton plan pour:",
-      "expires": "Expire dans"
+      "label": "Ton plan pour : <strong>$0.99!</strong> Expire dans",
+      "cta": "Obtenir le plan"
     }
   }
 }

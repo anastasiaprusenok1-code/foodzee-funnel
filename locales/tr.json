@@ -359,8 +359,8 @@
   },
   "pw": {
     "sticky": {
-      "label": "Planın için:",
-      "expires": "Süresi şuna kadar bitecek"
+      "label": "Planın sadece: <strong>$0.99!</strong> Bitiş süresi",
+      "cta": "Planı Al"
     }
   }
 }
