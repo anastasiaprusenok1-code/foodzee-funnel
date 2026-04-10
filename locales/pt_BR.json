@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Sem conta necessária · 100% privado · Foto permanece em seu dispositivo"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Desequilíbrio Digestivo Detectado",
+        "color": {
+          "val": "Rosa Pálido com Tom Amarelado",
+          "desc": "Sugere calor hepático e leve desequilíbrio Pitta. Comum em pessoas que consomem regularmente alimentos processados ou condimentados.",
+          "level": "Moderado"
+        },
+        "coating": {
+          "val": "Saburra Branco-Amarela Espessa",
+          "desc": "Indica presença de Ama (toxinas não digeridas) no intestino. Frequentemente ligado à digestão lenta e horários de refeições irregulares.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Levemente Desidratado",
+          "desc": "A superfície da língua apresenta os primeiros sinais de ressecamento. Você pode não estar bebendo água suficiente entre as refeições.",
+          "level": "Baixo"
+        },
+        "texture": {
+          "val": "Bordas Levemente Inchadas",
+          "desc": "Marcas de dentes ao longo das bordas sugerem umidade excessiva e deficiência do baço — sinal clássico de estresse digestivo.",
+          "level": "Moderado"
+        },
+        "insight": "Sua língua apresenta sinais clássicos de desequilíbrio digestivo — a saburra branco-amarela e a cor pálida indicam acúmulo de toxinas (Ama) e possível sensibilidade a laticínios ou glúten. Muitas pessoas com esse perfil se sentem pesadas após as refeições, experimentam quedas de energia à tarde e podem ter evacuações irregulares.",
+        "markers": {
+          "m1": "Zona hepática",
+          "m2": "Saburra espessa",
+          "m3": "Zona gástrica"
+        },
+        "recs": {
+          "r1": { "title": "Experimente 7 dias sem laticínios", "body": "Seu padrão de saburra está fortemente associado à sensibilidade a laticínios. 72% dos usuários com este perfil se sentem mais leves ao eliminar laticínios." },
+          "r2": { "title": "Faça sua maior refeição no almoço", "body": "O fogo digestivo (Agni) atinge seu pico ao meio-dia. Antecipar as calorias reduz a saburra e o inchaço." },
+          "r3": { "title": "Beba água morna ao longo do dia", "body": "A água fria retarda a digestão. A água morna ou em temperatura ambiente ajuda a eliminar a saburra e apoia a atividade enzimática." },
+          "r4": { "title": "Adicione gengibre antes das refeições", "body": "O gengibre fresco estimula os sucos digestivos e ajuda a decompor o Ama. Tente ½ colher de chá de gengibre ralado com limão 10 min antes de comer." }
+        }
+      },
+      "p2": {
+        "title": "Estresse Intestinal Significativo Encontrado",
+        "color": {
+          "val": "Vermelho Escuro-Arroxeado",
+          "desc": "Indica estagnação do sangue e calor no corpo. Frequentemente relacionado a alto estresse, má circulação ou inflamação crônica.",
+          "level": "Alto"
+        },
+        "coating": {
+          "val": "Saburra Amarela Espessa (Raiz)",
+          "desc": "Saburra densa concentrada na parte posterior da língua — esta zona corresponde ao intestino grosso e rins na MTC.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Desidratado",
+          "desc": "A língua está visivelmente seca com umidade reduzida. Isso retarda a digestão e reduz significativamente a absorção de nutrientes.",
+          "level": "Muito Baixo"
+        },
+        "texture": {
+          "val": "Superfície Rachada",
+          "desc": "Rachaduras no corpo da língua sugerem desidratação crônica, deficiência de Yin ou estresse prolongado no sistema digestivo.",
+          "level": "Alto"
+        },
+        "insight": "Seu scan revela estresse digestivo significativo — a cor vermelho-arroxeada combinada com saburra amarela espessa é uma apresentação clássica de toxinas de calor e inflamação intestinal tanto no Ayurveda quanto na MTC. Pessoas com este perfil frequentemente relatam inchaço frequente, constipação ou diarreia, acne e baixa energia.",
+        "markers": {
+          "m1": "Inflamação",
+          "m2": "Estresse do cólon",
+          "m3": "Calor detectado",
+          "m4": "Zona renal"
+        },
+        "recs": {
+          "r1": { "title": "Refresque sua dieta por 2 semanas", "body": "Reduza condimentados, fritos e álcool. Adicione alimentos refrescantes: pepino, hortelã, água de coco e folhas verdes." },
+          "r2": { "title": "Priorize alimentos anti-inflamatórios", "body": "Mirtilos, cúrcuma, peixe gordo (ou linhaça) e vegetais de folha escura atuam diretamente no padrão inflamatório mostrado em seu scan." },
+          "r3": { "title": "Proteja seu sono", "body": "Seu padrão de língua está fortemente associado ao cortisol elevado. Busque um horário constante de 22h para dormir." },
+          "r4": { "title": "Adicione 10 min de respiração diária", "body": "A respiração em caixa (4-4-4-4) reduz os marcadores de inflamação intestinal ao baixar o cortisol." }
+        }
+      },
+      "p3": {
+        "title": "Majoritariamente Equilibrado — Sinais Menores",
+        "color": {
+          "val": "Rosa Claro com Bordas Pálidas",
+          "desc": "Cor de base saudável. Bordas levemente pálidas podem indicar leve desequilíbrio Vata ou flutuações ocasionais do açúcar no sangue.",
+          "level": "Bom"
+        },
+        "coating": {
+          "val": "Fina Saburra Branca",
+          "desc": "Uma fina saburra branca é completamente normal e saudável. Seu sistema digestivo está processando bem os alimentos com mínimo de Ama.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Bem Hidratado",
+          "desc": "A superfície da língua apresenta boa umidade. Sua ingestão de líquidos parece adequada. Mantenha o consumo atual de água.",
+          "level": "Bom"
+        },
+        "texture": {
+          "val": "Leve Indentação (Ponta)",
+          "desc": "Pequenas ondulações na ponta podem indicar estresse ocasional ou sono irregular. Em geral, um achado menor.",
+          "level": "Leve"
+        },
+        "insight": "Sua língua mostra um sistema digestivo majoritariamente saudável — boa notícia! Os principais sinais são padrões de estresse ocasional (ponta ondulada) e uma leve tendência ao desequilíbrio Vata.",
+        "markers": {
+          "m1": "Estresse leve",
+          "m2": "Estômago OK",
+          "m3": "Fígado OK"
+        },
+        "recs": {
+          "r1": { "title": "Estabeleça horários regulares de refeições", "body": "Seu padrão Vata responde bem à rotina. Comer no mesmo horário todos os dias reduz significativamente o inchaço noturno." },
+          "r2": { "title": "Monitore o equilíbrio de fibras", "body": "Adicione uma colher de sopa diária de linhaça moída para apoiar otimamente seu microbioma intestinal." },
+          "r3": { "title": "Adicione chá CCF após o jantar", "body": "O chá de cominho, coentro e erva-doce é um tônico digestivo ayurvédico clássico — perfeito para o seu perfil." },
+          "r4": { "title": "Monitore seu intestino por 7 dias", "body": "Você está próximo do ideal. Um diário alimentar e de sintomas de 7 dias revelará os 1–2 alimentos específicos que causam o padrão de estresse." }
+        }
+      },
+      "p4": {
+        "title": "Sinais de Lactose e Glúten Detectados",
+        "color": {
+          "val": "Rosa com Manchas Brancas",
+          "desc": "O padrão de língua geográfica com manchas brancas pode indicar sensibilidades alimentares — particularmente reações a laticínios e glúten no revestimento intestinal.",
+          "level": "Moderado"
+        },
+        "coating": {
+          "val": "Saburra Branca Irregular",
+          "desc": "A distribuição irregular da saburra é característica de problemas de absorção e reações de sensibilidade alimentar.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Hidratação Moderada",
+          "desc": "A hidratação é aceitável, mas pode ser melhorada. O aumento da ingestão de água ajudará a eliminar a saburra e a apoiar a reparação da barreira intestinal.",
+          "level": "Moderado"
+        },
+        "texture": {
+          "val": "Manchas Lisas + Alterações nas Papilas",
+          "desc": "Áreas de superfície lingual lisa e brilhante indicam possível deficiência de B12 ou ferro — nutrientes mais afetados pela má absorção intestinal.",
+          "level": "Moderado"
+        },
+        "insight": "Sua língua apresenta um padrão clássico de sensibilidade — a saburra irregular e a variação de cor são características da reatividade imunológica a alimentos específicos, mais comumente laticínios, glúten e às vezes ovos.",
+        "markers": {
+          "m1": "Zona de sensibilidade",
+          "m2": "Problema de absorção",
+          "m3": "Revestimento intestinal"
+        },
+        "recs": {
+          "r1": { "title": "Experimente eliminação rigorosa de laticínios por 14 dias", "body": "Esta é a mudança de maior impacto para o seu padrão de língua. Elimine todos os laticínios por 14 dias e fotografe sua língua cada manhã." },
+          "r2": { "title": "Considere um teste sem glúten de 7 dias", "body": "Após os laticínios, o glúten é o segundo gatilho mais comum para este padrão de saburra." },
+          "r3": { "title": "Adicione alimentos de suporte ao revestimento intestinal", "body": "Caldo de ossos, peptídeos de colágeno, L-glutamina (de fontes vegetais) e vegetais coloridos apoiam a reparação das junções de oclusão." },
+          "r4": { "title": "Verifique os níveis de B12 e ferro", "body": "Suas alterações de textura sugerem possível má absorção. Peça ao seu médico um exame de sangue simples." }
+        }
+      }
     }
   },
   "pw": {

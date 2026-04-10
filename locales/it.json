@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Nessun account richiesto · 100% privato · La foto rimane sul tuo dispositivo"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Squilibrio digestivo rilevato",
+        "color": {
+          "val": "Rosa pallido con sfumatura gialla",
+          "desc": "Suggerisce calore epatico e un lieve squilibrio Pitta. Comune nelle persone che consumano regolarmente cibi elaborati o piccanti.",
+          "level": "Moderato"
+        },
+        "coating": {
+          "val": "Patina bianco-gialla spessa",
+          "desc": "Indica la presenza di Ama (tossine non digerite) nell'intestino. Spesso correlato a digestione lenta e orari dei pasti irregolari.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Leggermente disidratato",
+          "desc": "La superficie della lingua mostra i primi segni di secchezza. Potresti non bere abbastanza acqua tra i pasti.",
+          "level": "Basso"
+        },
+        "texture": {
+          "val": "Bordi leggermente gonfi",
+          "desc": "Le impronte dei denti lungo i bordi suggeriscono umidità e deficit della milza — un segnale classico di stress digestivo.",
+          "level": "Moderato"
+        },
+        "insight": "La tua lingua mostra segnali classici di squilibrio digestivo — la patina bianco-gialla e il colore pallido indicano accumulo di tossine (Ama) e possibile sensibilità ai latticini o al glutine. Molte persone con questo profilo si sentono appesantite dopo i pasti, accusano cali di energia nel pomeriggio e possono avere movimenti intestinali irregolari.",
+        "markers": {
+          "m1": "Zona epatica",
+          "m2": "Patina spessa",
+          "m3": "Zona gastrica"
+        },
+        "recs": {
+          "r1": { "title": "Prova 7 giorni senza latticini", "body": "Il tuo schema di patina è fortemente associato alla sensibilità ai latticini. Il 72% degli utenti con questo profilo si sente più leggero dopo aver eliminato i latticini." },
+          "r2": { "title": "Consuma il pasto principale a pranzo", "body": "Il fuoco digestivo (Agni) raggiunge il suo picco a mezzogiorno. Anticipare le calorie riduce la patina e il gonfiore." },
+          "r3": { "title": "Bevi acqua tiepida durante tutta la giornata", "body": "L'acqua fredda rallenta la digestione. L'acqua tiepida o a temperatura ambiente aiuta a eliminare la patina e supporta l'attività enzimatica." },
+          "r4": { "title": "Aggiungi zenzero prima dei pasti", "body": "Lo zenzero fresco stimola i succhi digestivi e aiuta a scomporre l'Ama. Prova ½ cucchiaino di zenzero grattugiato con limone 10 min prima di mangiare." }
+        }
+      },
+      "p2": {
+        "title": "Stress intestinale significativo rilevato",
+        "color": {
+          "val": "Rosso scuro-violaceo",
+          "desc": "Indica stagnazione del sangue e calore nel corpo. Spesso correlato a stress elevato, cattiva circolazione o infiammazione cronica.",
+          "level": "Alto"
+        },
+        "coating": {
+          "val": "Patina gialla spessa (radice)",
+          "desc": "Patina densa concentrata nella parte posteriore della lingua — questa zona in MTC corrisponde all'intestino crasso e ai reni.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Disidratato",
+          "desc": "La lingua è visibilmente secca con umidità ridotta. Ciò rallenta la digestione e riduce significativamente l'assorbimento dei nutrienti.",
+          "level": "Molto basso"
+        },
+        "texture": {
+          "val": "Superficie screpolata",
+          "desc": "Le crepe nel corpo della lingua suggeriscono disidratazione cronica, deficit di Yin o stress prolungato sul sistema digestivo.",
+          "level": "Alto"
+        },
+        "insight": "La tua scansione rivela uno stress digestivo significativo — il colore rosso-violaceo combinato con una patina gialla spessa è una presentazione classica di tossine da calore e infiammazione intestinale sia nella tradizione ayurvedica che nella MTC. Le persone con questo profilo spesso riferiscono gonfiore frequente, stipsi o diarrea, eruzioni cutanee ed energia bassa.",
+        "markers": {
+          "m1": "Infiammazione",
+          "m2": "Stress del colon",
+          "m3": "Calore rilevato",
+          "m4": "Zona renale"
+        },
+        "recs": {
+          "r1": { "title": "Raffredda la tua dieta per 2 settimane", "body": "Riduci piccante, fritto e alcol. Aggiungi cibi rinfrescanti: cetriolo, menta, acqua di cocco e verdure a foglia." },
+          "r2": { "title": "Dai priorità agli alimenti antinfiammatori", "body": "Mirtilli, curcuma, pesce grasso (o semi di lino) e verdure a foglia scura agiscono direttamente sul pattern infiammatorio mostrato nella tua scansione." },
+          "r3": { "title": "Proteggi il tuo sonno", "body": "Il tuo schema linguale è fortemente associato al cortisolo elevato. Punta a un orario di sonno costante alle 22:00." },
+          "r4": { "title": "Aggiungi 10 min di respirazione quotidiana", "body": "La respirazione a scatola (4-4-4-4) riduce i marcatori di infiammazione intestinale abbassando il cortisolo." }
+        }
+      },
+      "p3": {
+        "title": "Per lo più equilibrato — segnali minori",
+        "color": {
+          "val": "Rosa chiaro con bordi pallidi",
+          "desc": "Colore di base sano. I bordi leggermente pallidi possono indicare un lieve squilibrio Vata o fluttuazioni occasionali della glicemia.",
+          "level": "Buono"
+        },
+        "coating": {
+          "val": "Sottile patina bianca",
+          "desc": "Una sottile patina bianca è del tutto normale e sana. Il tuo sistema digestivo elabora bene i cibi con un minimo di Ama.",
+          "level": "Normale"
+        },
+        "hydration": {
+          "val": "Ben idratato",
+          "desc": "La superficie della lingua mostra buona umidità. Il tuo apporto di liquidi sembra adeguato. Mantieni l'attuale consumo di acqua.",
+          "level": "Buono"
+        },
+        "texture": {
+          "val": "Lieve indentazione (punta)",
+          "desc": "Una leggera smerlatura alla punta può indicare stress occasionale o sonno irregolare. In generale un reperto minore.",
+          "level": "Minore"
+        },
+        "insight": "La tua lingua mostra un sistema digestivo per lo più sano — ottima notizia! I segnali principali sono pattern di stress occasionale (punta smerlata) e una lieve tendenza allo squilibrio Vata.",
+        "markers": {
+          "m1": "Stress lieve",
+          "m2": "Stomaco OK",
+          "m3": "Fegato OK"
+        },
+        "recs": {
+          "r1": { "title": "Stabilisci orari regolari per i pasti", "body": "Il tuo pattern Vata risponde bene alla routine. Mangiare alla stessa ora ogni giorno riduce significativamente il gonfiore serale." },
+          "r2": { "title": "Monitora l'equilibrio delle fibre", "body": "Aggiungi un cucchiaio quotidiano di semi di lino macinati per supportare ottimalmente il tuo microbioma intestinale." },
+          "r3": { "title": "Aggiungi tisana CCF dopo cena", "body": "Il tè di cumino, coriandolo e finocchio è un classico tonico digestivo ayurvedico — perfetto per il tuo profilo." },
+          "r4": { "title": "Monitora il tuo intestino per 7 giorni", "body": "Sei vicino all'ottimale. Un diario alimentare e dei sintomi di 7 giorni rivelerà gli 1–2 alimenti specifici che causano il pattern di stress." }
+        }
+      },
+      "p4": {
+        "title": "Segnali di lattosio e glutine rilevati",
+        "color": {
+          "val": "Rosa con macchie bianche",
+          "desc": "Il pattern di lingua geografica con macchie bianche può indicare sensibilità alimentari — in particolare reazioni a latticini e glutine nella mucosa intestinale.",
+          "level": "Moderato"
+        },
+        "coating": {
+          "val": "Patina bianca irregolare",
+          "desc": "La distribuzione disomogenea della patina è caratteristica di problemi di assorbimento e reazioni di sensibilità alimentare.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Idratazione moderata",
+          "desc": "L'idratazione è accettabile ma potrebbe essere migliorata. Un maggiore apporto di acqua aiuterà a eliminare la patina e a supportare la riparazione della barriera intestinale.",
+          "level": "Moderato"
+        },
+        "texture": {
+          "val": "Aree lisce + variazioni delle papille",
+          "desc": "Zone di superficie linguale liscia e lucida indicano possibile carenza di B12 o ferro — nutrienti più colpiti dalla malassorbimento intestinale.",
+          "level": "Moderato"
+        },
+        "insight": "La tua lingua mostra un classico pattern di sensibilità — la patina irregolare e la variazione di colore sono i segni distintivi della reattività immunitaria a cibi specifici, più comunemente latticini, glutine e a volte uova.",
+        "markers": {
+          "m1": "Zona di sensibilità",
+          "m2": "Problema di assorbimento",
+          "m3": "Mucosa intestinale"
+        },
+        "recs": {
+          "r1": { "title": "Prova un'eliminazione rigorosa dei latticini di 14 giorni", "body": "Questo è il cambiamento a maggiore impatto per il tuo schema linguale. Elimina tutti i latticini per 14 giorni e fotografa la lingua ogni mattina." },
+          "r2": { "title": "Considera un test senza glutine di 7 giorni", "body": "Dopo i latticini, il glutine è il secondo trigger più comune per questo schema di patina." },
+          "r3": { "title": "Aggiungi alimenti a supporto della mucosa intestinale", "body": "Brodo di ossa, peptidi di collagene, L-glutammina (da fonti vegetali) e verdure colorate supportano la riparazione delle giunzioni serrate." },
+          "r4": { "title": "Verifica i livelli di B12 e ferro", "body": "Le tue variazioni di texture suggeriscono possibile malassorbimento. Chiedi al tuo medico un semplice esame del sangue." }
+        }
+      }
     }
   },
   "pw": {

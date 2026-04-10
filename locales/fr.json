@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Aucun compte nécessaire · 100% privé · Photo reste sur ton appareil"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Déséquilibre digestif détecté",
+        "color": {
+          "val": "Rose pâle avec teinte jaune",
+          "desc": "Suggère une chaleur hépatique et un léger déséquilibre Pitta. Fréquent chez les personnes qui consomment régulièrement des aliments transformés ou épicés.",
+          "level": "Modéré"
+        },
+        "coating": {
+          "val": "Enduit blanc-jaune épais",
+          "desc": "Indique la présence d'Ama (toxines non digérées) dans l'intestin. Souvent lié à une digestion lente et des horaires de repas irréguliers.",
+          "level": "Élevé"
+        },
+        "hydration": {
+          "val": "Légèrement déshydraté",
+          "desc": "La surface de la langue montre de premiers signes de sécheresse. Tu ne bois peut-être pas suffisamment d'eau entre les repas.",
+          "level": "Faible"
+        },
+        "texture": {
+          "val": "Bords légèrement gonflés",
+          "desc": "Les marques de dents sur les bords suggèrent une humidité excessive et une insuffisance de la rate — signe classique de stress digestif.",
+          "level": "Modéré"
+        },
+        "insight": "Ta langue présente des signes classiques de déséquilibre digestif — l'enduit blanc-jaune et la couleur pâle indiquent une accumulation de toxines (Ama) et une possible sensibilité aux produits laitiers ou au gluten. Beaucoup de personnes avec ce profil se sentent lourdes après les repas, connaissent des baisses d'énergie l'après-midi et peuvent avoir des selles irrégulières.",
+        "markers": {
+          "m1": "Zone hépatique",
+          "m2": "Enduit épais",
+          "m3": "Zone gastrique"
+        },
+        "recs": {
+          "r1": { "title": "Essaie 7 jours sans produits laitiers", "body": "Ton profil d'enduit est fortement associé à une sensibilité aux produits laitiers. 72 % des utilisateurs avec ce profil se sentent plus légers après avoir éliminé les laitages." },
+          "r2": { "title": "Prends ton repas le plus copieux à midi", "body": "Le feu digestif (Agni) est à son apogée à midi. Consommer davantage de calories plus tôt réduit l'enduit et les ballonnements." },
+          "r3": { "title": "Bois de l'eau tiède tout au long de la journée", "body": "L'eau froide ralentit la digestion. L'eau tiède ou à température ambiante aide à éliminer l'enduit et soutient l'activité enzymatique." },
+          "r4": { "title": "Ajoute du gingembre avant les repas", "body": "Le gingembre frais stimule les sucs digestifs et aide à décomposer l'Ama. Essaie ½ c. à café de gingembre râpé avec du citron 10 min avant de manger." }
+        }
+      },
+      "p2": {
+        "title": "Stress intestinal important détecté",
+        "color": {
+          "val": "Rouge foncé-violacé",
+          "desc": "Indique une stagnation du sang et de la chaleur dans le corps. Souvent lié à un stress élevé, une mauvaise circulation ou une inflammation chronique.",
+          "level": "Élevé"
+        },
+        "coating": {
+          "val": "Enduit jaune épais (racine)",
+          "desc": "Enduit dense concentré à la base de la langue — cette zone correspond au gros intestin et aux reins en MTC.",
+          "level": "Élevé"
+        },
+        "hydration": {
+          "val": "Déshydraté",
+          "desc": "La langue est visiblement sèche avec une humidité réduite. Cela ralentit la digestion et réduit significativement l'absorption des nutriments.",
+          "level": "Très faible"
+        },
+        "texture": {
+          "val": "Surface craquelée",
+          "desc": "Les fissures dans le corps de la langue suggèrent une déshydratation chronique, une déficience en Yin ou un stress prolongé sur le système digestif.",
+          "level": "Élevé"
+        },
+        "insight": "Ton scan révèle un stress digestif important — la couleur rouge-violacée combinée à un enduit jaune épais est une présentation classique des toxines de chaleur et de l'inflammation intestinale dans les cadres ayurvédique et MTC. Les personnes avec ce profil rapportent souvent des ballonnements fréquents, de la constipation ou de la diarrhée, des éruptions cutanées et une faible énergie.",
+        "markers": {
+          "m1": "Inflammation",
+          "m2": "Stress du côlon",
+          "m3": "Chaleur détectée",
+          "m4": "Zone rénale"
+        },
+        "recs": {
+          "r1": { "title": "Rafraîchis ton alimentation pendant 2 semaines", "body": "Réduis le piquant, le frit et l'alcool. Ajoute des aliments rafraîchissants : concombre, menthe, eau de coco et légumes verts à feuilles." },
+          "r2": { "title": "Privilégie les aliments anti-inflammatoires", "body": "Les myrtilles, le curcuma, les poissons gras (ou les graines de lin) et les légumes verts foncés ciblent directement le schéma inflammatoire montré dans ton scan." },
+          "r3": { "title": "Protège ton sommeil", "body": "Ton profil de langue est fortement associé à un cortisol élevé. Vise un coucher régulier à 22 h." },
+          "r4": { "title": "Ajoute 10 min de respiration quotidienne", "body": "La respiration en carré (4-4-4-4) réduit les marqueurs d'inflammation intestinale en abaissant le cortisol." }
+        }
+      },
+      "p3": {
+        "title": "Majoritairement équilibré — signes mineurs",
+        "color": {
+          "val": "Rose clair avec bords pâles",
+          "desc": "Couleur de base saine. Les bords légèrement pâles peuvent indiquer un léger déséquilibre Vata ou des fluctuations occasionnelles de la glycémie.",
+          "level": "Bien"
+        },
+        "coating": {
+          "val": "Enduit blanc fin",
+          "desc": "Un enduit blanc fin est tout à fait normal et sain. Ton système digestif traite bien les aliments avec un minimum d'Ama.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Bien hydraté",
+          "desc": "La surface de la langue montre une bonne humidité. Ta consommation de liquides semble adéquate. Maintiens ta consommation d'eau actuelle.",
+          "level": "Bien"
+        },
+        "texture": {
+          "val": "Légère indentation (pointe)",
+          "desc": "Une légère ondulation à la pointe peut indiquer un stress occasionnel ou un sommeil irrégulier. En général, un signe mineur.",
+          "level": "Mineur"
+        },
+        "insight": "Ta langue montre un système digestif majoritairement sain — bonne nouvelle ! Les principaux signaux sont des schémas de stress occasionnel (pointe ondulée) et une légère tendance au déséquilibre Vata.",
+        "markers": {
+          "m1": "Stress léger",
+          "m2": "Estomac OK",
+          "m3": "Foie OK"
+        },
+        "recs": {
+          "r1": { "title": "Établis des horaires de repas réguliers", "body": "Ton profil Vata répond bien à la routine. Manger à la même heure chaque jour réduit significativement les ballonnements du soir." },
+          "r2": { "title": "Surveille ton équilibre en fibres", "body": "Ajoute une cuillère à soupe quotidienne de graines de lin moulues pour soutenir optimalement ton microbiome intestinal." },
+          "r3": { "title": "Ajoute un thé CCF après le dîner", "body": "Le thé de cumin, coriandre et fenouil est un tonique digestif ayurvédique classique — parfait pour ton profil." },
+          "r4": { "title": "Suis ton intestin pendant 7 jours", "body": "Tu es proche de l'optimal. Un journal alimentaire et de symptômes de 7 jours révélera les 1–2 aliments spécifiques causant le schéma de stress." }
+        }
+      },
+      "p4": {
+        "title": "Signaux de lactose et gluten détectés",
+        "color": {
+          "val": "Rose avec taches blanches",
+          "desc": "Le schéma de langue géographique avec des taches blanches peut indiquer des sensibilités alimentaires — en particulier des réactions aux produits laitiers et au gluten dans la paroi intestinale.",
+          "level": "Modéré"
+        },
+        "coating": {
+          "val": "Enduit blanc irrégulier",
+          "desc": "Une distribution inégale de l'enduit est caractéristique des problèmes d'absorption et des réactions de sensibilité alimentaire.",
+          "level": "Élevé"
+        },
+        "hydration": {
+          "val": "Hydratation modérée",
+          "desc": "L'hydratation est acceptable mais pourrait être améliorée. Une consommation accrue d'eau aidera à éliminer l'enduit et à soutenir la réparation de la barrière intestinale.",
+          "level": "Modéré"
+        },
+        "texture": {
+          "val": "Taches lisses + modifications des papilles",
+          "desc": "Des zones de surface linguale lisse et brillante indiquent une possible carence en B12 ou en fer — les nutriments les plus affectés par la malabsorption intestinale.",
+          "level": "Modéré"
+        },
+        "insight": "Ta langue présente un schéma de sensibilité classique — l'enduit irrégulier et la variation de couleur sont les signes d'une réactivité immunitaire à des aliments spécifiques, le plus souvent les produits laitiers, le gluten et parfois les œufs.",
+        "markers": {
+          "m1": "Zone de sensibilité",
+          "m2": "Problème d'absorption",
+          "m3": "Paroi intestinale"
+        },
+        "recs": {
+          "r1": { "title": "Essaie une élimination stricte des laitages sur 14 jours", "body": "C'est le changement à plus fort impact pour ton profil de langue. Supprime tous les produits laitiers pendant 14 jours et photographie ta langue chaque matin." },
+          "r2": { "title": "Envisage un essai sans gluten de 7 jours", "body": "Après les laitages, le gluten est le deuxième déclencheur le plus courant pour ce schéma d'enduit." },
+          "r3": { "title": "Ajoute des aliments qui soutiennent la paroi intestinale", "body": "Le bouillon d'os, les peptides de collagène, la L-glutamine (de sources végétales) et les légumes colorés soutiennent la réparation des jonctions serrées." },
+          "r4": { "title": "Vérifie les taux de B12 et de fer", "body": "Tes modifications de texture suggèrent une possible malabsorption. Demande à ton médecin un bilan sanguin simple." }
+        }
+      }
     }
   },
   "pw": {

@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Hesap gerekli değil · %100 özel · Fotoğraf cihazında kalır"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Sindirim Dengesizliği Tespit Edildi",
+        "color": {
+          "val": "Sarı Tintli Soluk Pembe",
+          "desc": "Karaciğer ısısı ve hafif Pitta dengesizliğini gösterir. İşlenmiş veya baharatlı yiyecekleri düzenli tüketen kişilerde sıkça görülür.",
+          "level": "Orta"
+        },
+        "coating": {
+          "val": "Kalın Beyaz-Sarı Kaplama",
+          "desc": "Bağırsakta Ama (sindirilmemiş toksinler) olduğunu gösterir. Genellikle yavaş sindirim ve düzensiz öğün saatleriyle ilişkilidir.",
+          "level": "Yüksek"
+        },
+        "hydration": {
+          "val": "Hafif Dehidrate",
+          "desc": "Dil yüzeyi erken kuruluk belirtileri gösteriyor. Öğünler arasında yeterli su içmiyor olabilirsiniz.",
+          "level": "Düşük"
+        },
+        "texture": {
+          "val": "Hafif Şişmiş Kenarlar",
+          "desc": "Kenarlardaki diş izleri nem fazlalığı ve dalak yetersizliğini gösterir — sindirim stresinin klasik bir belirtisi.",
+          "level": "Orta"
+        },
+        "insight": "Diliniz sindirim dengesizliğinin klasik belirtilerini gösteriyor — beyaz-sarı kaplama ve soluk renk birikmiş toksinlere (Ama) ve olası süt ürünleri veya glüten duyarlılığına işaret ediyor. Bu profile sahip birçok kişi yemekten sonra ağırlık hisseder, öğleden sonra enerji düşüşü yaşar ve düzensiz bağırsak hareketleri olabilir.",
+        "markers": {
+          "m1": "Karaciğer bölgesi",
+          "m2": "Yoğun kaplama",
+          "m3": "Mide bölgesi"
+        },
+        "recs": {
+          "r1": { "title": "7 günlük sütsüz beslenme dene", "body": "Kaplama deseniniz süt ürünü duyarlılığıyla güçlü biçimde ilişkili. Bu profile sahip kullanıcıların %72'si süt ürünlerini kestikten sonra kendini daha hafif hissediyor." },
+          "r2": { "title": "En büyük öğününü öğle yemeğinde ye", "body": "Sindirim ateşi (Agni) öğle vakti zirveye ulaşır. Kalorileri günün erken saatlerine taşımak kaplamanı ve şişkinliğini azaltır." },
+          "r3": { "title": "Gün boyunca ılık su için", "body": "Soğuk su sindirimi yavaşlatır. Ilık ya da oda sıcaklığında su kaplamanın temizlenmesine yardımcı olur ve enzim aktivitesini destekler." },
+          "r4": { "title": "Yemeklerden önce zencefil ekle", "body": "Taze zencefil sindirim sıvılarını uyarır ve Ama'nın parçalanmasına yardımcı olur. Yemekten 10 dakika önce limonla ½ çay kaşığı rendelenmiş zencefil dene." }
+        }
+      },
+      "p2": {
+        "title": "Önemli Bağırsak Stresi Bulundu",
+        "color": {
+          "val": "Koyu Kırmızı-Mor",
+          "desc": "Kanda stagnasyon ve vücutta ısı olduğunu gösterir. Genellikle yüksek stres, zayıf dolaşım veya kronik iltihaplanmayla ilişkilidir.",
+          "level": "Yüksek"
+        },
+        "coating": {
+          "val": "Kalın Sarı Kaplama (Kök)",
+          "desc": "Dilin arka kısmında yoğunlaşan ağır kaplama — bu bölge TCM'de kalın bağırsak ve böbreklere karşılık gelir.",
+          "level": "Yüksek"
+        },
+        "hydration": {
+          "val": "Dehidrate",
+          "desc": "Dil görünür şekilde kuru ve nemi azalmış. Bu sindirim hızını düşürür ve besin emilimini önemli ölçüde azaltır.",
+          "level": "Çok Düşük"
+        },
+        "texture": {
+          "val": "Çatlamış Yüzey",
+          "desc": "Dil gövdesindeki çatlaklar kronik dehidrasyon, Yin yetersizliği veya sindirim sistemi üzerindeki uzun süreli stresi gösterir.",
+          "level": "Yüksek"
+        },
+        "insight": "Taramanız önemli bir sindirim stresini ortaya koyuyor — mor-kırmızı renk ve kalın sarı kaplamanın birleşimi hem Ayurveda hem de TCM çerçevesinde ısı toksinleri ve bağırsak iltihabının klasik bir tablosudur. Bu profile sahip kişiler sıklıkla şişkinlik, kabızlık veya ishal, cilt sorunları ve düşük enerji bildiriyor.",
+        "markers": {
+          "m1": "İltihap",
+          "m2": "Kolon stresi",
+          "m3": "Isı tespit edildi",
+          "m4": "Böbrek bölgesi"
+        },
+        "recs": {
+          "r1": { "title": "2 hafta boyunca diyetini soğut", "body": "Baharatlı, kızartılmış yiyecekleri ve alkolü azalt. Soğutucu besinler ekle: salatalık, nane, hindistan cevizi suyu ve yeşil yapraklı sebzeler." },
+          "r2": { "title": "İnflamasyon karşıtı besinleri önceliklendir", "body": "Yaban mersini, zerdeçal, yağlı balık (veya keten tohumu) ve koyu yapraklı yeşillikler taramanızda görülen iltihaplanma örüntüsünü doğrudan hedef alır." },
+          "r3": { "title": "Uyku düzenini koru", "body": "Dil örüntünüz yüksek kortizol ile güçlü biçimde ilişkili. Tutarlı bir şekilde saat 22:00'de yatmayı hedefle." },
+          "r4": { "title": "Günlük 10 dakika nefes egzersizi ekle", "body": "Kutu nefesi (4-4-4-4) kortizolü düşürerek bağırsak iltihabı belirteçlerini azaltır." }
+        }
+      },
+      "p3": {
+        "title": "Büyük Ölçüde Dengeli — Küçük Belirtiler",
+        "color": {
+          "val": "Soluk Kenarlı Açık Pembe",
+          "desc": "Sağlıklı temel renk. Hafif soluk kenarlar, hafif Vata dengesizliğini veya ara sıra kan şekeri dalgalanmalarını gösterebilir.",
+          "level": "İyi"
+        },
+        "coating": {
+          "val": "İnce Beyaz Kaplama",
+          "desc": "İnce beyaz bir kaplama tamamen normal ve sağlıklıdır. Sindirim sisteminiz minimal Ama ile yiyecekleri iyi işliyor.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "İyi Hidrate",
+          "desc": "Dil yüzeyi iyi nem gösteriyor. Sıvı alımınız yeterli görünüyor. Mevcut su tüketimini sürdür.",
+          "level": "İyi"
+        },
+        "texture": {
+          "val": "Hafif Girintili (Uç)",
+          "desc": "Uçtaki küçük tırtıklı çentikler ara sıra stres veya düzensiz uykuya işaret edebilir. Genel olarak küçük bir bulgu.",
+          "level": "Hafif"
+        },
+        "insight": "Dilin büyük ölçüde sağlıklı bir sindirim sistemi gösteriyor — iyi haber! Ana sinyaller ara sıra stres örüntüleri (tırtıklı uç) ve hafif bir Vata dengesizliği eğilimi.",
+        "markers": {
+          "m1": "Hafif stres",
+          "m2": "Mide iyi",
+          "m3": "Karaciğer iyi"
+        },
+        "recs": {
+          "r1": { "title": "Düzenli öğün saatleri belirle", "body": "Vata örüntün rutine iyi yanıt veriyor. Her gün aynı saatte yemek yemek akşam şişkinliğini önemli ölçüde azaltır." },
+          "r2": { "title": "Lif dengesini takip et", "body": "Bağırsak mikrobiyomunu optimal desteklemek için günlük bir yemek kaşığı öğütülmüş keten tohumu ekle." },
+          "r3": { "title": "Akşam yemeğinden sonra CCF çayı iç", "body": "Kimyon, kişniş ve rezene çayı klasik bir Ayurvedik sindirim tonikidir — profilin için mükemmel." },
+          "r4": { "title": "7 gün boyunca bağırsağını takip et", "body": "İdeal duruma yakınsın. 7 günlük besin ve semptom günlüğü, stres örüntüsüne neden olan 1–2 spesifik besini ortaya çıkaracak." }
+        }
+      },
+      "p4": {
+        "title": "Laktoz ve Glüten Sinyalleri Tespit Edildi",
+        "color": {
+          "val": "Beyaz Lekeli Pembe",
+          "desc": "Beyaz lekeli coğrafi dil örüntüsü, gıda duyarlılıklarına işaret edebilir — özellikle bağırsak mukozasında süt ürünleri ve glüten reaksiyonları.",
+          "level": "Orta"
+        },
+        "coating": {
+          "val": "Düzensiz Beyaz Kaplama",
+          "desc": "Düzensiz kaplama dağılımı, emilim sorunları ve gıda duyarlılığı reaksiyonlarının karakteristik özelliğidir.",
+          "level": "Yüksek"
+        },
+        "hydration": {
+          "val": "Orta Düzeyde Hidrasyon",
+          "desc": "Hidrasyon kabul edilebilir ancak iyileştirilebilir. Artan su alımı kaplamanın temizlenmesine ve bağırsak bariyer onarımının desteklenmesine yardımcı olur.",
+          "level": "Orta"
+        },
+        "texture": {
+          "val": "Düzgün Lekeler + Papilla Değişiklikleri",
+          "desc": "Düzgün, parlak dil yüzey alanları olası B12 veya demir eksikliğine işaret eder — bağırsak emilim bozukluğundan en çok etkilenen besinler.",
+          "level": "Orta"
+        },
+        "insight": "Dilin klasik bir duyarlılık örüntüsü gösteriyor — düzensiz kaplama ve renk değişimi, belirli gıdalara karşı bağışıklık reaktivitesinin belirtileridir; en yaygın olarak süt ürünleri, glüten ve bazen yumurta.",
+        "markers": {
+          "m1": "Duyarlılık bölgesi",
+          "m2": "Emilim sorunu",
+          "m3": "Bağırsak mukozası"
+        },
+        "recs": {
+          "r1": { "title": "14 günlük katı süt ürünleri eliminasyonu dene", "body": "Bu, dil örüntün için en yüksek etkili değişiklik. Tüm süt ürünlerini 14 gün boyunca çıkar ve her sabah dilini fotoğrafla." },
+          "r2": { "title": "7 günlük glutensiz deneme düşün", "body": "Süt ürünlerinin ardından glüten, bu kaplama örüntüsünün en yaygın ikinci tetikleyicisidir." },
+          "r3": { "title": "Bağırsak mukozasını destekleyen besinler ekle", "body": "Kemik suyu, kolajen peptitleri, L-glutamin (bitkisel kaynaklardan) ve renkli sebzeler sıkı bağlantı onarımını destekler." },
+          "r4": { "title": "B12 ve demir düzeylerini kontrol et", "body": "Doku değişikliklerin olası emilim bozukluğunu gösteriyor. Doktorunuzdan basit bir kan paneli isteyin." }
+        }
+      }
     }
   },
   "pw": {

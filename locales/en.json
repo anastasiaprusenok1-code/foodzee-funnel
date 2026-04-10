@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "No account needed · 100% private · Photo stays on device"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Digestive Imbalance Detected",
+        "color": {
+          "val": "Pale Pink with Yellow Tinge",
+          "desc": "Suggests liver heat and mild Pitta imbalance. Common in people who eat processed or spicy foods regularly.",
+          "level": "Moderate"
+        },
+        "coating": {
+          "val": "Thick White–Yellow Coating",
+          "desc": "Indicates Ama (undigested toxins) in the gut. Often linked to sluggish digestion and irregular meal times.",
+          "level": "High"
+        },
+        "hydration": {
+          "val": "Mildly Dehydrated",
+          "desc": "Tongue surface shows early signs of dryness. You may not be drinking enough water between meals.",
+          "level": "Low"
+        },
+        "texture": {
+          "val": "Slightly Swollen Edges",
+          "desc": "Tooth marks along the edges suggest dampness and spleen deficiency — a classic sign of digestive stress.",
+          "level": "Moderate"
+        },
+        "insight": "Your tongue shows classic signs of digestive imbalance — white–yellow coating and pale colour point to accumulated toxins (Ama) and possible dairy or gluten sensitivity. Many people with this profile find they feel heavy after meals, experience afternoon energy dips, and may have irregular bowel movements.",
+        "markers": {
+          "m1": "Liver zone",
+          "m2": "Coating heavy",
+          "m3": "Stomach zone"
+        },
+        "recs": {
+          "r1": { "title": "Try a 7-day dairy-free trial", "body": "Your coating pattern is strongly associated with dairy sensitivity. 72% of users with this profile feel lighter after cutting dairy." },
+          "r2": { "title": "Eat your largest meal at lunch", "body": "Digestive fire (Agni) peaks at midday. Shifting calories earlier reduces the coating and bloating you may experience." },
+          "r3": { "title": "Sip warm water throughout the day", "body": "Cold water slows digestion. Warm or room-temperature water helps clear coating and supports enzyme activity." },
+          "r4": { "title": "Add ginger before meals", "body": "Fresh ginger stimulates digestive juices and helps break down Ama. Try ½ tsp grated ginger with lemon 10 min before eating." }
+        }
+      },
+      "p2": {
+        "title": "Significant Gut Stress Found",
+        "color": {
+          "val": "Dusky Red–Purple",
+          "desc": "Indicates blood stagnation and heat in the body. Often linked to high stress, poor circulation, or chronic inflammation.",
+          "level": "High"
+        },
+        "coating": {
+          "val": "Thick Yellow Coating (Root)",
+          "desc": "Heavy coating concentrated at the back of the tongue — this zone corresponds to the large intestine and kidneys in TCM.",
+          "level": "High"
+        },
+        "hydration": {
+          "val": "Dehydrated",
+          "desc": "Tongue is visibly dry with reduced moisture. This slows digestion and reduces nutrient absorption significantly.",
+          "level": "Very Low"
+        },
+        "texture": {
+          "val": "Cracked Surface",
+          "desc": "Cracks in the tongue body suggest chronic dehydration, Yin deficiency, or prolonged stress on the digestive system.",
+          "level": "High"
+        },
+        "insight": "Your scan reveals significant digestive stress — the purple-red colour combined with a thick yellow coating is a classic presentation of heat toxins and gut inflammation in both Ayurvedic and TCM frameworks. People with this profile often report frequent bloating, constipation or diarrhoea, skin breakouts, and low energy.",
+        "markers": {
+          "m1": "Inflammation",
+          "m2": "Colon stress",
+          "m3": "Heat detected",
+          "m4": "Kidney zone"
+        },
+        "recs": {
+          "r1": { "title": "Cool your diet for 2 weeks", "body": "Reduce spicy, fried, and alcohol. Add cooling foods: cucumber, mint, coconut water, and leafy greens." },
+          "r2": { "title": "Prioritise anti-inflammatory foods", "body": "Blueberries, turmeric, fatty fish (or flaxseed), and dark leafy greens directly target the inflammation pattern shown in your scan." },
+          "r3": { "title": "Protect your sleep", "body": "Your tongue pattern is strongly associated with elevated cortisol. Aim for a consistent 10pm bedtime." },
+          "r4": { "title": "Add 10 min of daily breathwork", "body": "Box breathing (4-4-4-4) reduces gut inflammation markers by lowering cortisol." }
+        }
+      },
+      "p3": {
+        "title": "Mostly Balanced — Minor Signs",
+        "color": {
+          "val": "Light Pink with Pale Edges",
+          "desc": "Healthy base colour. Slightly pale edges may indicate mild Vata imbalance or occasional blood sugar fluctuations.",
+          "level": "Good"
+        },
+        "coating": {
+          "val": "Thin White Coating",
+          "desc": "A thin white coat is completely normal and healthy. Your digestive system is processing food well with minimal Ama.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Well Hydrated",
+          "desc": "Tongue surface shows good moisture. Your fluid intake appears adequate. Maintain current water consumption.",
+          "level": "Good"
+        },
+        "texture": {
+          "val": "Slight Indentation (Tip)",
+          "desc": "Minor scalloping at the tip may indicate occasional stress or irregular sleep. Generally a minor finding.",
+          "level": "Minor"
+        },
+        "insight": "Your tongue is showing a mostly healthy digestive system — good news! The main signals are occasional stress patterns (scalloped tip) and a slight tendency towards Vata imbalance.",
+        "markers": {
+          "m1": "Mild stress",
+          "m2": "Stomach OK",
+          "m3": "Liver OK"
+        },
+        "recs": {
+          "r1": { "title": "Establish consistent meal times", "body": "Your Vata pattern responds well to routine. Eating at the same time each day significantly reduces evening bloating." },
+          "r2": { "title": "Watch your fibre balance", "body": "Add a daily tablespoon of ground flaxseed to support your gut microbiome optimally." },
+          "r3": { "title": "Add CCF tea after dinner", "body": "Cumin, Coriander, and Fennel tea is a classic Ayurvedic digestive tonic — perfect for your profile." },
+          "r4": { "title": "Track your gut for 7 days", "body": "You're close to optimal. A 7-day food and symptom log will reveal the 1–2 specific foods causing the stress pattern." }
+        }
+      },
+      "p4": {
+        "title": "Lactose & Gluten Signals Detected",
+        "color": {
+          "val": "Pink with White Patches",
+          "desc": "Geographic tongue pattern with white patches may indicate food sensitivities — particularly dairy and gluten reactions in the gut lining.",
+          "level": "Moderate"
+        },
+        "coating": {
+          "val": "Patchy White Coating",
+          "desc": "Uneven coating distribution is characteristic of absorption issues and food sensitivity reactions.",
+          "level": "High"
+        },
+        "hydration": {
+          "val": "Moderate Hydration",
+          "desc": "Hydration is acceptable but could be improved. Increased water intake will help flush the coating and support gut barrier repair.",
+          "level": "Moderate"
+        },
+        "texture": {
+          "val": "Smooth Patches + Papillae Changes",
+          "desc": "Areas of smooth, shiny tongue surface indicate possible B12 or iron deficiency — nutrients most affected by gut malabsorption.",
+          "level": "Moderate"
+        },
+        "insight": "Your tongue is showing a classic sensitivity pattern — the patchy coating and colour variation are hallmarks of immune reactivity to specific foods, most commonly dairy, gluten, and sometimes eggs.",
+        "markers": {
+          "m1": "Sensitivity zone",
+          "m2": "Absorption issue",
+          "m3": "Gut lining"
+        },
+        "recs": {
+          "r1": { "title": "Try a strict 14-day dairy elimination", "body": "This is the single highest-impact change for your tongue pattern. Remove all dairy for 14 days and photograph your tongue each morning." },
+          "r2": { "title": "Consider a 7-day gluten-free trial", "body": "After dairy, gluten is the second most common trigger for this coating pattern." },
+          "r3": { "title": "Add gut-lining support foods", "body": "Bone broth, collagen peptides, L-glutamine (from plant sources), and colourful vegetables support tight junction repair." },
+          "r4": { "title": "Check B12 and iron levels", "body": "Your texture changes suggest possible malabsorption. Ask your GP for a simple blood panel." }
+        }
+      }
     }
   },
   "pw": {

@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Kein Konto erforderlich · 100% privat · Foto bleibt auf deinem Gerät"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Verdauungsungleichgewicht festgestellt",
+        "color": {
+          "val": "Blassrosa mit gelblichem Stich",
+          "desc": "Deutet auf Leberhitze und ein leichtes Pitta-Ungleichgewicht hin. Häufig bei Menschen, die regelmäßig verarbeitete oder scharfe Speisen essen.",
+          "level": "Mäßig"
+        },
+        "coating": {
+          "val": "Dicker weiß-gelber Belag",
+          "desc": "Weist auf Ama (unverdaute Toxine) im Darm hin. Oft verbunden mit träger Verdauung und unregelmäßigen Mahlzeiten.",
+          "level": "Hoch"
+        },
+        "hydration": {
+          "val": "Leicht dehydriert",
+          "desc": "Die Zungenoberfläche zeigt erste Anzeichen von Trockenheit. Möglicherweise trinkst du nicht genug Wasser zwischen den Mahlzeiten.",
+          "level": "Niedrig"
+        },
+        "texture": {
+          "val": "Leicht geschwollene Ränder",
+          "desc": "Zahnabdrücke an den Rändern deuten auf Feuchtigkeit und Milzinsuffizienz hin – ein klassisches Zeichen von Verdauungsstress.",
+          "level": "Mäßig"
+        },
+        "insight": "Deine Zunge zeigt klassische Anzeichen eines Verdauungsungleichgewichts – der weiß-gelbe Belag und die blasse Farbe weisen auf angesammelte Toxine (Ama) und mögliche Milch- oder Glutenunverträglichkeit hin. Viele Menschen mit diesem Profil fühlen sich nach dem Essen schwer, erleben nachmittägliche Energieeinbrüche und haben möglicherweise unregelmäßigen Stuhlgang.",
+        "markers": {
+          "m1": "Leberzone",
+          "m2": "Starker Belag",
+          "m3": "Magenzone"
+        },
+        "recs": {
+          "r1": { "title": "7-tägige milchfreie Testphase ausprobieren", "body": "Dein Belagmuster ist stark mit Milchunverträglichkeit verbunden. 72 % der Nutzer mit diesem Profil fühlen sich leichter, wenn sie Milchprodukte weglassen." },
+          "r2": { "title": "Größte Mahlzeit zum Mittagessen einnehmen", "body": "Die Verdauungskraft (Agni) ist mittags am stärksten. Kalorien früher am Tag zu sich zu nehmen reduziert Belag und Blähungen." },
+          "r3": { "title": "Den ganzen Tag warmes Wasser trinken", "body": "Kaltes Wasser verlangsamt die Verdauung. Warmes oder raumtemperiertes Wasser hilft, den Belag zu reduzieren und die Enzymaktivität zu unterstützen." },
+          "r4": { "title": "Ingwer vor den Mahlzeiten hinzufügen", "body": "Frischer Ingwer regt die Verdauungssäfte an und hilft beim Abbau von Ama. Versuche ½ TL geriebenen Ingwer mit Zitrone 10 Minuten vor dem Essen." }
+        }
+      },
+      "p2": {
+        "title": "Erheblicher Darmstress festgestellt",
+        "color": {
+          "val": "Dunkelrot-Violett",
+          "desc": "Weist auf Blutstagnation und Körperhitze hin. Oft verbunden mit starkem Stress, schlechter Durchblutung oder chronischer Entzündung.",
+          "level": "Hoch"
+        },
+        "coating": {
+          "val": "Dicker gelber Belag (Wurzel)",
+          "desc": "Schwerer Belag, der sich an der Zungenrückseite konzentriert – diese Zone entspricht im TCM dem Dickdarm und den Nieren.",
+          "level": "Hoch"
+        },
+        "hydration": {
+          "val": "Dehydriert",
+          "desc": "Die Zunge ist sichtlich trocken mit reduzierter Feuchtigkeit. Dies verlangsamt die Verdauung und reduziert die Nährstoffaufnahme erheblich.",
+          "level": "Sehr niedrig"
+        },
+        "texture": {
+          "val": "Gerissene Oberfläche",
+          "desc": "Risse im Zungenkörper deuten auf chronische Dehydration, Yin-Mangel oder anhaltenden Stress auf das Verdauungssystem hin.",
+          "level": "Hoch"
+        },
+        "insight": "Dein Scan zeigt erheblichen Verdauungsstress – die lila-rote Farbe kombiniert mit einem dicken gelben Belag ist eine klassische Darstellung von Hitzetoxinen und Darmentzündung sowohl im Ayurveda als auch im TCM-Rahmen. Menschen mit diesem Profil berichten oft über häufige Blähungen, Verstopfung oder Durchfall, Hautausbrüche und niedrige Energie.",
+        "markers": {
+          "m1": "Entzündung",
+          "m2": "Kolonbelastung",
+          "m3": "Hitze festgestellt",
+          "m4": "Nierenzone"
+        },
+        "recs": {
+          "r1": { "title": "Ernährung für 2 Wochen kühlen", "body": "Scharfes, Gebratenes und Alkohol reduzieren. Kühlende Lebensmittel hinzufügen: Gurke, Minze, Kokoswasser und Blattgemüse." },
+          "r2": { "title": "Entzündungshemmende Lebensmittel priorisieren", "body": "Blaubeeren, Kurkuma, Fettfisch (oder Leinsamen) und dunkles Blattgemüse wirken direkt gegen das in deinem Scan gezeigte Entzündungsmuster." },
+          "r3": { "title": "Schlaf schützen", "body": "Dein Zungenmuster ist stark mit erhöhtem Cortisol verbunden. Strebe eine konstante Schlafenszeit von 22 Uhr an." },
+          "r4": { "title": "Täglich 10 Min. Atemübungen hinzufügen", "body": "Kastenatemübungen (4-4-4-4) reduzieren Darmentzündungsmarker durch Senkung des Cortisols." }
+        }
+      },
+      "p3": {
+        "title": "Größtenteils ausgeglichen – geringe Anzeichen",
+        "color": {
+          "val": "Hellrosa mit blassen Rändern",
+          "desc": "Gesunde Grundfarbe. Leicht blasse Ränder können auf ein leichtes Vata-Ungleichgewicht oder gelegentliche Blutzuckerschwankungen hinweisen.",
+          "level": "Gut"
+        },
+        "coating": {
+          "val": "Dünner weißer Belag",
+          "desc": "Ein dünner weißer Belag ist völlig normal und gesund. Dein Verdauungssystem verarbeitet Nahrung gut mit minimalem Ama.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Gut hydriert",
+          "desc": "Die Zungenoberfläche zeigt gute Feuchtigkeit. Deine Flüssigkeitszufuhr scheint ausreichend. Aktuelle Wassermenge beibehalten.",
+          "level": "Gut"
+        },
+        "texture": {
+          "val": "Leichte Einbuchtung (Spitze)",
+          "desc": "Leichte Auskerbungen an der Spitze können gelegentlichen Stress oder unregelmäßigen Schlaf anzeigen. Im Allgemeinen ein geringfügiger Befund.",
+          "level": "Gering"
+        },
+        "insight": "Deine Zunge zeigt ein größtenteils gesundes Verdauungssystem – gute Neuigkeiten! Die Hauptsignale sind gelegentliche Stressmuster (ausgekerbte Spitze) und eine leichte Tendenz zum Vata-Ungleichgewicht.",
+        "markers": {
+          "m1": "Leichter Stress",
+          "m2": "Magen OK",
+          "m3": "Leber OK"
+        },
+        "recs": {
+          "r1": { "title": "Regelmäßige Mahlzeiten etablieren", "body": "Dein Vata-Muster reagiert gut auf Routine. Zu denselben Zeiten zu essen reduziert abendliche Blähungen erheblich." },
+          "r2": { "title": "Ballaststoffbalance im Auge behalten", "body": "Füge täglich einen Esslöffel gemahlene Leinsamen hinzu, um dein Darmmikrobiom optimal zu unterstützen." },
+          "r3": { "title": "CCF-Tee nach dem Abendessen hinzufügen", "body": "Kreuzkümmel-, Koriander- und Fencheltee ist ein klassisches ayurvedisches Verdauungsmittel – perfekt für dein Profil." },
+          "r4": { "title": "7 Tage lang deinen Darm verfolgen", "body": "Du bist nah am Optimum. Ein 7-tägiges Ernährungs- und Symptomtagebuch zeigt die 1–2 Lebensmittel, die das Stressmuster verursachen." }
+        }
+      },
+      "p4": {
+        "title": "Laktose- und Glutensignale erkannt",
+        "color": {
+          "val": "Rosa mit weißen Flecken",
+          "desc": "Das geografische Zungenmuster mit weißen Flecken kann auf Nahrungsmittelempfindlichkeiten hinweisen – insbesondere Milch- und Glutenreaktionen in der Darmschleimhaut.",
+          "level": "Mäßig"
+        },
+        "coating": {
+          "val": "Fleckiger weißer Belag",
+          "desc": "Ungleichmäßige Belagverteilung ist charakteristisch für Aufnahmeprobleme und Nahrungsmittelempfindlichkeitsreaktionen.",
+          "level": "Hoch"
+        },
+        "hydration": {
+          "val": "Mäßige Hydration",
+          "desc": "Die Hydration ist akzeptabel, könnte aber verbessert werden. Erhöhte Wasseraufnahme hilft, den Belag zu reduzieren und die Darmbarriere zu reparieren.",
+          "level": "Mäßig"
+        },
+        "texture": {
+          "val": "Glatte Flecken + Papillenveränderungen",
+          "desc": "Bereiche mit glatter, glänzender Zungenoberfläche können auf möglichen B12- oder Eisenmangel hinweisen – Nährstoffe, die am stärksten von Malabsorption betroffen sind.",
+          "level": "Mäßig"
+        },
+        "insight": "Deine Zunge zeigt ein klassisches Empfindlichkeitsmuster – der fleckige Belag und die Farbveränderungen sind Kennzeichen einer Immunreaktion auf bestimmte Lebensmittel, am häufigsten Milch, Gluten und manchmal Eier.",
+        "markers": {
+          "m1": "Empfindlichkeitszone",
+          "m2": "Aufnahmeproblem",
+          "m3": "Darmschleimhaut"
+        },
+        "recs": {
+          "r1": { "title": "Strikten 14-tägigen Milchverzicht ausprobieren", "body": "Dies ist die wirkungsvollste Veränderung für dein Zungenmuster. Verzichte 14 Tage lang vollständig auf Milchprodukte und fotografiere deine Zunge jeden Morgen." },
+          "r2": { "title": "7-tägige glutenfreie Testphase in Betracht ziehen", "body": "Nach Milch ist Gluten der zweithäufigste Auslöser für dieses Belagmuster." },
+          "r3": { "title": "Darmschleimhaut-stärkende Lebensmittel hinzufügen", "body": "Knochenbrühe, Kollagenpeptide, L-Glutamin (aus pflanzlichen Quellen) und farbiges Gemüse unterstützen die Reparatur der Tight Junctions." },
+          "r4": { "title": "B12- und Eisenwerte überprüfen", "body": "Deine Texturveränderungen deuten auf mögliche Malabsorption hin. Bitte deinen Arzt um eine einfache Blutuntersuchung." }
+        }
+      }
     }
   },
   "pw": {

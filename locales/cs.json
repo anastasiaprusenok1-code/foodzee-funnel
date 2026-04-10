@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Není potřeba účet · 100% soukromé · Fotka zůstane na tvém zařízení"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Zjištěna trávicí nerovnováha",
+        "color": {
+          "val": "Bledě růžová se žlutým nádechem",
+          "desc": "Naznačuje teplo jater a mírnou nerovnováhu Pitta. Časté u lidí, kteří pravidelně jedí zpracované nebo kořeněné pokrmy.",
+          "level": "Střední"
+        },
+        "coating": {
+          "val": "Hustý bílo-žlutý povlak",
+          "desc": "Indikuje Ama (nestravené toxiny) v trávicím traktu. Často spojeno s pomalým trávením a nepravidelnými dobami jídel.",
+          "level": "Vysoký"
+        },
+        "hydration": {
+          "val": "Mírně dehydrovaný",
+          "desc": "Povrch jazyka vykazuje první známky sucha. Možná nepijete dostatek vody mezi jídly.",
+          "level": "Nízký"
+        },
+        "texture": {
+          "val": "Lehce oteklé okraje",
+          "desc": "Otisky zubů podél okrajů naznačují vlhkost a deficienci sleziny — klasický znak trávicího stresu.",
+          "level": "Střední"
+        },
+        "insight": "Tvůj jazyk vykazuje klasické příznaky trávicí nerovnováhy — bílo-žlutý povlak a bledá barva poukazují na nahromaděné toxiny (Ama) a možnou citlivost na mléčné výrobky nebo lepek. Mnoho lidí s tímto profilem se po jídle cítí těžce, zažívají odpolední energetické propady a mohou mít nepravidelnou stolici.",
+        "markers": {
+          "m1": "Jaterní zóna",
+          "m2": "Silný povlak",
+          "m3": "Žaludeční zóna"
+        },
+        "recs": {
+          "r1": { "title": "Vyzkoušej 7 dní bez mléčných výrobků", "body": "Tvůj vzor povlaku je silně spojen s citlivostí na mléčné výrobky. 72 % uživatelů s tímto profilem se cítí lehčeji po vysazení mléčných výrobků." },
+          "r2": { "title": "Nejsytější jídlo si dej v poledne", "body": "Trávicí oheň (Agni) dosahuje vrcholu v poledne. Přesunutí kalorií do dřívější části dne snižuje povlak a nadýmání." },
+          "r3": { "title": "Pij teplou vodu celý den", "body": "Studená voda zpomaluje trávení. Teplá nebo vlažná voda pomáhá čistit povlak a podporuje enzymatickou aktivitu." },
+          "r4": { "title": "Přidej zázvor před jídlem", "body": "Čerstvý zázvor stimuluje trávicí šťávy a pomáhá rozložit Ama. Zkus ½ lžičky strouhaného zázvoru s citronem 10 minut před jídlem." }
+        }
+      },
+      "p2": {
+        "title": "Zjištěn výrazný střevní stres",
+        "color": {
+          "val": "Tmavě červeno-fialová",
+          "desc": "Indikuje stagnaci krve a teplo v těle. Často spojeno s vysokým stresem, špatnou cirkulací nebo chronickým zánětem.",
+          "level": "Vysoký"
+        },
+        "coating": {
+          "val": "Hustý žlutý povlak (kořen)",
+          "desc": "Silný povlak soustředěný na zadní části jazyka — tato zóna v TCM odpovídá tlustému střevu a ledvinám.",
+          "level": "Vysoký"
+        },
+        "hydration": {
+          "val": "Dehydrovaný",
+          "desc": "Jazyk je viditelně suchý s nízkou vlhkostí. To zpomaluje trávení a výrazně snižuje vstřebávání živin.",
+          "level": "Velmi nízký"
+        },
+        "texture": {
+          "val": "Popraskané povrchy",
+          "desc": "Trhliny v jazyce naznačují chronickou dehydrataci, nedostatek Yin nebo dlouhodobý stres na trávicí systém.",
+          "level": "Vysoký"
+        },
+        "insight": "Tvůj scan odhaluje výrazný trávicí stres — fialovo-červená barva v kombinaci s hustým žlutým povlakem je klasickým projevem tepelných toxinů a střevního zánětu v ajurvédském i TCM rámci. Lidé s tímto profilem často hlásí časté nadýmání, zácpu nebo průjem, kožní výsevky a nízkou energii.",
+        "markers": {
+          "m1": "Zánět",
+          "m2": "Zátěž tlustého střeva",
+          "m3": "Zjištěno teplo",
+          "m4": "Ledvinová zóna"
+        },
+        "recs": {
+          "r1": { "title": "Ochlaď svou stravu na 2 týdny", "body": "Omez kořeněná jídla, smažené pokrmy a alkohol. Přidej chladivé potraviny: okurku, mátu, kokosovou vodu a listovou zeleninu." },
+          "r2": { "title": "Upřednostni protizánětlivé potraviny", "body": "Borůvky, kurkuma, tučné ryby (nebo lněná semínka) a tmavá listová zelenina přímo cílí na zánětlivý vzor zobrazený ve tvém scanu." },
+          "r3": { "title": "Chraň svůj spánek", "body": "Tvůj vzor jazyka je silně spojen se zvýšeným kortizolem. Usiluj o pravidelný čas spaní ve 22 hodin." },
+          "r4": { "title": "Přidej 10 minut denního dýchání", "body": "Krabicové dýchání (4-4-4-4) snižuje markery střevního zánětu snížením kortizolu." }
+        }
+      },
+      "p3": {
+        "title": "Převážně vyvážený — drobné příznaky",
+        "color": {
+          "val": "Světle růžová s bledými okraji",
+          "desc": "Zdravá základní barva. Mírně bledé okraje mohou naznačovat lehkou nerovnováhu Vata nebo občasné výkyvy krevního cukru.",
+          "level": "Dobrý"
+        },
+        "coating": {
+          "val": "Tenký bílý povlak",
+          "desc": "Tenký bílý povlak je zcela normální a zdravý. Tvůj trávicí systém zpracovává jídlo dobře s minimálním Ama.",
+          "level": "Normální"
+        },
+        "hydration": {
+          "val": "Dobře hydratovaný",
+          "desc": "Povrch jazyka vykazuje dobrou vlhkost. Příjem tekutin se zdá být dostatečný. Udržuj stávající spotřebu vody.",
+          "level": "Dobrý"
+        },
+        "texture": {
+          "val": "Mírná prohlubeň (špička)",
+          "desc": "Drobné vrypy na špičce mohou naznačovat občasný stres nebo nepravidelný spánek. Obecně nevýznamný nález.",
+          "level": "Mírný"
+        },
+        "insight": "Tvůj jazyk ukazuje převážně zdravý trávicí systém — dobrá zpráva! Hlavní signály jsou občasné vzory stresu (vrubovaná špička) a mírná tendence k nerovnováze Vata.",
+        "markers": {
+          "m1": "Mírný stres",
+          "m2": "Žaludek v pořádku",
+          "m3": "Játra v pořádku"
+        },
+        "recs": {
+          "r1": { "title": "Zaveď pravidelné časy jídel", "body": "Tvůj Vata vzor dobře reaguje na rutinu. Jíst každý den ve stejnou dobu výrazně snižuje večerní nadýmání." },
+          "r2": { "title": "Sleduj rovnováhu vlákniny", "body": "Přidej denně lžíci mletých lněných semínek pro optimální podporu střevního mikrobiomu." },
+          "r3": { "title": "Přidej CCF čaj po večeři", "body": "Čaj z kmínu, koriandru a fenyklu je klasický ajurvédský trávicí tonikum — ideální pro tvůj profil." },
+          "r4": { "title": "Sleduj svůj trávicí systém 7 dní", "body": "Jsi blízko optimu. 7denní záznam jídla a příznaků odhalí 1–2 konkrétní potraviny způsobující stresový vzor." }
+        }
+      },
+      "p4": {
+        "title": "Zjištěny signály laktózy a lepku",
+        "color": {
+          "val": "Růžová s bílými skvrnami",
+          "desc": "Vzor geografického jazyka s bílými skvrnami může naznačovat potravinové citlivosti — zejména reakce na mléčné výrobky a lepek ve střevní výstelce.",
+          "level": "Střední"
+        },
+        "coating": {
+          "val": "Nerovnoměrný bílý povlak",
+          "desc": "Nerovnoměrné rozložení povlaku je charakteristické pro problémy s absorpcí a reakce na potravinovou citlivost.",
+          "level": "Vysoký"
+        },
+        "hydration": {
+          "val": "Střední hydratace",
+          "desc": "Hydratace je přijatelná, ale mohla by se zlepšit. Zvýšený příjem vody pomůže vyčistit povlak a podpořit obnovu střevní bariéry.",
+          "level": "Střední"
+        },
+        "texture": {
+          "val": "Hladké skvrny + změny papil",
+          "desc": "Oblasti hladkého, lesklého povrchu jazyka naznačují možný nedostatek B12 nebo železa — živin nejvíce ovlivněných střevní malabsorpcí.",
+          "level": "Střední"
+        },
+        "insight": "Tvůj jazyk vykazuje klasický vzor citlivosti — nerovnoměrný povlak a barevné variace jsou charakteristickými znaky imunitní reaktivity na konkrétní potraviny, nejčastěji mléčné výrobky, lepek a někdy vejce.",
+        "markers": {
+          "m1": "Zóna citlivosti",
+          "m2": "Problém s absorpcí",
+          "m3": "Střevní výstelka"
+        },
+        "recs": {
+          "r1": { "title": "Vyzkoušej přísnou 14denní eliminaci mléčných výrobků", "body": "Toto je změna s největším dopadem pro tvůj vzor jazyka. Odstraň veškeré mléčné výrobky na 14 dní a každé ráno fotografuj jazyk." },
+          "r2": { "title": "Zvažte 7denní test bez lepku", "body": "Po mléčných výrobcích je lepek druhým nejčastějším spouštěčem tohoto vzoru povlaku." },
+          "r3": { "title": "Přidej potraviny podporující střevní výstelku", "body": "Kostní vývar, kolagenové peptidy, L-glutamin (z rostlinných zdrojů) a barevná zelenina podporují obnovu těsných spojení." },
+          "r4": { "title": "Zkontroluj hladiny B12 a železa", "body": "Změny textury naznačují možnou malabsorpci. Požádej svého lékaře o jednoduchý krevní panel." }
+        }
+      }
     }
   },
   "pw": {

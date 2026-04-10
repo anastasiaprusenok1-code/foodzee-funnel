@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Tidak perlu akun · 100% pribadi · Foto tetap ada di perangkat Anda"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Ketidakseimbangan Pencernaan Terdeteksi",
+        "color": {
+          "val": "Merah Muda Pucat dengan Semburat Kuning",
+          "desc": "Menunjukkan panas hati dan ketidakseimbangan Pitta ringan. Umum terjadi pada orang yang rutin mengonsumsi makanan olahan atau pedas.",
+          "level": "Sedang"
+        },
+        "coating": {
+          "val": "Lapisan Putih-Kuning Tebal",
+          "desc": "Menandakan adanya Ama (racun yang tidak tercerna) di usus. Sering dikaitkan dengan pencernaan lambat dan waktu makan yang tidak teratur.",
+          "level": "Tinggi"
+        },
+        "hydration": {
+          "val": "Sedikit Dehidrasi",
+          "desc": "Permukaan lidah menunjukkan tanda-tanda awal kekeringan. Anda mungkin kurang minum air di antara waktu makan.",
+          "level": "Rendah"
+        },
+        "texture": {
+          "val": "Tepi Sedikit Bengkak",
+          "desc": "Bekas gigi di sepanjang tepi menunjukkan kelembaban berlebih dan defisiensi limpa — tanda klasik stres pencernaan.",
+          "level": "Sedang"
+        },
+        "insight": "Lidah Anda menunjukkan tanda-tanda klasik ketidakseimbangan pencernaan — lapisan putih-kuning dan warna pucat menunjukkan penumpukan racun (Ama) dan kemungkinan sensitivitas terhadap produk susu atau gluten. Banyak orang dengan profil ini merasa berat setelah makan, mengalami penurunan energi di sore hari, dan mungkin memiliki buang air besar yang tidak teratur.",
+        "markers": {
+          "m1": "Zona hati",
+          "m2": "Lapisan tebal",
+          "m3": "Zona lambung"
+        },
+        "recs": {
+          "r1": { "title": "Coba 7 hari tanpa produk susu", "body": "Pola lapisan Anda sangat terkait dengan sensitivitas susu. 72% pengguna dengan profil ini merasa lebih ringan setelah menghilangkan produk susu." },
+          "r2": { "title": "Makan porsi terbesar saat makan siang", "body": "Api pencernaan (Agni) mencapai puncaknya di siang hari. Memindahkan kalori lebih awal mengurangi lapisan dan kembung." },
+          "r3": { "title": "Minum air hangat sepanjang hari", "body": "Air dingin memperlambat pencernaan. Air hangat atau suhu ruang membantu membersihkan lapisan dan mendukung aktivitas enzim." },
+          "r4": { "title": "Tambahkan jahe sebelum makan", "body": "Jahe segar merangsang cairan pencernaan dan membantu memecah Ama. Coba ½ sdt jahe parut dengan lemon 10 menit sebelum makan." }
+        }
+      },
+      "p2": {
+        "title": "Stres Usus Signifikan Ditemukan",
+        "color": {
+          "val": "Merah Tua-Keunguan",
+          "desc": "Menunjukkan stagnasi darah dan panas dalam tubuh. Sering dikaitkan dengan stres tinggi, sirkulasi buruk, atau peradangan kronis.",
+          "level": "Tinggi"
+        },
+        "coating": {
+          "val": "Lapisan Kuning Tebal (Akar)",
+          "desc": "Lapisan tebal yang terkonsentrasi di bagian belakang lidah — zona ini dalam TCM berkaitan dengan usus besar dan ginjal.",
+          "level": "Tinggi"
+        },
+        "hydration": {
+          "val": "Dehidrasi",
+          "desc": "Lidah tampak kering dengan kelembaban berkurang. Ini memperlambat pencernaan dan secara signifikan mengurangi penyerapan nutrisi.",
+          "level": "Sangat Rendah"
+        },
+        "texture": {
+          "val": "Permukaan Retak",
+          "desc": "Retakan pada tubuh lidah menunjukkan dehidrasi kronis, defisiensi Yin, atau stres berkepanjangan pada sistem pencernaan.",
+          "level": "Tinggi"
+        },
+        "insight": "Pemindaian Anda mengungkapkan stres pencernaan yang signifikan — warna merah-keunguan dikombinasikan dengan lapisan kuning tebal adalah gambaran klasik racun panas dan peradangan usus dalam kerangka Ayurveda maupun TCM. Orang dengan profil ini sering melaporkan kembung sering, sembelit atau diare, jerawat, dan energi rendah.",
+        "markers": {
+          "m1": "Peradangan",
+          "m2": "Stres usus besar",
+          "m3": "Panas terdeteksi",
+          "m4": "Zona ginjal"
+        },
+        "recs": {
+          "r1": { "title": "Dinginkan pola makan selama 2 minggu", "body": "Kurangi makanan pedas, goreng, dan alkohol. Tambahkan makanan pendingin: mentimun, mint, air kelapa, dan sayuran hijau." },
+          "r2": { "title": "Prioritaskan makanan anti-inflamasi", "body": "Blueberry, kunyit, ikan berlemak (atau biji rami), dan sayuran hijau gelap secara langsung menargetkan pola peradangan yang terlihat dalam pemindaian Anda." },
+          "r3": { "title": "Jaga kualitas tidur", "body": "Pola lidah Anda sangat terkait dengan kortisol yang meningkat. Targetkan waktu tidur konsisten pukul 22.00." },
+          "r4": { "title": "Tambahkan 10 menit pernapasan harian", "body": "Pernapasan kotak (4-4-4-4) mengurangi penanda peradangan usus dengan menurunkan kortisol." }
+        }
+      },
+      "p3": {
+        "title": "Sebagian Besar Seimbang — Tanda Minor",
+        "color": {
+          "val": "Merah Muda Terang dengan Tepi Pucat",
+          "desc": "Warna dasar yang sehat. Tepi sedikit pucat mungkin menunjukkan ketidakseimbangan Vata ringan atau fluktuasi gula darah sesekali.",
+          "level": "Baik"
+        },
+        "coating": {
+          "val": "Lapisan Putih Tipis",
+          "desc": "Lapisan putih tipis adalah hal yang sepenuhnya normal dan sehat. Sistem pencernaan Anda memproses makanan dengan baik dengan Ama minimal.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Terhidrasi dengan Baik",
+          "desc": "Permukaan lidah menunjukkan kelembaban yang baik. Asupan cairan Anda tampak memadai. Pertahankan konsumsi air saat ini.",
+          "level": "Baik"
+        },
+        "texture": {
+          "val": "Lekukan Ringan (Ujung)",
+          "desc": "Gerigi kecil di ujung dapat menunjukkan stres sesekali atau tidur tidak teratur. Umumnya temuan yang bersifat minor.",
+          "level": "Minor"
+        },
+        "insight": "Lidah Anda menunjukkan sistem pencernaan yang sebagian besar sehat — kabar baik! Sinyal utama adalah pola stres sesekali (ujung bergerigi) dan kecenderungan ringan menuju ketidakseimbangan Vata.",
+        "markers": {
+          "m1": "Stres ringan",
+          "m2": "Lambung OK",
+          "m3": "Hati OK"
+        },
+        "recs": {
+          "r1": { "title": "Tetapkan waktu makan yang konsisten", "body": "Pola Vata Anda merespons baik terhadap rutinitas. Makan pada waktu yang sama setiap hari secara signifikan mengurangi kembung di malam hari." },
+          "r2": { "title": "Perhatikan keseimbangan serat", "body": "Tambahkan satu sendok makan biji rami yang digiling setiap hari untuk mendukung mikrobioma usus secara optimal." },
+          "r3": { "title": "Tambahkan teh CCF setelah makan malam", "body": "Teh jintan, ketumbar, dan adas adalah tonik pencernaan Ayurveda klasik — sempurna untuk profil Anda." },
+          "r4": { "title": "Lacak usus Anda selama 7 hari", "body": "Anda hampir optimal. Catatan makanan dan gejala 7 hari akan mengungkapkan 1–2 makanan spesifik yang menyebabkan pola stres." }
+        }
+      },
+      "p4": {
+        "title": "Sinyal Laktosa & Gluten Terdeteksi",
+        "color": {
+          "val": "Merah Muda dengan Bercak Putih",
+          "desc": "Pola lidah geografis dengan bercak putih dapat mengindikasikan sensitivitas makanan — khususnya reaksi terhadap produk susu dan gluten di lapisan usus.",
+          "level": "Sedang"
+        },
+        "coating": {
+          "val": "Lapisan Putih Tidak Merata",
+          "desc": "Distribusi lapisan yang tidak merata adalah karakteristik masalah penyerapan dan reaksi sensitivitas makanan.",
+          "level": "Tinggi"
+        },
+        "hydration": {
+          "val": "Hidrasi Sedang",
+          "desc": "Hidrasi dapat diterima tetapi bisa ditingkatkan. Peningkatan asupan air akan membantu membersihkan lapisan dan mendukung perbaikan penghalang usus.",
+          "level": "Sedang"
+        },
+        "texture": {
+          "val": "Bercak Halus + Perubahan Papila",
+          "desc": "Area permukaan lidah yang halus dan mengkilap menunjukkan kemungkinan kekurangan B12 atau zat besi — nutrisi yang paling terpengaruh oleh malabsorpsi usus.",
+          "level": "Sedang"
+        },
+        "insight": "Lidah Anda menunjukkan pola sensitivitas klasik — lapisan tidak merata dan variasi warna adalah ciri khas reaktivitas imun terhadap makanan tertentu, paling umum produk susu, gluten, dan kadang-kadang telur.",
+        "markers": {
+          "m1": "Zona sensitivitas",
+          "m2": "Masalah penyerapan",
+          "m3": "Lapisan usus"
+        },
+        "recs": {
+          "r1": { "title": "Coba eliminasi produk susu ketat selama 14 hari", "body": "Ini adalah perubahan dengan dampak terbesar untuk pola lidah Anda. Hilangkan semua produk susu selama 14 hari dan foto lidah Anda setiap pagi." },
+          "r2": { "title": "Pertimbangkan uji coba bebas gluten 7 hari", "body": "Setelah produk susu, gluten adalah pemicu paling umum kedua untuk pola lapisan ini." },
+          "r3": { "title": "Tambahkan makanan pendukung lapisan usus", "body": "Kaldu tulang, peptida kolagen, L-glutamin (dari sumber nabati), dan sayuran berwarna mendukung perbaikan tight junction." },
+          "r4": { "title": "Periksa kadar B12 dan zat besi", "body": "Perubahan tekstur Anda menunjukkan kemungkinan malabsorpsi. Minta dokter Anda untuk panel darah sederhana." }
+        }
+      }
     }
   },
   "pw": {

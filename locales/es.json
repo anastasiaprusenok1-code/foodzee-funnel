@@ -356,6 +356,149 @@
     },
     "sticky": {
       "info": "Sin cuenta necesaria · 100% privado · La foto permanece en tu dispositivo"
+    },
+    "profiles": {
+      "p1": {
+        "title": "Desequilibrio digestivo detectado",
+        "color": {
+          "val": "Rosa pálido con tinte amarillo",
+          "desc": "Sugiere calor hepático y un leve desequilibrio Pitta. Común en personas que consumen alimentos procesados o picantes regularmente.",
+          "level": "Moderado"
+        },
+        "coating": {
+          "val": "Recubrimiento blanco-amarillo espeso",
+          "desc": "Indica Ama (toxinas no digeridas) en el intestino. A menudo relacionado con digestión lenta y horarios de comidas irregulares.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Levemente deshidratado",
+          "desc": "La superficie de la lengua muestra primeros signos de sequedad. Es posible que no estés bebiendo suficiente agua entre comidas.",
+          "level": "Bajo"
+        },
+        "texture": {
+          "val": "Bordes ligeramente hinchados",
+          "desc": "Las marcas de dientes a lo largo de los bordes sugieren humedad y deficiencia del bazo — un signo clásico de estrés digestivo.",
+          "level": "Moderado"
+        },
+        "insight": "Tu lengua muestra señales clásicas de desequilibrio digestivo — el recubrimiento blanco-amarillo y el color pálido apuntan a toxinas acumuladas (Ama) y posible sensibilidad a los lácteos o al gluten. Muchas personas con este perfil se sienten pesadas después de comer, experimentan bajadas de energía por la tarde y pueden tener movimientos intestinales irregulares.",
+        "markers": {
+          "m1": "Zona hepática",
+          "m2": "Recubrimiento espeso",
+          "m3": "Zona gástrica"
+        },
+        "recs": {
+          "r1": { "title": "Prueba 7 días sin lácteos", "body": "Tu patrón de recubrimiento está fuertemente asociado con sensibilidad a los lácteos. El 72% de los usuarios con este perfil se sienten más ligeros al eliminar los lácteos." },
+          "r2": { "title": "Come tu comida más grande al mediodía", "body": "El fuego digestivo (Agni) alcanza su pico al mediodía. Consumir más calorías antes reduce el recubrimiento y la hinchazón." },
+          "r3": { "title": "Bebe agua tibia a lo largo del día", "body": "El agua fría ralentiza la digestión. El agua tibia o a temperatura ambiente ayuda a eliminar el recubrimiento y apoya la actividad enzimática." },
+          "r4": { "title": "Añade jengibre antes de las comidas", "body": "El jengibre fresco estimula los jugos digestivos y ayuda a descomponer el Ama. Prueba ½ cdta de jengibre rallado con limón 10 min antes de comer." }
+        }
+      },
+      "p2": {
+        "title": "Estrés intestinal significativo encontrado",
+        "color": {
+          "val": "Rojo oscuro-violáceo",
+          "desc": "Indica estancamiento de sangre y calor en el cuerpo. A menudo relacionado con alto estrés, mala circulación o inflamación crónica.",
+          "level": "Alto"
+        },
+        "coating": {
+          "val": "Recubrimiento amarillo espeso (raíz)",
+          "desc": "Recubrimiento denso concentrado en la parte posterior de la lengua — esta zona corresponde al intestino grueso y los riñones en la MTC.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Deshidratado",
+          "desc": "La lengua está visiblemente seca con humedad reducida. Esto ralentiza la digestión y reduce significativamente la absorción de nutrientes.",
+          "level": "Muy bajo"
+        },
+        "texture": {
+          "val": "Superficie agrietada",
+          "desc": "Las grietas en el cuerpo de la lengua sugieren deshidratación crónica, deficiencia de Yin o estrés prolongado en el sistema digestivo.",
+          "level": "Alto"
+        },
+        "insight": "Tu escaneo revela un estrés digestivo significativo — el color rojo-violáceo combinado con un recubrimiento amarillo espeso es una presentación clásica de toxinas de calor e inflamación intestinal tanto en el Ayurveda como en la MTC. Las personas con este perfil suelen reportar hinchazón frecuente, estreñimiento o diarrea, brotes en la piel y baja energía.",
+        "markers": {
+          "m1": "Inflamación",
+          "m2": "Estrés de colon",
+          "m3": "Calor detectado",
+          "m4": "Zona renal"
+        },
+        "recs": {
+          "r1": { "title": "Enfría tu dieta durante 2 semanas", "body": "Reduce lo picante, frito y el alcohol. Añade alimentos refrescantes: pepino, menta, agua de coco y verduras de hoja." },
+          "r2": { "title": "Prioriza alimentos antiinflamatorios", "body": "Arándanos, cúrcuma, pescado graso (o linaza) y verduras de hoja oscura actúan directamente contra el patrón inflamatorio mostrado en tu escaneo." },
+          "r3": { "title": "Protege tu sueño", "body": "Tu patrón de lengua está fuertemente asociado con cortisol elevado. Intenta acostarte consistentemente a las 22:00 h." },
+          "r4": { "title": "Añade 10 min de respiración diaria", "body": "La respiración en caja (4-4-4-4) reduce los marcadores de inflamación intestinal al disminuir el cortisol." }
+        }
+      },
+      "p3": {
+        "title": "Mayormente equilibrado — señales menores",
+        "color": {
+          "val": "Rosa claro con bordes pálidos",
+          "desc": "Color base saludable. Los bordes ligeramente pálidos pueden indicar un leve desequilibrio Vata o fluctuaciones ocasionales de glucosa en sangre.",
+          "level": "Bueno"
+        },
+        "coating": {
+          "val": "Recubrimiento blanco fino",
+          "desc": "Un recubrimiento blanco fino es completamente normal y saludable. Tu sistema digestivo procesa bien los alimentos con mínimo Ama.",
+          "level": "Normal"
+        },
+        "hydration": {
+          "val": "Bien hidratado",
+          "desc": "La superficie de la lengua muestra buena humedad. Tu ingesta de líquidos parece adecuada. Mantén el consumo actual de agua.",
+          "level": "Bueno"
+        },
+        "texture": {
+          "val": "Leve hendidura (punta)",
+          "desc": "Una leve ondulación en la punta puede indicar estrés ocasional o sueño irregular. En general, un hallazgo menor.",
+          "level": "Menor"
+        },
+        "insight": "Tu lengua muestra un sistema digestivo mayormente saludable — ¡buenas noticias! Las principales señales son patrones de estrés ocasional (punta ondulada) y una leve tendencia al desequilibrio Vata.",
+        "markers": {
+          "m1": "Estrés leve",
+          "m2": "Estómago bien",
+          "m3": "Hígado bien"
+        },
+        "recs": {
+          "r1": { "title": "Establece horarios de comidas regulares", "body": "Tu patrón Vata responde bien a la rutina. Comer a la misma hora cada día reduce significativamente la hinchazón nocturna." },
+          "r2": { "title": "Cuida tu equilibrio de fibra", "body": "Añade una cucharada diaria de linaza molida para apoyar óptimamente tu microbioma intestinal." },
+          "r3": { "title": "Añade té CCF después de cenar", "body": "El té de comino, cilantro y hinojo es un tónico digestivo ayurvédico clásico — perfecto para tu perfil." },
+          "r4": { "title": "Registra tu intestino durante 7 días", "body": "Estás cerca del óptimo. Un diario de alimentos y síntomas de 7 días revelará los 1–2 alimentos específicos que causan el patrón de estrés." }
+        }
+      },
+      "p4": {
+        "title": "Señales de lactosa y gluten detectadas",
+        "color": {
+          "val": "Rosa con manchas blancas",
+          "desc": "El patrón de lengua geográfica con manchas blancas puede indicar sensibilidades alimentarias — particularmente reacciones a lácteos y gluten en el revestimiento intestinal.",
+          "level": "Moderado"
+        },
+        "coating": {
+          "val": "Recubrimiento blanco irregular",
+          "desc": "La distribución desigual del recubrimiento es característica de problemas de absorción y reacciones de sensibilidad alimentaria.",
+          "level": "Alto"
+        },
+        "hydration": {
+          "val": "Hidratación moderada",
+          "desc": "La hidratación es aceptable pero podría mejorarse. Aumentar la ingesta de agua ayudará a eliminar el recubrimiento y reparar la barrera intestinal.",
+          "level": "Moderado"
+        },
+        "texture": {
+          "val": "Manchas lisas + cambios en papilas",
+          "desc": "Las áreas de superficie lingual lisa y brillante indican posible deficiencia de B12 o hierro — nutrientes más afectados por la malabsorción intestinal.",
+          "level": "Moderado"
+        },
+        "insight": "Tu lengua muestra un patrón clásico de sensibilidad — el recubrimiento irregular y la variación de color son señas de reactividad inmune a alimentos específicos, más comúnmente lácteos, gluten y a veces huevos.",
+        "markers": {
+          "m1": "Zona de sensibilidad",
+          "m2": "Problema de absorción",
+          "m3": "Revestimiento intestinal"
+        },
+        "recs": {
+          "r1": { "title": "Prueba una eliminación estricta de lácteos de 14 días", "body": "Este es el cambio de mayor impacto para tu patrón de lengua. Elimina todos los lácteos durante 14 días y fotografía tu lengua cada mañana." },
+          "r2": { "title": "Considera una prueba sin gluten de 7 días", "body": "Después de los lácteos, el gluten es el segundo desencadenante más común para este patrón de recubrimiento." },
+          "r3": { "title": "Añade alimentos que apoyen el revestimiento intestinal", "body": "Caldo de huesos, péptidos de colágeno, L-glutamina (de fuentes vegetales) y vegetales coloridos apoyan la reparación de las uniones estrechas." },
+          "r4": { "title": "Verifica los niveles de B12 y hierro", "body": "Tus cambios de textura sugieren posible malabsorción. Pide a tu médico un análisis de sangre simple." }
+        }
+      }
     }
   },
   "pw": {

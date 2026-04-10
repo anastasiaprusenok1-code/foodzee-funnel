@@ -421,71 +421,53 @@ function capturePhoto() {
 
 // ═══════════════════════════════════════════
 // TONGUE SCAN — Analysis Profiles
+// Text content is stored in locales under ts.profiles.p1..p4
+// Here we only keep non-translatable data: scores, zones, badges, marker positions, icons
 // ═══════════════════════════════════════════
 const TS_PROFILES = [
   {
-    score: 58, title: 'Digestive Imbalance Detected',
-    color:     { val: 'Pale Pink with Yellow Tinge', desc: 'Suggests liver heat and mild Pitta imbalance. Common in people who eat processed or spicy foods regularly.', badge: 'yellow', level: 'Moderate' },
-    coating:   { val: 'Thick White–Yellow Coating', desc: 'Indicates Ama (undigested toxins) in the gut. Often linked to sluggish digestion and irregular meal times.', badge: 'red', level: 'High' },
-    hydration: { val: 'Mildly Dehydrated', desc: 'Tongue surface shows early signs of dryness. You may not be drinking enough water between meals.', badge: 'yellow', level: 'Low' },
-    texture:   { val: 'Slightly Swollen Edges', desc: 'Tooth marks along the edges suggest dampness and spleen deficiency — a classic sign of digestive stress.', badge: 'yellow', level: 'Moderate' },
-    insight: 'Your tongue shows classic signs of digestive imbalance — white–yellow coating and pale colour point to accumulated toxins (Ama) and possible dairy or gluten sensitivity. Many people with this profile find they feel heavy after meals, experience afternoon energy dips, and may have irregular bowel movements.',
+    id: 'p1',
+    score: 58,
+    color:     { badge: 'yellow' },
+    coating:   { badge: 'red'    },
+    hydration: { badge: 'yellow' },
+    texture:   { badge: 'yellow' },
     zones: { tip: 'healthy', front: 'attention', center: 'issue', back: 'attention' },
-    markers: [{ x:55,y:30,color:'yellow',tag:'Liver zone' },{ x:30,y:55,color:'red',tag:'Coating heavy' },{ x:65,y:65,color:'yellow',tag:'Stomach zone' }],
-    recs: [
-      { icon:'🥛', title:'Try a 7-day dairy-free trial', body:'Your coating pattern is strongly associated with dairy sensitivity. 72% of users with this profile feel lighter after cutting dairy.' },
-      { icon:'🌅', title:'Eat your largest meal at lunch', body:'Digestive fire (Agni) peaks at midday. Shifting calories earlier reduces the coating and bloating you may experience.' },
-      { icon:'💧', title:'Sip warm water throughout the day', body:'Cold water slows digestion. Warm or room-temperature water helps clear coating and supports enzyme activity.' },
-      { icon:'🌿', title:'Add ginger before meals', body:'Fresh ginger stimulates digestive juices and helps break down Ama. Try ½ tsp grated ginger with lemon 10 min before eating.' },
-    ],
+    markers: [{ x:55,y:30,color:'yellow',tagKey:'m1' },{ x:30,y:55,color:'red',tagKey:'m2' },{ x:65,y:65,color:'yellow',tagKey:'m3' }],
+    recs: [ { icon:'🥛' }, { icon:'🌅' }, { icon:'💧' }, { icon:'🌿' } ],
   },
   {
-    score: 41, title: 'Significant Gut Stress Found',
-    color:     { val: 'Dusky Red–Purple', desc: 'Indicates blood stagnation and heat in the body. Often linked to high stress, poor circulation, or chronic inflammation.', badge: 'red', level: 'High' },
-    coating:   { val: 'Thick Yellow Coating (Root)', desc: 'Heavy coating concentrated at the back of the tongue — this zone corresponds to the large intestine and kidneys in TCM.', badge: 'red', level: 'High' },
-    hydration: { val: 'Dehydrated', desc: 'Tongue is visibly dry with reduced moisture. This slows digestion and reduces nutrient absorption significantly.', badge: 'red', level: 'Very Low' },
-    texture:   { val: 'Cracked Surface', desc: 'Cracks in the tongue body suggest chronic dehydration, Yin deficiency, or prolonged stress on the digestive system.', badge: 'red', level: 'High' },
-    insight: 'Your scan reveals significant digestive stress — the purple-red colour combined with a thick yellow coating is a classic presentation of heat toxins and gut inflammation in both Ayurvedic and TCM frameworks. People with this profile often report frequent bloating, constipation or diarrhoea, skin breakouts, and low energy.',
+    id: 'p2',
+    score: 41,
+    color:     { badge: 'red' },
+    coating:   { badge: 'red' },
+    hydration: { badge: 'red' },
+    texture:   { badge: 'red' },
     zones: { tip: 'attention', front: 'issue', center: 'issue', back: 'issue' },
-    markers: [{ x:50,y:20,color:'red',tag:'Inflammation' },{ x:25,y:50,color:'red',tag:'Colon stress' },{ x:70,y:50,color:'red',tag:'Heat detected' },{ x:48,y:75,color:'yellow',tag:'Kidney zone' }],
-    recs: [
-      { icon:'❄️', title:'Cool your diet for 2 weeks', body:'Reduce spicy, fried, and alcohol. Add cooling foods: cucumber, mint, coconut water, and leafy greens.' },
-      { icon:'🫐', title:'Prioritise anti-inflammatory foods', body:'Blueberries, turmeric, fatty fish (or flaxseed), and dark leafy greens directly target the inflammation pattern shown in your scan.' },
-      { icon:'😴', title:'Protect your sleep', body:'Your tongue pattern is strongly associated with elevated cortisol. Aim for a consistent 10pm bedtime.' },
-      { icon:'🧘', title:'Add 10 min of daily breathwork', body:"Box breathing (4-4-4-4) reduces gut inflammation markers by lowering cortisol." },
-    ],
+    markers: [{ x:50,y:20,color:'red',tagKey:'m1' },{ x:25,y:50,color:'red',tagKey:'m2' },{ x:70,y:50,color:'red',tagKey:'m3' },{ x:48,y:75,color:'yellow',tagKey:'m4' }],
+    recs: [ { icon:'❄️' }, { icon:'🫐' }, { icon:'😴' }, { icon:'🧘' } ],
   },
   {
-    score: 74, title: 'Mostly Balanced — Minor Signs',
-    color:     { val: 'Light Pink with Pale Edges', desc: 'Healthy base colour. Slightly pale edges may indicate mild Vata imbalance or occasional blood sugar fluctuations.', badge: 'green', level: 'Good' },
-    coating:   { val: 'Thin White Coating', desc: 'A thin white coat is completely normal and healthy. Your digestive system is processing food well with minimal Ama.', badge: 'green', level: 'Normal' },
-    hydration: { val: 'Well Hydrated', desc: 'Tongue surface shows good moisture. Your fluid intake appears adequate. Maintain current water consumption.', badge: 'green', level: 'Good' },
-    texture:   { val: 'Slight Indentation (Tip)', desc: 'Minor scalloping at the tip may indicate occasional stress or irregular sleep. Generally a minor finding.', badge: 'yellow', level: 'Minor' },
-    insight: "Your tongue is showing a mostly healthy digestive system — good news! The main signals are occasional stress patterns (scalloped tip) and a slight tendency towards Vata imbalance.",
+    id: 'p3',
+    score: 74,
+    color:     { badge: 'green'  },
+    coating:   { badge: 'green'  },
+    hydration: { badge: 'green'  },
+    texture:   { badge: 'yellow' },
     zones: { tip: 'attention', front: 'healthy', center: 'healthy', back: 'healthy' },
-    markers: [{ x:50,y:25,color:'yellow',tag:'Mild stress' },{ x:30,y:55,color:'green',tag:'Stomach OK' },{ x:68,y:55,color:'green',tag:'Liver OK' }],
-    recs: [
-      { icon:'⏰', title:'Establish consistent meal times', body:'Your Vata pattern responds well to routine. Eating at the same time each day significantly reduces evening bloating.' },
-      { icon:'🌾', title:'Watch your fibre balance', body:'Add a daily tablespoon of ground flaxseed to support your gut microbiome optimally.' },
-      { icon:'🍵', title:'Add CCF tea after dinner', body:'Cumin, Coriander, and Fennel tea is a classic Ayurvedic digestive tonic — perfect for your profile.' },
-      { icon:'📱', title:'Track your gut for 7 days', body:"You're close to optimal. A 7-day food and symptom log will reveal the 1–2 specific foods causing the stress pattern." },
-    ],
+    markers: [{ x:50,y:25,color:'yellow',tagKey:'m1' },{ x:30,y:55,color:'green',tagKey:'m2' },{ x:68,y:55,color:'green',tagKey:'m3' }],
+    recs: [ { icon:'⏰' }, { icon:'🌾' }, { icon:'🍵' }, { icon:'📱' } ],
   },
   {
-    score: 49, title: 'Lactose & Gluten Signals Detected',
-    color:     { val: 'Pink with White Patches', desc: 'Geographic tongue pattern with white patches may indicate food sensitivities — particularly dairy and gluten reactions in the gut lining.', badge: 'yellow', level: 'Moderate' },
-    coating:   { val: 'Patchy White Coating', desc: 'Uneven coating distribution is characteristic of absorption issues and food sensitivity reactions.', badge: 'red', level: 'High' },
-    hydration: { val: 'Moderate Hydration', desc: 'Hydration is acceptable but could be improved. Increased water intake will help flush the coating and support gut barrier repair.', badge: 'yellow', level: 'Moderate' },
-    texture:   { val: 'Smooth Patches + Papillae Changes', desc: 'Areas of smooth, shiny tongue surface indicate possible B12 or iron deficiency — nutrients most affected by gut malabsorption.', badge: 'yellow', level: 'Moderate' },
-    insight: 'Your tongue is showing a classic sensitivity pattern — the patchy coating and colour variation are hallmarks of immune reactivity to specific foods, most commonly dairy, gluten, and sometimes eggs.',
+    id: 'p4',
+    score: 49,
+    color:     { badge: 'yellow' },
+    coating:   { badge: 'red'    },
+    hydration: { badge: 'yellow' },
+    texture:   { badge: 'yellow' },
     zones: { tip: 'healthy', front: 'issue', center: 'attention', back: 'attention' },
-    markers: [{ x:35,y:40,color:'red',tag:'Sensitivity zone' },{ x:65,y:35,color:'yellow',tag:'Absorption issue' },{ x:50,y:65,color:'yellow',tag:'Gut lining' }],
-    recs: [
-      { icon:'🥛', title:'Try a strict 14-day dairy elimination', body:'This is the single highest-impact change for your tongue pattern. Remove all dairy for 14 days and photograph your tongue each morning.' },
-      { icon:'🌾', title:'Consider a 7-day gluten-free trial', body:'After dairy, gluten is the second most common trigger for this coating pattern.' },
-      { icon:'🫐', title:'Add gut-lining support foods', body:'Bone broth, collagen peptides, L-glutamine (from plant sources), and colourful vegetables support tight junction repair.' },
-      { icon:'💊', title:'Check B12 and iron levels', body:'Your texture changes suggest possible malabsorption. Ask your GP for a simple blood panel.' },
-    ],
+    markers: [{ x:35,y:40,color:'red',tagKey:'m1' },{ x:65,y:35,color:'yellow',tagKey:'m2' },{ x:50,y:65,color:'yellow',tagKey:'m3' }],
+    recs: [ { icon:'🥛' }, { icon:'🌾' }, { icon:'🫐' }, { icon:'💊' } ],
   },
 ];
 
@@ -571,8 +553,11 @@ function setTsProgress(pct) {
 // ═══════════════════════════════════════════
 function showTsResults() {
   const p = currentTsProfile;
+  const tr = (key) => (typeof i18n !== 'undefined') ? i18n.getTranslation(key) : key;
+  const base = 'ts.profiles.' + p.id + '.';
+
   document.getElementById('result-photo').src = capturedImageSrc;
-  document.getElementById('results-title').textContent = p.title;
+  document.getElementById('results-title').textContent = tr(base + 'title');
 
   const markersEl = document.getElementById('zone-markers');
   markersEl.innerHTML = '';
@@ -580,7 +565,8 @@ function showTsResults() {
     const div = document.createElement('div');
     div.className = 'zone-marker';
     div.style.left = m.x + '%'; div.style.top = m.y + '%';
-    div.innerHTML = `<div class="zone-dot ${m.color}"></div><div class="zone-tag">${m.tag}</div>`;
+    const tag = tr(base + 'markers.' + m.tagKey);
+    div.innerHTML = `<div class="zone-dot ${m.color}"></div><div class="zone-tag">${tag}</div>`;
     markersEl.appendChild(div);
   });
 
@@ -598,17 +584,19 @@ function showTsResults() {
     ringCircle.style.stroke = p.score >= 70 ? '#00ce00' : p.score >= 50 ? '#ffb800' : '#ff4444';
   }, 300);
 
-  function setMetric(suffix, data) {
-    document.getElementById('m' + suffix + '-val').textContent = data.val;
-    document.getElementById('m' + suffix + '-desc').textContent = data.desc;
-    const badge = document.getElementById('m' + suffix + '-badge');
-    badge.textContent = data.level;
-    badge.className = 'metric-badge ts-badge-' + data.badge;
+  function setMetric(suffix, key, badge) {
+    document.getElementById('m' + suffix + '-val').textContent = tr(base + key + '.val');
+    document.getElementById('m' + suffix + '-desc').textContent = tr(base + key + '.desc');
+    const badgeEl = document.getElementById('m' + suffix + '-badge');
+    badgeEl.textContent = tr(base + key + '.level');
+    badgeEl.className = 'metric-badge ts-badge-' + badge;
   }
-  setMetric('c', p.color); setMetric('f', p.coating);
-  setMetric('h', p.hydration); setMetric('t', p.texture);
+  setMetric('c', 'color',     p.color.badge);
+  setMetric('f', 'coating',   p.coating.badge);
+  setMetric('h', 'hydration', p.hydration.badge);
+  setMetric('t', 'texture',   p.texture.badge);
 
-  document.getElementById('insight-text').textContent = p.insight;
+  document.getElementById('insight-text').textContent = tr(base + 'insight');
 
   ['tip','front','center','back'].forEach(zone => {
     const dot = document.getElementById('tz-' + zone + '-dot');
@@ -617,10 +605,12 @@ function showTsResults() {
 
   const recsList = document.getElementById('recs-list');
   recsList.innerHTML = '';
-  p.recs.forEach(rec => {
+  p.recs.forEach((rec, i) => {
     const div = document.createElement('div');
     div.className = 'rec-item';
-    div.innerHTML = `<div class="rec-icon">${rec.icon}</div><div class="rec-body"><p>${rec.title}</p><p>${rec.body}</p></div>`;
+    const title = tr(base + 'recs.r' + (i+1) + '.title');
+    const body  = tr(base + 'recs.r' + (i+1) + '.body');
+    div.innerHTML = `<div class="rec-icon">${rec.icon}</div><div class="rec-body"><p>${title}</p><p>${body}</p></div>`;
     recsList.appendChild(div);
   });
 
@@ -630,7 +620,9 @@ function showTsResults() {
 
 function shareResult() {
   const p = currentTsProfile;
-  const text = `👅 My FoodZee Tongue Scan: "${p.title}" — score ${p.score}/100. `;
+  const tr = (key) => (typeof i18n !== 'undefined') ? i18n.getTranslation(key) : key;
+  const title = tr('ts.profiles.' + p.id + '.title');
+  const text = `👅 My FoodZee Tongue Scan: "${title}" — score ${p.score}/100. `;
   if (navigator.share) {
     navigator.share({ title: 'My FoodZee Tongue Scan', text, url: window.location.href }).catch(() => {});
   } else {
