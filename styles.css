@@ -575,6 +575,7 @@ body {
   margin-bottom:56px;
   object-fit:contain;
   display:block;
+  background:#b89dff;
 }
 .store-buttons { display:flex; gap:12px; margin-bottom:28px; }
 .store-btn {
